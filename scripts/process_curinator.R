@@ -55,9 +55,11 @@ result_raw <- md_links |>
     )
   )
   
-result_wrangled <- result_raw |>
+result_temp <- result_raw |>
   mutate(metadata = map(json_metadata, ~ fromJSON(.x))) |>
-  unnest_wider(metadata) |>
+  unnest_wider(metadata) 
+
+result_wrangled <- result_temp |>
   filter(is_r_related == "yes") |>
   mutate(md_link = glue("[{title}]({link})")) |>
   group_by(type) |>
@@ -67,9 +69,7 @@ result_wrangled <- result_raw |>
   ) |>
   pull(combined_text)
 
-manual_review_links <- result_raw |>
-  mutate(metadata = map(json_metadata, ~ fromJSON(.x))) |>
-  unnest_wider(metadata) |>
+manual_review_links <- result_temp |>
   filter(is.na(content)) |>
   mutate(md_link = glue("[{title}]({link})")) |>
   summarise(
