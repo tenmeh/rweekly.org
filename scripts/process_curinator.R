@@ -1,10 +1,11 @@
-library(ellmer)
 library(dplyr)
+library(ellmer)
 library(ragnar)
 library(purrr)
 library(reticulate)
 library(jsonlite)
 library(tidyr)
+library(glue)
 
 source("scripts/parse_curinator.R")
 
@@ -48,12 +49,22 @@ prompts <- interpolate(
   </{{xml_tag}}>"
 )
 
-result <- md_links |>
+result_raw <- md_links |>
   mutate(
     json_metadata = parallel_chat_text(
       chat,
       prompt = prompts
     )
-  ) |>
+  )
+  
+result_wrangled <- result_raw |>
   mutate(metadata = map(json_metadata, ~ fromJSON(.x))) |>
-  unnest_wider(metadata)
+  unnest_wider(metadata) |>
+  filter(is_r_related == "yes") |>
+  mutate(md_link = glue("[{title}]({link})")) |>
+  group_by(type) |>
+  summarise(
+    combined_text = glue("## {first(category)}\n{paste(md_link, collapse = '\n')}"),
+    .groups = "drop"
+  ) |>
+  pull(combined_text)
