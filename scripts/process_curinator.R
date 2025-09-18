@@ -4,6 +4,7 @@ library(ragnar)
 library(purrr)
 library(reticulate)
 library(jsonlite)
+library(tidyr)
 
 source("scripts/parse_curinator.R")
 
@@ -40,7 +41,7 @@ set.seed(as.numeric(Sys.time()))
 xml_tag <- paste0("info_", sample(500:9999, 1))
 
 prompts <- interpolate(
-"<{{xml_tag}}>
+  "<{{xml_tag}}>
   Title: {{md_links$title}}
   Link: {{md_links$link}}
   Content: {{md_links$content}}
@@ -49,9 +50,10 @@ prompts <- interpolate(
 
 result <- md_links |>
   mutate(
-    is_r_related = parallel_chat_text(
+    json_metadata = parallel_chat_text(
       chat,
       prompt = prompts
     )
   ) |>
-  mutate(is_r_related = map(is_r_related, ~ fromJSON(.x)))
+  mutate(metadata = map(json_metadata, ~ fromJSON(.x))) |>
+  unnest_wider(metadata)
