@@ -27,9 +27,7 @@ md_links <- parse_curinator_md("curatinator_latest.md") |>
   filter(`type` == "RSS POSTS") |>
   mutate(content = map_chr(link, try_read_as_markdown)) |>
   # limit character length of content to 1000 characters to respect model token limits
-  mutate(content = substr(content, 1, 1000)) |>
-  # limiting it to 2 RSS posts for testing purposes
-  head(2)
+  mutate(content = substr(content, 1, 1000)) 
 
 system_prompt <- read_md("scripts/curinator_system_prompt.md")
 
@@ -66,5 +64,15 @@ result_wrangled <- result_raw |>
   summarise(
     combined_text = glue("## {first(category)}\n{paste(md_link, collapse = '\n')}"),
     .groups = "drop"
+  ) |>
+  pull(combined_text)
+
+manual_review_links <- result_raw |>
+  mutate(metadata = map(json_metadata, ~ fromJSON(.x))) |>
+  unnest_wider(metadata) |>
+  filter(is.na(content)) |>
+  mutate(md_link = glue("[{title}]({link})")) |>
+  summarise(
+    combined_text = glue("## Requiring manual review\n{paste(md_link, collapse = '\n')}")
   ) |>
   pull(combined_text)
