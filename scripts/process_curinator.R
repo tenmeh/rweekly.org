@@ -33,9 +33,9 @@ md_links <- parse_curinator_md("curatinator_latest.md") |>
 
 system_prompt <- read_md("scripts/curinator_system_prompt.md")
 
-chat <- ellmer::chat_openai(
+chat <- ellmer::chat_anthropic(
   system_prompt = system_prompt,
-  model = "gpt-5"
+  model = "claude-opus-4-1-20250805"
 )
 
 set.seed(as.numeric(Sys.time()))
