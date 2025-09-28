@@ -189,7 +189,7 @@ flagged_not_r_related <- result_temp |>
   pull(md_link)
 
 if(length(flagged_not_r_related) > 0) {
-  cat("The following links were flagged as not R-related:\n\n")
+  cat("The following links were flagged as not R-related and should still be manually reviewed to ensure accuracy:\n\n")
   for(link in flagged_not_r_related) {
     cat(link, "\n\n")
   }
