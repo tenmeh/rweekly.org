@@ -1,0 +1,267 @@
+---
+title: "RWeekly Curinator Processing Report"
+author: "RWeekly Team"
+date: "`r Sys.Date()`"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    theme: bootstrap
+    code-fold: true
+    code-summary: "Show code"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE, 
+  message = FALSE, 
+  warning = FALSE,
+  fig.width = 8,
+  fig.height = 6
+)
+```
+
+## Overview
+
+This report processes the latest curinator content using AI to categorize and filter R-related posts for RWeekly curation.
+
+## Load Required Libraries
+
+```{r libraries}
+library(dplyr)
+library(ellmer)
+library(ragnar)
+library(purrr)
+library(reticulate)
+library(jsonlite)
+library(tidyr)
+library(glue)
+library(knitr)
+library(DT)
+
+source("parse_curinator.R")
+```
+
+## Helper Functions
+
+```{r helper-functions}
+read_md <- function(filepath) {
+  paste(readLines(filepath), collapse = "\n")
+}
+
+try_read_as_markdown <- function(url){
+  tryCatch(
+    ragnar::read_as_markdown(url),
+    error = function(e) {
+      warning("Failed to read URL: ", url, " - ", e$message)
+      NA  # Return NA when there's an error
+    }
+  )
+}
+```
+
+## Data Processing
+
+### Step 1: Parse Curinator Content
+
+```{r parse-curinator}
+md_links <- parse_curinator_md("../curatinator_latest.md") |>
+  filter(`type` == "RSS POSTS") |>
+  mutate(content = map_chr(link, try_read_as_markdown)) |>
+  # limit character length of content to 1500 characters to respect model token limits
+  mutate(content = substr(content, 1, 1500))
+
+cat("📊 **Total links processed:**", nrow(md_links), "\n")
+cat("📋 **Links with content:**", sum(!is.na(md_links$content)), "\n")
+cat("❌ **Links without content:**", sum(is.na(md_links$content)), "\n")
+```
+
+### Step 2: AI Processing Setup
+
+```{r ai-setup}
+system_prompt <- read_md("curinator_system_prompt.md")
+
+chat <- chat_anthropic(
+  system_prompt = system_prompt,
+  model = "claude-opus-4-1-20250805"
+)
+
+set.seed(as.numeric(Sys.time()))
+xml_tag <- paste0("info_", sample(500:9999, 1))
+
+prompts <- interpolate(
+  "<{{xml_tag}}>
+  Title: {{md_links$title}}
+  Link: {{md_links$link}}
+  Content: {{md_links$content}}
+  </{{xml_tag}}>"
+)
+```
+
+### Step 3: AI Analysis
+
+```{r ai-analysis}
+cat("🤖 **Processing links with AI...**\n")
+
+result_raw <- md_links |>
+  mutate(
+    json_metadata = parallel_chat_text(
+      chat,
+      prompt = prompts
+    )
+  )
+
+cat("✅ **AI analysis complete!**\n")
+```
+
+### Step 4: Parse AI Results
+
+```{r parse-results}
+result_temp <- result_raw |>
+  mutate(metadata = map(json_metadata, ~ fromJSON(gsub("```(json\n)*", "", .x)))) |>
+  unnest_wider(metadata)
+
+cat("📈 **Results summary:**\n")
+if("is_r_related" %in% names(result_temp)) {
+  cat("   - R-related posts:", sum(result_temp$is_r_related == "yes", na.rm = TRUE), "\n")
+  cat("   - Non R-related posts:", sum(result_temp$is_r_related != "yes", na.rm = TRUE), "\n")
+  cat("   - Unclear classification:", sum(is.na(result_temp$is_r_related)), "\n")
+}
+```
+
+---
+
+## 📋 **FINAL REPORT FOR CURATORS**
+
+### ✅ R-Related Content (Ready for Publication)
+
+```{r r-related-content, results='asis'}
+result_wrangled <- result_temp |>
+  filter(is_r_related == "yes") |>
+  mutate(md_link = glue("[{title}]({link})")) |>
+  group_by(category) |>
+  summarise(
+    combined_text = paste(md_link, collapse = '\n'),
+    count = n(),
+    .groups = "drop"
+  ) |>
+  arrange(desc(count))
+
+if(nrow(result_wrangled) > 0) {
+  for(i in 1:nrow(result_wrangled)) {
+    cat("\n#### ", result_wrangled$category[i], " (", result_wrangled$count[i], " items)\n\n")
+    cat(result_wrangled$combined_text[i], "\n\n")
+  }
+} else {
+  cat("*No R-related content found.*\n")
+}
+```
+
+### 🔍 Manual Review Required
+
+```{r manual-review, results='asis'}
+manual_review_links <- result_temp |>
+  filter(is.na(content)) |>
+  mutate(md_link = glue("[{title}]({link})")) |>
+  pull(md_link)
+
+if(length(manual_review_links) > 0) {
+  cat("The following links could not be automatically processed and require manual review:\n\n")
+  cat(paste(manual_review_links, collapse = '\n'))
+} else {
+  cat("*No links require manual review.*")
+}
+```
+
+### ❌ Flagged as Not R-Related
+
+```{r not-r-related, results='asis'}
+flagged_not_r_related <- result_temp |>
+  filter(is_r_related != "yes" & !is.na(is_r_related)) |>
+  mutate(md_link = glue("[{title}]({link})")) |>
+  pull(md_link)
+
+if(length(flagged_not_r_related) > 0) {
+  cat("The following links were flagged as not R-related:\n\n")
+  cat(paste(flagged_not_r_related, collapse = '\n'))
+} else {
+  cat("*No links were flagged as not R-related.*")
+}
+```
+
+---
+
+## 📊 **Detailed Analysis Tables**
+
+### Processing Summary
+
+```{r summary-table}
+summary_data <- data.frame(
+  Metric = c(
+    "Total Links Processed",
+    "Links with Content",
+    "Links without Content",
+    "R-Related Posts",
+    "Non R-Related Posts",
+    "Manual Review Required"
+  ),
+  Count = c(
+    nrow(md_links),
+    sum(!is.na(md_links$content)),
+    sum(is.na(md_links$content)),
+    sum(result_temp$is_r_related == "yes", na.rm = TRUE),
+    sum(result_temp$is_r_related != "yes" & !is.na(result_temp$is_r_related), na.rm = TRUE),
+    sum(is.na(result_temp$content))
+  )
+)
+
+kable(summary_data, caption = "Processing Summary")
+```
+
+### R-Related Content by Category
+
+```{r category-table}
+if("category" %in% names(result_temp) && sum(result_temp$is_r_related == "yes", na.rm = TRUE) > 0) {
+  category_summary <- result_temp |>
+    filter(is_r_related == "yes") |>
+    count(category, sort = TRUE) |>
+    rename(Category = category, Count = n)
+  
+  DT::datatable(category_summary, 
+                caption = "R-Related Content by Category",
+                options = list(pageLength = 10))
+} else {
+  cat("*No R-related content to categorize.*")
+}
+```
+
+### All Processed Links
+
+```{r all-links-table}
+display_data <- result_temp |>
+  select(title, link, is_r_related, category) |>
+  mutate(
+    title = substr(title, 1, 50),  # Truncate long titles
+    link = paste0('<a href="', link, '" target="_blank">Link</a>')
+  )
+
+DT::datatable(display_data, 
+              escape = FALSE,
+              caption = "All Processed Links",
+              options = list(
+                pageLength = 10,
+                scrollX = TRUE
+              ))
+```
+
+---
+
+## 📝 **Notes for Curators**
+
+- **Green sections** (R-Related Content) are ready for publication in RWeekly
+- **Yellow sections** (Manual Review) need human verification
+- **Red sections** (Not R-Related) have been filtered out by AI but should be double-checked
+- Use the interactive tables below for detailed analysis
+- All links open in new tabs when clicked
+
+**Report generated on:** `r format(Sys.time(), "%Y-%m-%d %H:%M:%S")`
