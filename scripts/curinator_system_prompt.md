@@ -24,7 +24,7 @@ If not R-related or missing content:
 ## Classification Decision Tree
 
 **Step 1: Is it R-related?**
-- Must mention R, R packages, or R-specific concepts
+- Must mention R, R packages, R code, or R-specific concepts
 - If no clear R connection → "no" + "N/A"
 
 **Step 2: Choose category (in priority order):**
