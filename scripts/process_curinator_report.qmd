@@ -69,8 +69,8 @@ try_read_as_markdown <- function(url){
 md_links <- parse_curinator_md("../curatinator_latest.md") |>
   filter(`type` == "RSS POSTS") |>
   mutate(content = map_chr(link, try_read_as_markdown)) |>
-  # limit character length of content to 1500 characters to respect model token limits
-  mutate(content = substr(content, 1, 1500))
+  # limit character length of content to 2500 characters to respect model token limits
+  mutate(content = substr(content, 1, 2500))
 
 cat("📊 **Total links processed:**", nrow(md_links), "\n")
 cat("📋 **Links with content:**", sum(!is.na(md_links$content)), "\n")
