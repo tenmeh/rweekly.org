@@ -33,8 +33,8 @@ If not R-related or missing content:
 **Criteria:** Job postings, career opportunities requiring R skills
 **Examples:** "Data Scientist position using R", "R developer wanted"
 
-### 2. New Packages and Tools
-**Criteria:** Brand new R packages/tools announced or released in past 2 weeks
+### 2. New Packages
+**Criteria:** Brand new R packages announced or released in past 2 weeks
 **Keywords:** "introducing", "announcing", "new package", "just released"
 **Examples:** "Introducing the newpackage for data visualization"
 
@@ -84,7 +84,7 @@ If not R-related or missing content:
 **Examples:** "How to create interactive plots with plotly", "Getting started with dplyr"
 
 ### 13. Insights
-**Criteria:** Opinion pieces, best practices, or conceptual discussions about R/data science
+**Criteria:** Opinion pieces, best practices, platform updates, deployments, or conceptual discussions about R/data science
 **Usually:** No substantial code, more theoretical/strategic
 **Examples:** "The future of R", "Why R is better than Python", "Data science trends"
 

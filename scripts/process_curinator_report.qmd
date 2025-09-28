@@ -7,6 +7,7 @@ format:
     toc: true
     toc-depth: 2
     theme: bootstrap
+    embed-resources: true
     code-fold: true
     code-summary: "Show code"
 ---
@@ -150,7 +151,11 @@ result_wrangled <- result_temp |>
 if(nrow(result_wrangled) > 0) {
   for(i in 1:nrow(result_wrangled)) {
     cat("\n#### ", result_wrangled$category[i], " (", result_wrangled$count[i], " items)\n\n")
-    cat(result_wrangled$combined_text[i], "\n\n")
+    # Split the combined text and add each link on a new line
+    links <- strsplit(result_wrangled$combined_text[i], "\n")[[1]]
+    for(link in links) {
+      cat(link, "\n\n")
+    }
   }
 } else {
   cat("*No R-related content found.*\n")
@@ -167,7 +172,9 @@ manual_review_links <- result_temp |>
 
 if(length(manual_review_links) > 0) {
   cat("The following links could not be automatically processed and require manual review:\n\n")
-  cat(paste(manual_review_links, collapse = '\n'))
+  for(link in manual_review_links) {
+    cat(link, "\n\n")
+  }
 } else {
   cat("*No links require manual review.*")
 }
@@ -183,7 +190,9 @@ flagged_not_r_related <- result_temp |>
 
 if(length(flagged_not_r_related) > 0) {
   cat("The following links were flagged as not R-related:\n\n")
-  cat(paste(flagged_not_r_related, collapse = '\n'))
+  for(link in flagged_not_r_related) {
+    cat(link, "\n\n")
+  }
 } else {
   cat("*No links were flagged as not R-related.*")
 }
