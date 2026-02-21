@@ -75,6 +75,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### R Internationally
 
++ [Introducing il.cbs.muni](https://matanhakim.com/posts/2026-02-13-il-cbs-muni-0-1-0/) - An R Package for Handling Israeli CBS Municipal Data
 
 
 <!--<div class="post-more-begin></div><div class="post-more-end"></div>-->
