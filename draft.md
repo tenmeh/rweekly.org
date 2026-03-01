@@ -35,6 +35,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
+[Box-Jenkins Methodology in R](https://onlinestatisticstutoring.com/box-jenkins-methodology/)
 
 ### Resources
 
