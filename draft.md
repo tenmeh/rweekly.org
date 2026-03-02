@@ -25,6 +25,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 + [Extracting the grammar of U.S. stream names](https://waterdata.usgs.gov/blog/vizlab-stream-name-extraction/)
 + [A map that glows with the vocabulary of water](https://waterdata.usgs.gov/blog/vizlab-stream-names-map/)
 
+![A map of glowing points within the conterminous Unites States on a darkened landscape basemap. The title reads 'What's in a name'.](https://raw.githubusercontent.com/amart90/rweekly.org/image-store/images/names_map_thumbnail_01.webp)
+
 
 ### R in Organizations
 
