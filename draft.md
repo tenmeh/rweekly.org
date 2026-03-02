@@ -22,6 +22,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### R in the Real World
 
++ [Extracting the grammar of U.S. stream names](https://waterdata.usgs.gov/blog/vizlab-stream-name-extraction/)
++ [A map that glows with the vocabulary of water](https://waterdata.usgs.gov/blog/vizlab-stream-names-map/)
 
 
 ### R in Organizations
