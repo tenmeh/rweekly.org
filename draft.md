@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
+* [Interactive beeswarm charts in R](https://nrennie.rbind.io/blog/interactive-beeswarm-r/)
 
 ### Resources
 
