@@ -37,7 +37,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Resources
 
-
++ [Extending roxygen2 (slidedeck)](https://masalmon.eu/talks/2026-03-02-extending-roxygen2/)
 
 ### New Packages
 
