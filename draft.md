@@ -18,7 +18,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Insights
 
-
++ [Sharing data across shiny modules, an update](https://rtask.thinkr.fr/sharing-data-across-shiny-modules-an-update/)
 
 ### R in the Real World
 
@@ -34,6 +34,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Tutorials
 
++ [DuckDB + dbplyr: When Your Pipeline Gives Different Results Every Time It Runs](https://rtask.thinkr.fr/duckdb-dbplyr-when-your-pipeline-gives-different-results-every-time-it-runs/)
 
 ### Resources
 
