@@ -150,6 +150,8 @@ This week's release was curated by [Jon Calder](https://bsky.app/profile/jonmcal
 
 + [{freestiler} 0.1.0](https://github.com/walkerke/freestiler): Create Vector Tiles from Spatial Data
 
++ [{entsoeapi} 0.9.5.1](https://github.com/krose/entsoeapi): R wrapper for ENTSO-E Transparency Platform API — electricity prices, generation, load, cross-border flows
+
 ### Updated Packages
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
