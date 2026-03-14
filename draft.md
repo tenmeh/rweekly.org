@@ -44,7 +44,6 @@ This week's release was curated by [Jon Calder](https://bsky.app/profile/jonmcal
 ### R in Academia
 
 
-
 ### Tutorials
 
 + [DuckDB + dbplyr: When Your Pipeline Gives Different Results Every Time It Runs](https://rtask.thinkr.fr/duckdb-dbplyr-when-your-pipeline-gives-different-results-every-time-it-runs/)
@@ -54,8 +53,7 @@ This week's release was curated by [Jon Calder](https://bsky.app/profile/jonmcal
 + [Learning PK/PD Simulation: A Beginner's Monte Carlo Analysis With mrgsolve in R](https://www.kenkoonwong.com/blog/pkpd/)
 
 ### Resources
-
-
+* [QuickStats](https://quickstats.tools): WebR-powered browser-based statistical analysis tool.
 
 ### New Packages
 
