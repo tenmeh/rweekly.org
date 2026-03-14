@@ -154,6 +154,7 @@ This week's release was curated by [Jon Calder](https://bsky.app/profile/jonmcal
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
 
++ [{qol} 1.2.2](https://cran.r-project.org/package=qol): Powerful 'SAS' Inspired Concepts for more Efficient Bigger Outputs - [diffify](https://diffify.com/R/qol)
 + [{glyparse} 0.5.6](https://cran.r-project.org/package=glyparse): Parsing Glycan Structure Text Representations - [diffify](https://diffify.com/R/glyparse)
 + [{vapour} 0.16.0](https://cran.r-project.org/package=vapour): Access to the 'Geospatial Data Abstraction Library' ('GDAL') - [diffify](https://diffify.com/R/vapour)
 + [{SIS} 1.5](https://cran.r-project.org/package=SIS): Sure Independence Screening - [diffify](https://diffify.com/R/SIS)
