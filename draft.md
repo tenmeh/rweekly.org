@@ -1,13 +1,16 @@
 ---
 layout: draft
-title: R Weekly 2026-W12
+title: R Weekly 2026-W13
 description: Draft of the R Weekly
 image: https://rweekly.org/public/facebook.png
 ---
 
+
 + [How to have (my) content shared by R Weekly?](https://github.com/rweekly/rweekly.org#how-to-have-my-content-shared-by-r-weekly)
 
-This week's release was curated by [Jon Calder](https://bsky.app/profile/jonmcalder.bsky.social), with help from the R Weekly team members and contributors.
+This week’s release was curated by [](), with help from the R Weekly team members and contributors.
+
+
 
 ### Highlight
 
@@ -15,226 +18,52 @@ This week's release was curated by [Jon Calder](https://bsky.app/profile/jonmcal
 
 ### Insights
 
-+ [Sharing data across shiny modules, an update](https://rtask.thinkr.fr/sharing-data-across-shiny-modules-an-update/)
 
-+ [Three Posit Platform Features Worth Knowing About](https://www.jumpingrivers.com/blog/posit-platform-updates/)
-
-+ [posit::glimpse() Newsletter – March 2026](https://posit.co/blog/glimpse-newsletter-march-2026/)
-
-+ [Does every finite string of numbers appear within π?](https://onlinecollegemathteacher.blogspot.com/2026/03/does-every-finite-string-of-numbers.html)
-
-+ [Breaking Release of the patentsview R Package](https://ropensci.org/blog/2026/03/10/patentsview-breaking-release/)
 
 ### R in the Real World
 
-+ [Pacific island remittances by @ellis2013nz](https://freerangestats.info/blog/2026/03/08/pacific-remittances)
 
-+ [From Black to Glass Box: Rethinking the Actuarial Lifecycle](https://posit.co/blog/from-black-to-glass-box-rethinking-the-actuarial-lifecycle/)
-
-+ [Formula 1 Analysis in R with f1dataR: Lap Times, Pit Stops and Driver Performance](https://rprogrammingbooks.com/formula-1-analysis-r-f1datar/?utm_source=rss&utm_medium=rss&utm_campaign=formula-1-analysis-r-f1datar)
 
 ### R in Organizations
 
-+ [Igniting an R Movement in the Philippines: RNVSU's Open Science Vision](https://r-consortium.org/posts/igniting-an-r-movement-in-the-philippines-rnvsus-open-science-vision/index.html)
 
-+ [Doing More with Cortex: Introducing the Databot Snowflake Skill for Semantic Awareness](https://posit.co/blog/introducing-the-databot-snowflake-skill-for-semantic-awareness/)
 
 ### R in Academia
 
-+ [Addressing a Decade-Old 'Continentai Fallacy' in Spatial Econometrics](https://njtalingting.r-universe.dev/articles/ArchipelagoEngine/rtl_impact.html)
 
 
 ### Tutorials
 
-+ [DuckDB + dbplyr: When Your Pipeline Gives Different Results Every Time It Runs](https://rtask.thinkr.fr/duckdb-dbplyr-when-your-pipeline-gives-different-results-every-time-it-runs/)
-
-+ [Using Quarto to Write a Book](https://kieranhealy.org/blog/archives/2026/03/09/using-quarto-to-write-a-book/)
-
-+ [Getting to the bottom of TMLE: forcing the target to behave](https://www.rdatagen.net/post/2026-03-10-getting-to-the-bottom-of-tmle-2/)
-
-+ [Get Better: loading multiple csv files in R](https://quantixed.org/2026/03/09/get-better-loading-multiple-csv-files-in-r/)
-
-+ [Learning PK/PD Simulation: A Beginner's Monte Carlo Analysis With mrgsolve in R](https://www.kenkoonwong.com/blog/pkpd/)
 
 ### Resources
 
-+ [QuickStats](https://quickstats.tools): WebR-powered browser-based statistical analysis tool.
+
 
 ### New Packages
 
-<!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> -->
+<!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> --> 
 <p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
 
 
 **CRAN**
 
-+ [{inkaR} 0.4.3](https://cran.r-project.org/package=inkaR): Download and Analyze Spatial Development Data from INKAR
 
-+ [{freebsdcontribs} 0.1.0](https://cran.r-project.org/package=freebsdcontribs): 'FreeBSD' Contributor and Commit Statistics
+**Bioconductor**
 
-+ [{voucher} 1.0.2](https://cran.r-project.org/package=voucher): 'Trustdown' Interface for R
 
-+ [{ThinkingGrid} 0.1.0](https://cran.r-project.org/package=ThinkingGrid): Thinking Grid Statistics
 
-+ [{obr} 0.2.2](https://cran.r-project.org/package=obr): Access Office for Budget Responsibility Data
+**GitHub or Bitbucket**
 
-+ [{dialvalidator} 0.1.0](https://cran.r-project.org/package=dialvalidator): Phone Number Validation Using Google's 'libphonenumber' Metadata
-   
-+ [{decisionpaths} 0.1.0](https://cran.r-project.org/package=decisionpaths): Construct and Audit Longitudinal Decision Paths
 
-+ [{brightspaceR} 0.1.0](https://cran.r-project.org/package=brightspaceR): Access D2L 'Brightspace' Data Sets via the 'BDS' API
-
-+ [{stacr} 0.1.0](https://cran.r-project.org/package=stacr): Tidy 'STAC' Workflows for R
-
-+ [{readoecd} 0.3.0](https://cran.r-project.org/package=readoecd): Download and Tidy Data from the OECD
-
-+ [{ons} 0.1.0](https://cran.r-project.org/package=ons): Download Data from the Office for National Statistics
-
-+ [{hmrc} 0.3.0](https://cran.r-project.org/package=hmrc): Download and Tidy HMRC Statistical Data
-
-+ [{boe} 0.1.0](https://cran.r-project.org/package=boe): Download Data from the Bank of England Statistical Database
-
-+ [{SHRED} 1.0.0](https://cran.r-project.org/package=SHRED): Setwise Hierarchical Rate of Erroneous Discovery
-
-+ [{ardlverse} 1.1.2](https://cran.r-project.org/package=ardlverse): Comprehensive ARDL Modeling Framework: Panel, Bootstrap, Quantile-Nonlinear, and Fourier Extensions
-
-+ [{earthUI} 0.1.1](https://cran.r-project.org/package=earthUI): Interactive 'shiny' GUI for the 'earth' Package
-
-+ [{llmjson} 0.1.0](https://cran.r-project.org/package=llmjson): Repair Malformed JSON Strings
-
-+ [{easyRaschBayes} 0.1.0](https://cran.r-project.org/package=easyRaschBayes): Bayesian Rasch Analysis Using 'brms'
-
-+ [{ggsky} 0.1.0](https://cran.r-project.org/package=ggsky): Galactic and Equatorial Coordinate Implementation for 'ggplot2'
-
-+ [{bs4Dashkit} 0.1.0](https://cran.r-project.org/package=bs4Dashkit): Branding, Theme Application and Navigation Utilities for 'bs4Dash' Dashboards
-
-+ [{wefnexus} 1.0.0](https://cran.r-project.org/package=wefnexus): Water-Energy-Food-Nutrient-Carbon Nexus Analysis for Agronomic Systems
-
-+ [{rapidcodeR} 0.1.0](https://cran.r-project.org/package=rapidcodeR): Optimized Data Analysis System for AI-Based Text Processing
-
-+ [{GMX} 0.9-2](https://cran.r-project.org/package=GMX): Extended Graphical Model Checks for the Rasch Family of Models
-
-+ [{EcoNiche} 1.0.2](https://cran.r-project.org/package=EcoNiche): Community Niche Position and Width Estimation Tools
-
-+ [{vaster} 0.6.0](https://cran.r-project.org/package=vaster): Tools for Raster Grid Logic
-
-+ [{ROOT} 0.1.1](https://cran.r-project.org/package=ROOT): Rashomon Set of Optimal Trees
-
-+ [{readaec} 0.1.1](https://cran.r-project.org/package=readaec): Access Australian Electoral Commission Data
-
-+ [{lucidr} 0.1.0](https://cran.r-project.org/package=lucidr): 'Lucide' Icons for 'R'
-
-+ [{comexr} 0.2.0](https://cran.r-project.org/package=comexr): Client for the Brazilian Foreign Trade Statistics API ('ComexStat')
-
-+ [{pep725} 1.0.0](https://cran.r-project.org/package=pep725): Pan-European Phenological Data Analysis
-
-+ [{EstHTSeed} 0.1.0](https://cran.r-project.org/package=EstHTSeed): Hydro Time Analysis of Seed Germination
-
-+ [{rrobot} 0.1.3](https://cran.r-project.org/package=rrobot): Robust Outlier Detection for Diverse Distributions
-
-+ [{fozziejoin} 0.0.13](https://cran.r-project.org/package=fozziejoin): Utilities for Joining Dataframes with Inexact Matching
-
-+ [{restrictR} 0.1.0](https://cran.r-project.org/package=restrictR): Composable Runtime Contracts for R
-
-+ [{BEMPdata} 0.2.1](https://cran.r-project.org/package=BEMPdata): Access the Bangladesh Environmental Mobility Panel Dataset
-
-+ [{eClosure} 0.9.2](https://cran.r-project.org/package=eClosure): Methods Based on the e-Closure Principle
-
-+ [{quallmer.app} 0.1.0](https://cran.r-project.org/package=quallmer.app): Interactive Validation App for 'quallmer'
-
-+ [{maskedcauses} 0.9.2](https://cran.r-project.org/package=maskedcauses): Likelihood Models for Systems with Masked Component Cause of Failure
-
-+ [{ictools} 0.1.0](https://cran.r-project.org/package=ictools): Unified Tools for Classical and Bootstrap Confidence Intervals
-
-+ [{deltapif} 0.4.5](https://cran.r-project.org/package=deltapif): Estimate Potential Impact and Population Attributable Fractions with Aggregated Data
-
-+ [{ordPanel} 0.1.0](https://cran.r-project.org/package=ordPanel): Ordered Panel
-
-+ [{epicR} 1.0.0](https://cran.r-project.org/package=epicR): Evaluation Platform in Chronic Obstructive Pulmonary Disease Library
-
-+ [{bacenR} 0.3.1](https://cran.r-project.org/package=bacenR): Access Data from Brazilian Central Bank: IFdata, Active Institutions, Balance Sheets and Normative Acts
-
-**GitHub** 
-
-+ [{freestiler} 0.1.0](https://github.com/walkerke/freestiler): Create Vector Tiles from Spatial Data
-
-+ [{entsoeapi} 0.9.5.1](https://github.com/krose/entsoeapi): R wrapper for ENTSO-E Transparency Platform API — electricity prices, generation, load, cross-border flows
 
 ### Updated Packages
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
- 
-+ [{qol} 1.2.2](https://cran.r-project.org/package=qol): Powerful 'SAS' Inspired Concepts for more Efficient Bigger Outputs - [diffify](https://diffify.com/R/qol) 
- 
-+ [{vapour} 0.16.0](https://cran.r-project.org/package=vapour): Access to the 'Geospatial Data Abstraction Library' ('GDAL') - [diffify](https://diffify.com/R/vapour)
-
-+ [{geomorph} 4.1.0](https://cran.r-project.org/package=geomorph): Geometric Morphometric Analyses of 2D and 3D Landmark Data - [diffify](https://diffify.com/R/geomorph)
-
-+ [{laminr} 1.3.0](https://cran.r-project.org/package=laminr): Client for 'LaminDB' - [diffify](https://diffify.com/R/laminr)
-
-+ [{BMA} 3.18.21](https://cran.r-project.org/package=BMA): Bayesian Model Averaging - [diffify](https://diffify.com/R/BMA)
-
-+ [{glasstabs} 0.1.1](https://cran.r-project.org/package=glasstabs): Animated Glass-Style Tabs and Multi-Select Filter for 'Shiny' - [diffify](https://diffify.com/R/glasstabs)
-
-+ [{miceadds} 3.19-16](https://cran.r-project.org/package=miceadds): Some Additional Multiple Imputation Functions, Especially for 'mice' - [diffify](https://diffify.com/R/miceadds)
-
-+ [{cffr} 1.3.0](https://cran.r-project.org/package=cffr): Generate Citation File Format ('cff') Metadata for R Packages - [diffify](https://diffify.com/R/cffr)
-
-+ [{rsoi} 0.5.8](https://cran.r-project.org/package=rsoi): Import Various Northern and Southern Hemisphere Climate Indices - [diffify](https://diffify.com/R/rsoi)
-
-+ [{ipumsr} 0.10.0](https://cran.r-project.org/package=ipumsr): An R Interface for Downloading, Reading, and Handling IPUMS Data - [diffify](https://diffify.com/R/ipumsr)
-
-+ [{globals} 0.19.1](https://cran.r-project.org/package=globals): Identify Global Objects in R Expressions - [diffify](https://diffify.com/R/globals)
-
-+ [{orbital} 0.5.1](https://cran.r-project.org/package=orbital): Predict with 'tidymodels' Workflows in Databases - [diffify](https://diffify.com/R/orbital)
-
-+ [{igoR} 1.0.1](https://cran.r-project.org/package=igoR): Intergovernmental Organizations Database - [diffify](https://diffify.com/R/igoR)
-
-+ [{protolite} 2.4.0](https://cran.r-project.org/package=protolite): Highly Optimized Protocol Buffer Serializers - [diffify](https://diffify.com/R/protolite)
-
-+ [{epiworldR} 0.13.0.0](https://cran.r-project.org/package=epiworldR): Fast Agent-Based Epi Models - [diffify](https://diffify.com/R/epiworldR)
-
-+ [{CopernicusMarine} 0.4.5](https://cran.r-project.org/package=CopernicusMarine): Search Download and Handle Data from Copernicus Marine Service Information - [diffify](https://diffify.com/R/CopernicusMarine)
-
-+ [{picasso} 1.5](https://cran.r-project.org/package=picasso): Sparse Learning with Convex and Concave Penalties - [diffify](https://diffify.com/R/picasso)
-
-+ [{cmtkr} 0.2.3](https://cran.r-project.org/package=cmtkr): Wrapper for the Computational Morphometry Toolkit ('CMTK') Library - [diffify](https://diffify.com/R/cmtkr)
-
-+ [{fitzRoy} 1.7.0](https://cran.r-project.org/package=fitzRoy): Easily Scrape and Process AFL Data - [diffify](https://diffify.com/R/fitzRoy)
-
-+ [{SHARK4R} 1.1.1](https://cran.r-project.org/package=SHARK4R): Accessing and Validating Marine Environmental Data from 'SHARK' and Related Databases - [diffify](https://diffify.com/R/SHARK4R)
-
-+ [{dartR.base} 1.2.2](https://cran.r-project.org/package=dartR.base): Analysing 'SNP' and 'Silicodart' Data - Basic Functions - [diffify](https://diffify.com/R/dartR.base)
-
-+ [{prodlim} 2026.03.11](https://cran.r-project.org/package=prodlim): Product-Limit Estimation for Censored Event History Analysis - [diffify](https://diffify.com/R/prodlim)
-
-+ [{blocking} 1.0.2](https://cran.r-project.org/package=blocking): Various Blocking Methods for Entity Resolution - [diffify](https://diffify.com/R/blocking)
-
-+ [{units} 1.0-1](https://cran.r-project.org/package=units): Measurement Units for R Vectors - [diffify](https://diffify.com/R/units)
-
-+ [{rJava} 1.0-15](https://cran.r-project.org/package=rJava): Low-Level R to Java Interface - [diffify](https://diffify.com/R/rJava)
-
-+ [{effectsize} 1.0.2](https://cran.r-project.org/package=effectsize): Indices of Effect Size - [diffify](https://diffify.com/R/effectsize)
-
-+ [{tidyterra} 1.1.0](https://cran.r-project.org/package=tidyterra): 'tidyverse' Methods and 'ggplot2' Helpers for 'terra' Objects - [diffify](https://diffify.com/R/tidyterra)
-
-+ [{BIOMASS} 2.2.7](https://cran.r-project.org/package=BIOMASS): Estimating Aboveground Biomass and Its Uncertainty in Tropical Forests - [diffify](https://diffify.com/R/BIOMASS)
-
-+ [{listenv} 0.10.1](https://cran.r-project.org/package=listenv): Environments Behaving (Almost) as Lists - [diffify](https://diffify.com/R/listenv)
-
-+ [{party} 1.3-19](https://cran.r-project.org/package=party): A Laboratory for Recursive Partytioning - [diffify](https://diffify.com/R/party)
-
-+ [{sdcMicro} 5.8.1](https://cran.r-project.org/package=sdcMicro): Statistical Disclosure Control Methods for Anonymization of Data and Risk Estimation - [diffify](https://diffify.com/R/sdcMicro)
-
-+ [{otelsdk} 0.2.3](https://cran.r-project.org/package=otelsdk): R SDK and Exporters for OpenTelemetry - [diffify](https://diffify.com/R/otelsdk)
-
-+ [{wbids} 1.1.4](https://cran.r-project.org/package=wbids): Seamless Access to World Bank International Debt Statistics (IDS) - [diffify](https://diffify.com/R/wbids)
 
 ### Videos and Podcasts
 
 + [Listen to the R-Weekly Highlights Podcast](https://serve.podhome.fm/r-weekly-highlights)
 
-+ [Abuja R User Group: Outgrowing your laptop with R and Positron by Julia Silge](https://www.youtube.com/watch?v=d8Mr4m0Ybys)
 
 ### Gist & Cookbook
 
@@ -254,13 +83,7 @@ This week's release was curated by [Jon Calder](https://bsky.app/profile/jonmcal
 
 Updates from [R Core](http://developer.r-project.org/blosxom.cgi/R-devel/NEWS):
 
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:zpraxuy4pqfc4rb5kv47kn24/app.bsky.feed.post/3mguceetr522o" data-bluesky-cid="bafyreie5osmk6cspuuu32zfl5lrd6t4blafwpgbz65zhwlmx3fkigkfleu" data-bluesky-embed-color-mode="system"><p lang="en">We are pleased to announce that Heather Turner @heathrturnr.fosstodon.org.ap.brid.gy has joined the R Core Team.  She has been an active contributor notably via the R Dev Days, and has greatly improved cooperation between R Core and the R community in more ways #RStats.</p>&mdash; The R Foundation (<a href="https://bsky.app/profile/did:plc:zpraxuy4pqfc4rb5kv47kn24?ref_src=embed">@r-foundation.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:zpraxuy4pqfc4rb5kv47kn24/post/3mguceetr522o?ref_src=embed">12 March 2026 at 13:30</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:ikqayrfeyprhhhqoyinfoauj/app.bsky.feed.post/3mgrmn76zvs2k" data-bluesky-cid="bafyreib2vnhhqi5khjlv3fxm2yh6e5ag4e5dx7hlgfq6jt22innwfoxave" data-bluesky-embed-color-mode="system"><p lang="en">R version 4.5.3 &quot;Reassured Reassurer&quot; (source version) has been released. It should be on CRAN by now. #rstats</p>&mdash; Peter Dalgaard (<a href="https://bsky.app/profile/did:plc:ikqayrfeyprhhhqoyinfoauj?ref_src=embed">@pdalgd.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:ikqayrfeyprhhhqoyinfoauj/post/3mgrmn76zvs2k?ref_src=embed">11 March 2026 at 11:56</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-
 ### Call for Participation
-
-+ [AI in Production 2026 Workshops: What's Coming in June](https://www.jumpingrivers.com/blog/ai-in-production-2026-workshops/)
 
 
 ### Upcoming Events in 3 Months
@@ -286,14 +109,4 @@ Events in 3 Months:
 ### rtistry
 
 
-
 ### Quotes of the Week
-
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:2modf754evg3m6uigd23ot72/app.bsky.feed.post/3mgri2sxnks2f" data-bluesky-cid="bafyreihiiznef2s5hkf2wpq2pahphlvfeky6ylwdox4yxdswiqnobbz7h4" data-bluesky-embed-color-mode="system"><p lang="en">R version 4.5.3 (Reassured Reassurer) #rstats<br><br><a href="https://bsky.app/profile/did:plc:2modf754evg3m6uigd23ot72/post/3mgri2sxnks2f?ref_src=embed">[image or embed]</a></p>&mdash; superboreen (<a href="https://bsky.app/profile/did:plc:2modf754evg3m6uigd23ot72?ref_src=embed">@superboreen.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:2modf754evg3m6uigd23ot72/post/3mgri2sxnks2f?ref_src=embed">11 March 2026 at 10:34</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:jiushxoiyvgcw2tgsjyvd2mc/app.bsky.feed.post/3mgrh6qjnnb2w" data-bluesky-cid="bafyreibko5u6ljokftrdtxyqgdxdokvfhp6kkqnorvx5qigixks4k3a4ym" data-bluesky-embed-color-mode="system"><p lang="">A really fun dataset for this week&#x27;s #TidyTuesday, looking at how people interpret different probabilistic statements 📊 
-
-There&#x27;s so many aspects of this to visualise, but I decided make some barcode plots comparing how people from the UK and US responded!
-
-#DataViz #RStats #ggplot2<br><br><a href="https://bsky.app/profile/did:plc:jiushxoiyvgcw2tgsjyvd2mc/post/3mgrh6qjnnb2w?ref_src=embed">[image or embed]</a></p>&mdash; Nicola Rennie (<a href="https://bsky.app/profile/did:plc:jiushxoiyvgcw2tgsjyvd2mc?ref_src=embed">@nrennie.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:jiushxoiyvgcw2tgsjyvd2mc/post/3mgrh6qjnnb2w?ref_src=embed">11 March 2026 at 10:18</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-
