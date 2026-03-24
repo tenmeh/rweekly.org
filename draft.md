@@ -51,6 +51,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 **Bioconductor**
 
 
+
 **GitHub or Bitbucket**
 
 + [{ggtypst} 0.1.0](https://github.com/Yousa-Mirage/ggtypst): Render any rich text and high-quality math expressions in `ggplot2` easily, powered by Typst. [(on Reddit)](www.reddit.com/r/rstats/comments/1rsllwu/ggtypst_typstpowered_text_and_math_rendering_for/)
