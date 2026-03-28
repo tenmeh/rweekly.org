@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
+- [R Package Development in Positron: recording and materials (Workshop for Ukraine)](https://doi.org/10.59350/v20aa-dc997)
 
 ### Resources
 
