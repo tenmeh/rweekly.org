@@ -54,8 +54,10 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 
 **GitHub or Bitbucket**
-
-
+<li>
+[Ebbinghaus illusion Benchmark for LLMs](https://github.com/iamYannC/Ebbinghaus/)
+A flexible R & Python SDK for generating variants of the Ebbinghaus illusion. On top of the full source code, you will find in this repo links to a [Kaggle](https://www.kaggle.com/code/yanncohen/ebbinghaus-illusion-benchmark-python) notebook with free LLm examples, as well as a [Shiny](https://019cfec8-12af-aa5d-969b-0882cd8f490a.share.connect.posit.cloud/) app to generate a reproducible dataset of Ebbinghaus illusion stimuli.
+</li>
 
 ### Updated Packages
 
