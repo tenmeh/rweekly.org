@@ -85,6 +85,11 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 Updates from [R Core](http://developer.r-project.org/blosxom.cgi/R-devel/NEWS):
 
+Updates from the [R Contribution Working Group (RCWG)](https://contributor.r-project.org/working-group): 
+ - [R Dev Day @ Cascadia R Conf 2026](https://pretix.eu/r-contributors/r-dev-day-cascadiar-2026), Portland, OR, USA, on Friday 26 July. Registration deadline **Friday 12 June**.
+ - [R Dev Day @ useR! 2026](https://user2026.r-project.org/additional/r-dev-day.html), Warsaw, Poland, on Friday 19 July. Application deadline **Friday 24 April**.
+ - [R Project Sprint 2026](https://contributor.r-project.org/r-project-sprint-2026), Birmingham, UK, Tuesday 1 - Thursday 3 September. Application deadline **Friday 8 May**. 
+
 ### Call for Participation
 
 
