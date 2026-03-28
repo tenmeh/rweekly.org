@@ -54,10 +54,9 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 
 **GitHub or Bitbucket**
-<li>
-[Ebbinghaus illusion Benchmark for LLMs](https://github.com/iamYannC/Ebbinghaus/)
-A flexible R & Python SDK for generating variants of the Ebbinghaus illusion. On top of the full source code, you will find in this repo links to a [Kaggle](https://www.kaggle.com/code/yanncohen/ebbinghaus-illusion-benchmark-python) notebook with free LLm examples, as well as a [Shiny](https://019cfec8-12af-aa5d-969b-0882cd8f490a.share.connect.posit.cloud/) app to generate a reproducible dataset of Ebbinghaus illusion stimuli.
-</li>
++ [{ggtypst} 0.1.0](https://github.com/Yousa-Mirage/ggtypst): Render any rich text and high-quality math expressions in `ggplot2` easily, powered by Typst. [(on Reddit)](www.reddit.com/r/rstats/comments/1rsllwu/ggtypst_typstpowered_text_and_math_rendering_for/)
+
++ [Ebbinghaus illusion Benchmark for LLMs](https://github.com/iamYannC/Ebbinghaus/): A flexible R & Python SDK for generating variants of the Ebbinghaus illusion. On top of the full source code, you will find in this repo links to a [Kaggle](https://www.kaggle.com/code/yanncohen/ebbinghaus-illusion-benchmark-python) notebook with free LLm examples, as well as a [Shiny](https://019cfec8-12af-aa5d-969b-0882cd8f490a.share.connect.posit.cloud/) app to generate a reproducible dataset of Ebbinghaus illusion stimuli.
 
 ### Updated Packages
 
