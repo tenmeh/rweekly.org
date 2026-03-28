@@ -29,7 +29,12 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 + [Adding Alt Text in Quarto with Claude Code](https://blog.stephenturner.us/p/alt-text-quarto-claude-code-skill)
 + [R Package Development in Positron Workshop](https://blog.stephenturner.us/p/r-package-development-in-positron-workshop)
 + [De-slop the text you shouldn't be writing anyway](https://blog.stephenturner.us/p/deslop)
-
++ [Text Analytics in R: Dense embeddings and RAG pipeline with ragnar and ellmer](https://rtichoke.netlify.app/posts/text-analytics-rag-pipeline-in-r.html)
++ [Little useless-useful R functions – Date Palindrome](https://tomaztsql.wordpress.com/2026/03/15/little-useless-useful-r-functions-date-palindrome/)
++ [Bio7 3.6 Released](https://bio7.org/bio7-3-6-released/)
++ [Bayesian Neural Networks in {tidymodels} with {kindling}](https://statsandr.com/blog/bayesian-neural-networks-in-tidymodels-with-kindling/)
++ [Beyond Keywords: How Semantic Search is Unlocking Clinical Code Reuse](https://pharmaverse.github.io/blog/posts/2026-03-20_beyond_key_words/beyond__keywords.html)
++ [Using science to find the best decaf](https://www.gilesd-j.com/2026/03/23/using-science-to-find-the-best-decaf/)
 
 ### R in the Real World
 
