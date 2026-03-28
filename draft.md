@@ -44,6 +44,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 <!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> --> 
 <p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
 
+[deckroadmap: Give your slides a sense of direction](https://tigertang.org/deckroadmap/) - An R package for adding PowerPoint-style roadmap footers to Quarto and R Markdown Reveal.js slides.
 
 **CRAN**
 
