@@ -13,7 +13,11 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 
 ### Highlight
 
++ [Introducing ggauto: automating better charts](https://nrennie.rbind.io/blog/introducing-ggauto/)
 
++ [Adding Alt Text in Quarto with Claude Code](https://blog.stephenturner.us/p/alt-text-quarto-claude-code-skill)
+
++ [Using science to find the best decaf](https://www.gilesd-j.com/2026/03/23/using-science-to-find-the-best-decaf/)
 
 ### Insights
 
@@ -23,20 +27,22 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 + [Python version of ‘Option pricing using time series models as market price of risk Pt.3’](https://thierrymoudiki.github.io/blog/2026/03/22/python/python-Semi-parametric-MarketPriceofRisk-update)
 + [You shall know a word by the company it keeps — so choose your prompts wisely](https://pablobernabeu.github.io/2026/you-shall-know-a-word-by-the-company-it-keeps/)
 + [Introducing ggauto: automating better charts](https://nrennie.rbind.io/blog/introducing-ggauto/)
+
+![](https://raw.githubusercontent.com/rweekly/image/master/2026/W14/ggauto_600.png)
+
 + [2026-03-27 AI Newsletter](https://posit.co/blog/2026-03-27-ai-newsletter/)
 + [February 2026 Top 40 New CRAN Packages](https://rworks.dev/posts/Feb-2026-Top40/)
 + [Speeding up tidySummarizedExperiment through query optimisation and the plyxp backend](https://tidyomics.github.io/tidyomicsBlog/posts/2025-10-25-tidySummarizedExperiment-optimization/)
 + [Adding Alt Text in Quarto with Claude Code](https://blog.stephenturner.us/p/alt-text-quarto-claude-code-skill)
-+ [R Package Development in Positron Workshop](https://blog.stephenturner.us/p/r-package-development-in-positron-workshop)
+
+![](https://raw.githubusercontent.com/rweekly/image/master/2026/W14/alttext_600.jpg)
+
 + [De-slop the text you shouldn't be writing anyway](https://blog.stephenturner.us/p/deslop)
 + [Text Analytics in R: Dense embeddings and RAG pipeline with ragnar and ellmer](https://rtichoke.netlify.app/posts/text-analytics-rag-pipeline-in-r.html)
-+ [Little useless-useful R functions – Date Palindrome](https://tomaztsql.wordpress.com/2026/03/15/little-useless-useful-r-functions-date-palindrome/)
 + [Bio7 3.6 Released](https://bio7.org/bio7-3-6-released/)
 + [Bayesian Neural Networks in {tidymodels} with {kindling}](https://statsandr.com/blog/bayesian-neural-networks-in-tidymodels-with-kindling/)
 + [Beyond Keywords: How Semantic Search is Unlocking Clinical Code Reuse](https://pharmaverse.github.io/blog/posts/2026-03-20_beyond_key_words/beyond__keywords.html)
 + [Using science to find the best decaf](https://www.gilesd-j.com/2026/03/23/using-science-to-find-the-best-decaf/)
-
-
 
 ### R in the Real World
 
@@ -44,27 +50,20 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 
 + [Why R and PyData Should Leave Meetup Behind](https://kobriendublin.substack.com/p/why-r-and-pydata-should-leave-meetup)
 
-### R in Organizations
-
-
-
-### R in Academia
-
-
-
 ### Tutorials
 
-- [R Package Development in Positron: recording and materials (Workshop for Ukraine)](https://doi.org/10.59350/v20aa-dc997)
++ [R Package Development in Positron: recording and materials (Workshop for Ukraine)](https://doi.org/10.59350/v20aa-dc997)
+
++ [R Package Development in Positron Workshop](https://blog.stephenturner.us/p/r-package-development-in-positron-workshop)
 
 ### Resources
 
-
++ [Little useless-useful R functions – Date Palindrome](https://tomaztsql.wordpress.com/2026/03/15/little-useless-useful-r-functions-date-palindrome/)
 
 ### New Packages
 
 <!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> --> 
 <p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
-
 
 
 **CRAN**
@@ -86,10 +85,6 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 + [{YangHuiMagic} 1.1](https://cran.r-project.org/package=YangHuiMagic): A Generalization of Yang Hui's Magic Squares
 + [{theRefdate} 1.0.0](https://cran.r-project.org/package=theRefdate): Simple and Fast Date Manipulation on Character Strings in Format 'DD.MM.YYYY'
 
-**Bioconductor**
-
-
-
 **GitHub or Bitbucket**
 
 + [deckroadmap: Give your slides a sense of direction](https://tigertang.org/deckroadmap/) - An R package for adding PowerPoint-style roadmap footers to Quarto and R Markdown Reveal.js slides.
@@ -102,15 +97,11 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
 
-
-
 + [{Unicode} 17.0.0-1](https://cran.r-project.org/package=Unicode): Unicode Data and Utilities - [diffify](https://diffify.com/R/Unicode)
 + [{vistime} 1.3.0](https://cran.r-project.org/package=vistime): Pretty Timelines in R - [diffify](https://diffify.com/R/vistime)
-+ [{tinytex} 0.59](https://cran.r-project.org/package=tinytex): Helper Functions to Install and Maintain TeX Live, and Compile
-LaTeX Documents - [diffify](https://diffify.com/R/tinytex)
++ [{tinytex} 0.59](https://cran.r-project.org/package=tinytex): Helper Functions to Install and Maintain TeX Live, and Compile LaTeX Documents - [diffify](https://diffify.com/R/tinytex)
 + [{tinyplot} 0.6.1](https://cran.r-project.org/package=tinyplot): Lightweight Extension of the Base R Graphics System - [diffify](https://diffify.com/R/tinyplot)
-+ [{swagger} 5.32.1](https://cran.r-project.org/package=swagger): Dynamically Generates Documentation from a 'Swagger' Compliant
-API - [diffify](https://diffify.com/R/swagger)
++ [{swagger} 5.32.1](https://cran.r-project.org/package=swagger): Dynamically Generates Documentation from a 'Swagger' Compliant API - [diffify](https://diffify.com/R/swagger)
 + [{sourcetools} 0.1.7-2](https://cran.r-project.org/package=sourcetools): Tools for Reading, Tokenizing and Parsing R Code - [diffify](https://diffify.com/R/sourcetools)
 + [{RcppRoll} 0.3.2](https://cran.r-project.org/package=RcppRoll): Efficient Rolling / Windowed Operations - [diffify](https://diffify.com/R/RcppRoll)
 + [{nlme} 3.1-169](https://cran.r-project.org/package=nlme): Linear and Nonlinear Mixed Effects Models - [diffify](https://diffify.com/R/nlme)
@@ -145,18 +136,6 @@ API - [diffify](https://diffify.com/R/swagger)
 + [Listen to the R-Weekly Highlights Podcast](https://serve.podhome.fm/r-weekly-highlights)
 
 
-### Gist & Cookbook
-
-
-
-### Shiny Apps
-
-
-
-### R Internationally
-
-
-
 <!--<div class="post-more-begin></div><div class="post-more-end"></div>-->
 
 ### R Project Updates
@@ -168,9 +147,6 @@ Updates from the [R Contribution Working Group (RCWG)](https://contributor.r-pro
  - [R Dev Day @ Cascadia R Conf 2026](https://pretix.eu/r-contributors/r-dev-day-cascadiar-2026), Portland, OR, USA, on Friday 26 July. Registration deadline **Friday 12 June**.
  - [R Dev Day @ useR! 2026](https://user2026.r-project.org/additional/r-dev-day.html), Warsaw, Poland, on Friday 19 July. Application deadline **Friday 24 April**.
  - [R Project Sprint 2026](https://contributor.r-project.org/r-project-sprint-2026), Birmingham, UK, Tuesday 1 - Thursday 3 September. Application deadline **Friday 8 May**. 
-
-### Call for Participation
-
 
 ### Upcoming Events in 3 Months
 
@@ -184,17 +160,9 @@ Events in 3 Months:
 
 + [Weekly R Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine)
 
-### Grants & Funding
-
-
-### Datasets
-
-
 ### Connect
 
 <i>[Join the Data Science Learning Community](https://DSLC.io/)</i>
-
-### rtistry
 
 
 ### Quotes of the Week
