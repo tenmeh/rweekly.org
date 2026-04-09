@@ -82,7 +82,7 @@ Use the Write tool to create `_posts/DATE-YEARWEEK.md` with the composed content
 
 ### Step 6: Reset the draft
 
-Read `for-editor-only-draft.txt` and overwrite `draft.md` with its contents exactly as-is.
+Read `for-editor-only-draft.txt` and overwrite `draft.md` with its contents, but update the title with the next week number. For example, if you just released `2026-W15`, change the title from `R Weekly 2026-W00` to `R Weekly 2026-W16` before writing.
 
 ### Step 7: Confirm
 
