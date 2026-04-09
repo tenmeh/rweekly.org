@@ -21,6 +21,8 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Tutorials
 
++ [Web scraping dynamic websites with RSelenium](https://firsa.eu/posts/rselenium/) - A practical tutorial on using RSelenium in R to extract content from pages that do not load cleanly with static scraping tools.
+  
 ### Resources
 
 ### New Packages
