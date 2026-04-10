@@ -15,6 +15,8 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### R in the Real World
 
+[Forecasting the price of gas in the US with Brent Crude Oil](https://ctompkins.netlify.app/posts/us_gas_price_forecast/)
+
 ### R in Organizations
 
 ### R in Academia
