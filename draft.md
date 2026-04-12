@@ -25,6 +25,8 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Tutorials
 
+- [perspectiveR: Interactive Pivot Tables and Charts from R](https://eydlinilya.github.io/perspectiveR/articles/perspectiveR.html)
+
 + [Web scraping dynamic websites with RSelenium](https://firsa.eu/posts/rselenium/) - A practical tutorial on using RSelenium in R to extract content from pages that do not load cleanly with static scraping tools.
   
 ### Resources
@@ -35,6 +37,8 @@ This week's release was curated by [](), with help from the R Weekly team member
 <p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
 
 **CRAN**
+
+- [{perspectiveR} 0.3.0](https://cran.r-project.org/package=perspectiveR): Interactive Pivot Tables and Visualizations with 'Perspective'
 
 **Bioconductor**
 
