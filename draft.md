@@ -36,6 +36,8 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 **GitHub or Bitbucket**
 
+- [puppeteeR - orchestrate multiple LLM agents into coordinated workflows](https://arnold-kakas.github.io/puppeteeR/)
+
 ### Updated Packages
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
