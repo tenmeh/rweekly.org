@@ -13,7 +13,11 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Insights
 
++ [You can just build your own programming language](https://brodrigues.co/posts/2026-04-03-tproject.html)
+
 ### R in the Real World
+
+[Forecasting the price of gas in the US with Brent Crude Oil](https://ctompkins.netlify.app/posts/us_gas_price_forecast/)
 
 ### R in Organizations
 
@@ -23,6 +27,8 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 - [perspectiveR: Interactive Pivot Tables and Charts from R](https://eydlinilya.github.io/perspectiveR/articles/perspectiveR.html)
 
++ [Web scraping dynamic websites with RSelenium](https://firsa.eu/posts/rselenium/) - A practical tutorial on using RSelenium in R to extract content from pages that do not load cleanly with static scraping tools.
+  
 ### Resources
 
 ### New Packages
@@ -37,6 +43,8 @@ This week's release was curated by [](), with help from the R Weekly team member
 **Bioconductor**
 
 **GitHub or Bitbucket**
+
+- [puppeteeR - orchestrate multiple LLM agents into coordinated workflows](https://arnold-kakas.github.io/puppeteeR/)
 
 ### Updated Packages
 
