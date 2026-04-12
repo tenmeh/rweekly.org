@@ -13,6 +13,8 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Insights
 
++ [You can just build your own programming language](https://brodrigues.co/posts/2026-04-03-tproject.html)
+
 ### R in the Real World
 
 [Forecasting the price of gas in the US with Brent Crude Oil](https://ctompkins.netlify.app/posts/us_gas_price_forecast/)
