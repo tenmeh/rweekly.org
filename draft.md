@@ -14,6 +14,7 @@ This week's release was curated by [Batool Almarzouq](https://batool-almarzouq.n
 
 - [perspectiveR: Interactive Pivot Tables and Charts from R](https://eydlinilya.github.io/perspectiveR/articles/perspectiveR.html)
 
+- [perspectiveR: Interactive Pivot Tables and Charts from R](https://eydlinilya.github.io/perspectiveR/articles/perspectiveR.html)
 
 ### Insights
 
@@ -25,25 +26,20 @@ This week's release was curated by [Batool Almarzouq](https://batool-almarzouq.n
 
 - [Forecasting the price of gas in the US with Brent Crude Oil](https://ctompkins.netlify.app/posts/us_gas_price_forecast/)
 
-### R in Organizations
-
-+ [Collaborating between Bioconductor and R-universe on Development of Common Infrastructure](https://ropensci.org/blog/2026/04/08/r-universe-bioc/)
-
-<img width="766" height="451" alt="Screenshot 2026-04-13 at 18 41 52" src="https://github.com/user-attachments/assets/ca673d44-78e3-49cd-89d4-d6d7aec1b85b" />
-
-### R in Academia
 
 ### Tutorials
 
 + [Stage II OSCC — Health Economics Model](https://rworks.dev/posts/oscc-patient-model/)
-<img width="694" height="493" alt="Screenshot 2026-04-13 at 18 45 47" src="https://github.com/user-attachments/assets/dc5c11da-fd0b-4840-87d2-93b076e9d638" />
 
-- [perspectiveR: Interactive Pivot Tables and Charts from R](https://eydlinilya.github.io/perspectiveR/articles/perspectiveR.html)
+<img width="694" height="493" alt="Screenshot 2026-04-13 at 18 45 47" src="https://github.com/user-attachments/assets/dc5c11da-fd0b-4840-87d2-93b076e9d638" />
 
 + [Using R to Teach R: Lessons for Software Development](https://www.jumpingrivers.com/blog/teaching-r-packages-reporting-gitlab/)
 
 + [Web scraping dynamic websites with RSelenium](https://firsa.eu/posts/rselenium/) - A practical tutorial on using RSelenium in R to extract content from pages that do not load cleanly with static scraping tools.
-  
+
+- [perspectiveR: Interactive Pivot Tables and Charts from R](https://eydlinilya.github.io/perspectiveR/articles/perspectiveR.html)
+
+
 ### Resources
 
 + [Questions We Forget To Ask When Designing an RCT](https://fharrell.com/talk/qrct/)
@@ -146,7 +142,6 @@ Can Handle All Sizes of Data - [diffify](https://diffify.com/R/dataverifyr)
 
 - [Listen to the R-Weekly Highlights Podcast](https://serve.podhome.fm/r-weekly-highlights)
 
-
 ### R Project Updates
 
 Updates from [R Core](http://developer.r-project.org/blosxom.cgi/R-devel/NEWS):
@@ -161,16 +156,21 @@ Events in 3 Months:
 
 - [Weekly R Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine)
 
-
 ### Connect
 
 <i>[Join the Data Science Learning Community](https://DSLC.io/)</i>
-
-### rtistry
-
 
 
 ### Quotes of the Week
 
 
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:e6nrx5ginucpccu6loqbpwe4/app.bsky.feed.post/3mjfr33wwm22o" data-bluesky-cid="bafyreidu2gij4efzbqglcie3mkk2z6rb6lalxljf4rll5ynhg55z2fckna" data-bluesky-embed-color-mode="system"><p lang="de">We grow, learn, and adapt to new circumstances throughout our lives. Our relationships, careers, and personal beliefs are also subject to change.
+
+Please feel free to share your opinion in the comments section!
+
+Follow to stay updated!
+
+Credit: Heraclitus
+
+#Quotes #BlackSky #Heraclitus<br><br><a href="https://bsky.app/profile/did:plc:e6nrx5ginucpccu6loqbpwe4/post/3mjfr33wwm22o?ref_src=embed">[image or embed]</a></p>&mdash; Relaxing Music • Sleep Music  🎶 (<a href="https://bsky.app/profile/did:plc:e6nrx5ginucpccu6loqbpwe4?ref_src=embed">@relax-sleep.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:e6nrx5ginucpccu6loqbpwe4/post/3mjfr33wwm22o?ref_src=embed">April 13, 2026 at 9:59 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
 
