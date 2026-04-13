@@ -7,13 +7,19 @@ image: https://rweekly.org/public/facebook.png
 
 - [How to have (my) content shared by R Weekly?](https://github.com/rweekly/rweekly.org#how-to-have-my-content-shared-by-r-weekly)
 
-This week's release was curated by [](), with help from the R Weekly team members and contributors.
+This week's release was curated by [Batool Almarzouq](https://batool-almarzouq.netlify.app/), with help from the R Weekly team members and contributors.
+
 
 ### Highlight
+
+- [perspectiveR: Interactive Pivot Tables and Charts from R](https://eydlinilya.github.io/perspectiveR/articles/perspectiveR.html)
+
 
 ### Insights
 
 + [You can just build your own programming language](https://brodrigues.co/posts/2026-04-03-tproject.html)
+
++ [Posit's AI Packages Explained: A Decision Map for R and Python Developers](https://www.appsilon.com/post/posits-ai-packages-explained-a-decision-map-for-r-and-python-developers)
 
 ### R in the Real World
 
@@ -21,15 +27,27 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### R in Organizations
 
++ [Collaborating between Bioconductor and R-universe on Development of Common Infrastructure](https://ropensci.org/blog/2026/04/08/r-universe-bioc/)
+
+<img width="766" height="451" alt="Screenshot 2026-04-13 at 18 41 52" src="https://github.com/user-attachments/assets/ca673d44-78e3-49cd-89d4-d6d7aec1b85b" />
+
 ### R in Academia
 
 ### Tutorials
 
++ [Stage II OSCC — Health Economics Model](https://rworks.dev/posts/oscc-patient-model/)
+<img width="694" height="493" alt="Screenshot 2026-04-13 at 18 45 47" src="https://github.com/user-attachments/assets/dc5c11da-fd0b-4840-87d2-93b076e9d638" />
+
 - [perspectiveR: Interactive Pivot Tables and Charts from R](https://eydlinilya.github.io/perspectiveR/articles/perspectiveR.html)
+
++ [Using R to Teach R: Lessons for Software Development](https://www.jumpingrivers.com/blog/teaching-r-packages-reporting-gitlab/)
 
 + [Web scraping dynamic websites with RSelenium](https://firsa.eu/posts/rselenium/) - A practical tutorial on using RSelenium in R to extract content from pages that do not load cleanly with static scraping tools.
   
 ### Resources
+
++ [Questions We Forget To Ask When Designing an RCT](https://fharrell.com/talk/qrct/)
+
 
 ### New Packages
 
