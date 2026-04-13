@@ -14,7 +14,8 @@ This week's release was curated by [Batool Almarzouq](https://batool-almarzouq.n
 
 - [perspectiveR: Interactive Pivot Tables and Charts from R](https://eydlinilya.github.io/perspectiveR/articles/perspectiveR.html)
 
-- [perspectiveR: Interactive Pivot Tables and Charts from R](https://eydlinilya.github.io/perspectiveR/articles/perspectiveR.html)
+- [puppeteeR - orchestrate multiple LLM agents into coordinated workflows](https://arnold-kakas.github.io/puppeteeR/)
+
 
 ### Insights
 
