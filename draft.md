@@ -23,7 +23,7 @@ This week's release was curated by [Batool Almarzouq](https://batool-almarzouq.n
 
 ### R in the Real World
 
-[Forecasting the price of gas in the US with Brent Crude Oil](https://ctompkins.netlify.app/posts/us_gas_price_forecast/)
+- [Forecasting the price of gas in the US with Brent Crude Oil](https://ctompkins.netlify.app/posts/us_gas_price_forecast/)
 
 ### R in Organizations
 
@@ -48,7 +48,6 @@ This week's release was curated by [Batool Almarzouq](https://batool-almarzouq.n
 
 + [Questions We Forget To Ask When Designing an RCT](https://fharrell.com/talk/qrct/)
 
-
 ### New Packages
 
 <!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> -->
@@ -58,7 +57,43 @@ This week's release was curated by [Batool Almarzouq](https://batool-almarzouq.n
 
 - [{perspectiveR} 0.3.0](https://cran.r-project.org/package=perspectiveR): Interactive Pivot Tables and Visualizations with 'Perspective'
 
-**Bioconductor**
++ [{countmaskr} 0.1.1](https://cran.r-project.org/package=countmaskr): Small Cell Masking Tool for One- & Two-Way Tabular Reports
+
++ [{akin} 0.1.4](https://cran.r-project.org/package=akin): Functional Utilities for Data Processing
+  
++ [{HHBayes} 0.1.1](https://cran.r-project.org/package=HHBayes): Bayesian Household Transmission Modeling with 'Stan'
+  
++ [{uuidx} 0.0.1](https://cran.r-project.org/package=uuidx): Modern UUIDs for R with a Rust Backend
+  
++ [{tidyactuarial} 0.1.1](https://cran.r-project.org/package=tidyactuarial): Tidy Tools for Actuarial Mathematics and Life Contingencies
+  
++ [{survdistr} 0.0.3](https://cran.r-project.org/package=survdistr): Survival Distribution Container with Flexible Interpolation
+Methods
+
++ [{circuitscaper} 0.1.0](https://cran.r-project.org/package=circuitscaper): 'Circuitscape' and 'Omniscape' Connectivity Analysis via 'Julia'
+  
++ [{shinydataviewer} 0.1.0](https://cran.r-project.org/package=shinydataviewer): Reusable Data Viewer Module for 'shiny'
+
++ [{midnight} 0.2.0](https://cran.r-project.org/package=midnight): A 'tidymodels' Engine and Other Extensions for the 'midr'
+Package
+
++ [{holideh} 0.1.0](https://cran.r-project.org/package=holideh): Working with Canadian Dates
+
++ [{standrecon} 0.1.0](https://cran.r-project.org/package=standrecon): Reconstruct Historical Forest Stand Conditions
+
++ [{VizModules} 0.1.1](https://cran.r-project.org/package=VizModules): Flexible, Interactive 'shiny' Modules for Almost Any Plot
+
++ [{sparqlr} 0.1.0](https://cran.r-project.org/package=sparqlr): A SPARQL Client for R
+
++ [{scholidonline} 0.1.0](https://cran.r-project.org/package=scholidonline): Resolution, Conversion, Linking and Metadata for Scholarly
+Identifiers
+
++ [{WHORiskCalculator} 1.0.0](https://cran.r-project.org/package=WHORiskCalculator): WHO Cardiovascular Disease Risk Calculator
+and Visualization
+
++ [{readelan} 0.1.0](https://cran.r-project.org/package=readelan): Read 'ELAN' Files
+  
++ [{assemblykor} 0.1.1](https://cran.r-project.org/package=assemblykor): Korean National Assembly Data for Political Science Education
 
 **GitHub or Bitbucket**
 
@@ -68,23 +103,53 @@ This week's release was curated by [Batool Almarzouq](https://batool-almarzouq.n
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
 
++ [{torch} 0.17.0](https://cran.r-project.org/package=torch): Tensors and Neural Networks with 'GPU' Acceleration - [diffify](https://diffify.com/R/torch)
+  
++ [{SeuratObject} 5.4.0](https://cran.r-project.org/package=SeuratObject): Data Structures for Single Cell Data - [diffify](https://diffify.com/R/SeuratObject)
+  
++ [{Rcmdr} 2.12.2](https://cran.r-project.org/package=Rcmdr): R Commander - [diffify](https://diffify.com/R/Rcmdr)
+  
++ [{metacoder} 0.3.9](https://cran.r-project.org/package=metacoder): Tools for Parsing, Manipulating, and Graphing Taxonomic
+Abundance Data - [diffify](https://diffify.com/R/metacoder)
+
++ [{spicy} 0.8.0](https://cran.r-project.org/package=spicy): Descriptive Statistics, Summary Tables, and Data Management
+Tools - [diffify](https://diffify.com/R/spicy)
+
++ [{transreg} 1.0.6](https://cran.r-project.org/package=transreg): Penalised Regression with Multiple Sets of Prior Effects
+('Transfer Learning') - [diffify](https://diffify.com/R/transreg)
+
++ [{tdarec} 0.2.1](https://cran.r-project.org/package=tdarec): A 'recipes' Extension for Persistent Homology and Its
+Vectorizations - [diffify](https://diffify.com/R/tdarec)
+
++ [{dataverifyr} 0.1.11](https://cran.r-project.org/package=dataverifyr): A Lightweight, Flexible, and Fast Data Validation Package that
+Can Handle All Sizes of Data - [diffify](https://diffify.com/R/dataverifyr)
+
++ [{equatiomatic} 0.4.8](https://cran.r-project.org/package=equatiomatic): Transform Models into 'LaTeX' Equations - [diffify](https://diffify.com/R/equatiomatic)
+  
++ [{shidashi} 0.2.0](https://cran.r-project.org/package=shidashi): A Shiny Dashboard Template Modular System with Chat Bot Support - [diffify](https://diffify.com/R/shidashi)
+  
++ [{ggrounded} 0.1.0](https://cran.r-project.org/package=ggrounded): Rounded Bar Plots - [diffify](https://diffify.com/R/ggrounded)
+  
++ [{ggpicrust2} 2.5.12](https://cran.r-project.org/package=ggpicrust2): Make 'PICRUSt2' Output Analysis and Visualization Easier - [diffify](https://diffify.com/R/ggpicrust2)
+  
++ [{this.path} 2.8.0](https://cran.r-project.org/package=this.path): Get Executing Script's Path - [diffify](https://diffify.com/R/this.path)
+
++ [{gecko} 1.0.3](https://cran.r-project.org/package=gecko): Geographical Ecology and Conservation Knowledge Online - [diffify](https://diffify.com/R/gecko)
+  
++ [{colorRamp2} 0.1.1](https://cran.r-project.org/package=colorRamp2): Generate Color Mapping Functions - [diffify](https://diffify.com/R/colorRamp2)
+
++ [{rpanel} 1.1-6.3](https://cran.r-project.org/package=rpanel): Simple Interactive Controls for R using the 'tcltk' Package - [diffify](https://diffify.com/R/rpanel)
+
++ [{shinylive} 0.4.1](https://cran.r-project.org/package=shinylive): Run 'shiny' Applications in the Browser - [diffify](https://diffify.com/R/shinylive)
+
 ### Videos and Podcasts
 
 - [Listen to the R-Weekly Highlights Podcast](https://serve.podhome.fm/r-weekly-highlights)
 
-### Gist & Cookbook
-
-### Shiny Apps
-
-### R Internationally
-
-<!--<div class="post-more-begin></div><div class="post-more-end"></div>-->
 
 ### R Project Updates
 
 Updates from [R Core](http://developer.r-project.org/blosxom.cgi/R-devel/NEWS):
-
-### Call for Participation
 
 ### Upcoming Events in 3 Months
 
@@ -96,9 +161,6 @@ Events in 3 Months:
 
 - [Weekly R Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine)
 
-### Grants & Funding
-
-### Datasets
 
 ### Connect
 
@@ -106,4 +168,9 @@ Events in 3 Months:
 
 ### rtistry
 
+
+
 ### Quotes of the Week
+
+
+
