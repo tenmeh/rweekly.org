@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [logrittr: A Verbose Pipe Operator for Logging dplyr Pipelines](https://guillaumepressiat.github.io/blog/2026/04/logrittr)
 
 ### Resources
 
