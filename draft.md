@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [reviser: Analyzing Real-Time Data Revisions in R](https://ropensci.org/blog/2026/04/13/reviser/)
 
 ### Resources
 
