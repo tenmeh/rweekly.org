@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [Programming with LLMs in R & Python](https://www.jumpingrivers.com/blog/programming-llms-r-python/)
 
 ### Resources
 
