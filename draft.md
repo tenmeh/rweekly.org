@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [Fair and Private Clinical Modeling in R: A Two-Package Workflow](https://cuiweig.github.io/posts/2026-04-19-fair-private-clinical-modeling/)
 
 ### Resources
 
