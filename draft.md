@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [Introducing lineagefreq: Tracking Pathogen Variant Dynamics in R](https://cuiweig.github.io/posts/2026-04-17-introducing-lineagefreq/)
 
 ### Resources
 
