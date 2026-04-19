@@ -34,6 +34,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [Post-hoc Fairness Audit of a Deployed Risk Score (COMPAS Case)](https://cuiweig.github.io/portfolio/02-fair-clinical-prediction/)
+
 
 ### Resources
 
