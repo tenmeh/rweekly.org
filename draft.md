@@ -34,6 +34,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [Why Most Time Series Models Fail Before They Start](https://mfatihtuzen.netlify.app/posts/2026-04-16_timeseries_stationary/)
+
 
 ### Resources
 
