@@ -34,6 +34,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [Forecasting SARS-CoV-2 Variant Dominance: A Multi-Engine Approach](https://cuiweig.github.io/portfolio/01-variant-forecasting/)
+
 
 ### Resources
 
