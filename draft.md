@@ -47,6 +47,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **CRAN**
 
++ [{bdlnm}](https://cran.r-project.org/package=bdlnm): Bayesian Distributed Lag Non-Linear Models via INLA
+
 
 **Bioconductor**
 
