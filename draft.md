@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [Programming with LLMs in R & Python](https://www.jumpingrivers.com/blog/programming-llms-r-python/)
 + [logrittr: A Verbose Pipe Operator for Logging dplyr Pipelines](https://guillaumepressiat.github.io/blog/2026/04/logrittr)
 + [reviser: Analyzing Real-Time Data Revisions in R](https://ropensci.org/blog/2026/04/13/reviser/)
 + [Fair and Private Clinical Modeling in R: A Two-Package Workflow](https://cuiweig.github.io/posts/2026-04-19-fair-private-clinical-modeling/)
