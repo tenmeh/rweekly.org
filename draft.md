@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [Why Most Time Series Models Fail Before They Start](https://mfatihtuzen.netlify.app/posts/2026-04-16_timeseries_stationary/)
 + [Post-hoc Fairness Audit of a Deployed Risk Score (COMPAS Case)](https://cuiweig.github.io/portfolio/02-fair-clinical-prediction/)
 + [Forecasting SARS-CoV-2 Variant Dominance: A Multi-Engine Approach](https://cuiweig.github.io/portfolio/01-variant-forecasting/)
 + [Programming with LLMs in R & Python](https://www.jumpingrivers.com/blog/programming-llms-r-python/)
