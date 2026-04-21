@@ -54,7 +54,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **GitHub or Bitbucket**
 
-
+* [{mypaintr}](https://hughjonesd.github.io/mypaintr/): Plot R graphics like a human
 
 ### Updated Packages
 
