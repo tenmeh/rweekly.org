@@ -49,6 +49,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **CRAN**
 
++ [{notionapi} 0.2.0](https://cran.r-project.org/package=notionapi): A comprehensive Notion API client for R with sync and async support
 + [{lineagefreq} 0.2.0](https://cran.r-project.org/package=lineagefreq): Lineage Frequency Dynamics from Genomic Surveillance Counts
 
 + [{survinger} 0.1.1](https://cran.r-project.org/package=survinger): Design-Adjusted Inference for Pathogen Lineage Surveillance
