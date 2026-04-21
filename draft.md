@@ -49,6 +49,13 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **CRAN**
 
++ [{lineagefreq} 0.2.0](https://cran.r-project.org/package=lineagefreq): Lineage Frequency Dynamics from Genomic Surveillance Counts
+
++ [{survinger} 0.1.1](https://cran.r-project.org/package=survinger): Design-Adjusted Inference for Pathogen Lineage Surveillance
+
++ [{clinicalfair} 0.1.0](https://cran.r-project.org/package=clinicalfair): Algorithmic Fairness Assessment for Clinical Prediction Models
+
++ [{syntheticdata} 0.1.0](https://cran.r-project.org/package=syntheticdata): Synthetic Clinical Data Generation and Privacy-Preserving Validation
 
 **Bioconductor**
 
