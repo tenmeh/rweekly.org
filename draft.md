@@ -35,6 +35,13 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 ### Tutorials
 
 + [Post-hoc Fairness Audit of a Deployed Risk Score (COMPAS Case)](https://cuiweig.github.io/portfolio/02-fair-clinical-prediction/)
++ [Forecasting SARS-CoV-2 Variant Dominance: A Multi-Engine Approach](https://cuiweig.github.io/portfolio/01-variant-forecasting/)
++ [Programming with LLMs in R & Python](https://www.jumpingrivers.com/blog/programming-llms-r-python/)
++ [logrittr: A Verbose Pipe Operator for Logging dplyr Pipelines](https://guillaumepressiat.github.io/blog/2026/04/logrittr)
++ [reviser: Analyzing Real-Time Data Revisions in R](https://ropensci.org/blog/2026/04/13/reviser/)
++ [Fair and Private Clinical Modeling in R: A Two-Package Workflow](https://cuiweig.github.io/posts/2026-04-19-fair-private-clinical-modeling/)
++ [Introducing lineagefreq: Tracking Pathogen Variant Dynamics in R](https://cuiweig.github.io/posts/2026-04-17-introducing-lineagefreq/)
+- [Generating universes within universes with a single seed](https://www.andrewheiss.com/blog/2026/04/13/seeds-predetermined-universes/): See how one call to `set.seed()` in R creates an entire predetermined universe of pseudorandom numbers
 
 
 ### Resources
@@ -49,6 +56,14 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **CRAN**
 
++ [{notionapi} 0.2.0](https://cran.r-project.org/package=notionapi): A comprehensive Notion API client for R with sync and async support
++ [{lineagefreq} 0.2.0](https://cran.r-project.org/package=lineagefreq): Lineage Frequency Dynamics from Genomic Surveillance Counts
+
++ [{survinger} 0.1.1](https://cran.r-project.org/package=survinger): Design-Adjusted Inference for Pathogen Lineage Surveillance
+
++ [{clinicalfair} 0.1.0](https://cran.r-project.org/package=clinicalfair): Algorithmic Fairness Assessment for Clinical Prediction Models
+
++ [{syntheticdata} 0.1.0](https://cran.r-project.org/package=syntheticdata): Synthetic Clinical Data Generation and Privacy-Preserving Validation
 
 **Bioconductor**
 
@@ -56,11 +71,13 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **GitHub or Bitbucket**
 
-
+* [{mypaintr}](https://hughjonesd.github.io/mypaintr/): Plot R graphics like a human
 
 ### Updated Packages
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
+ 
++ [{qol} 1.3.0](https://cran.r-project.org/package=qol): Powerful 'SAS' Inspired Concepts for more Efficient Bigger Outputs - [diffify](https://diffify.com/R/qol) 
 
 ### Videos and Podcasts
 
