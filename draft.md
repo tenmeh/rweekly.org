@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [Introducing lineagefreq: Tracking Pathogen Variant Dynamics in R](https://cuiweig.github.io/posts/2026-04-17-introducing-lineagefreq/)
 - [Generating universes within universes with a single seed](https://www.andrewheiss.com/blog/2026/04/13/seeds-predetermined-universes/): See how one call to `set.seed()` in R creates an entire predetermined universe of pseudorandom numbers
 
 
