@@ -18,7 +18,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Insights
 
-
++ [mori is a new R package for sharing R objects across processes via OS-level shared memory](https://opensource.posit.co/blog/2026-04-23_mori-0-1-0/)
 
 ### R in the Real World
 
@@ -57,7 +57,10 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **CRAN**
 
++ [{mori} 0.1.0](https://cran.r-project.org/package=mori): Shared Memory for R Objects
+
 + [{notionapi} 0.2.0](https://cran.r-project.org/package=notionapi): A comprehensive Notion API client for R with sync and async support
+
 + [{lineagefreq} 0.2.0](https://cran.r-project.org/package=lineagefreq): Lineage Frequency Dynamics from Genomic Surveillance Counts
 
 + [{survinger} 0.1.1](https://cran.r-project.org/package=survinger): Design-Adjusted Inference for Pathogen Lineage Surveillance
