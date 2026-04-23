@@ -20,6 +20,9 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 + [mori is a new R package for sharing R objects across processes via OS-level shared memory](https://opensource.posit.co/blog/2026-04-23_mori-0-1-0/)
 
+<img alt="Diagram: one share(obj) call writes an R object into OS-backed shared memory; four processes each mmap the same region and access it through ALTREP wrappers for zero-copy reads" src="https://raw.githubusercontent.com/shikokuchuo/mori/refs/heads/main/man/figures/mori-diagram.svg" width="600">
+
+
 ### R in the Real World
 
 
