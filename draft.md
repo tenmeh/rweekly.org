@@ -46,7 +46,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 + [Fair and Private Clinical Modeling in R: A Two-Package Workflow](https://cuiweig.github.io/posts/2026-04-19-fair-private-clinical-modeling/)
 + [Introducing lineagefreq: Tracking Pathogen Variant Dynamics in R](https://cuiweig.github.io/posts/2026-04-17-introducing-lineagefreq/)
 - [Generating universes within universes with a single seed](https://www.andrewheiss.com/blog/2026/04/13/seeds-predetermined-universes/): See how one call to `set.seed()` in R creates an entire predetermined universe of pseudorandom numbers
-
+- [Interfacing with the FFIEC API to analyze U.S. bank Call Report data](https://ketchbrookanalytics.github.io/ffiec/articles/general-workflow.html): A vignette providing a general workflow for retrieving Call Report data for multiple banking institutions across multiple time periods with a single function call.
 
 ### Resources
 
