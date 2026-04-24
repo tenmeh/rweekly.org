@@ -21,6 +21,10 @@ This week’s release was curated by [Jonathan Kitt](https://bsky.app/profile/jo
 
 + [New York City Hexmaps](https://kieranhealy.org/blog/archives/2026/04/19/new-york-city-hexmaps/)
 
++ [Mounting tar archives as a filesystem in WebAssembly](https://jeroen.github.io/notes/webassembly-tar/)
+
+<img src="https://jeroen.github.io/notes/webassembly-tar/preview.svg" alt="Diagram illustrating the steps outlined in the blog post of mounting a tar.gz file in VFS" width="600"/>
+
 ### R in the Real World
 
 + [A Data-Driven Survey of MLB Franchise Management](https://redwallanalytics.com/posts/2026-04-19-a-data-driven-survey-of-mlb-franchise-management/)
