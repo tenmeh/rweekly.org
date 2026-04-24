@@ -66,6 +66,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 + [{syntheticdata} 0.1.0](https://cran.r-project.org/package=syntheticdata): Synthetic Clinical Data Generation and Privacy-Preserving Validation
 
++ [{printify} 1.0.0](https://cran.r-project.org/package=printify): Custom Formatted Console Messages With Timing Support
+
 **Bioconductor**
 
 
