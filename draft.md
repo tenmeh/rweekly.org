@@ -13,114 +13,124 @@ This week’s release was curated by [Jonathan Kitt](https://bsky.app/profile/jo
 
 ### Insights
 
--   [What's new in R 4.6.0?](https://www.jumpingrivers.com/blog/whats-new-r46/)
++ [What's new in R 4.6.0?](https://www.jumpingrivers.com/blog/whats-new-r46/)
 
--   [mori: Shared memory for R objects](https://opensource.posit.co/blog/2026-04-23_mori-0-1-0/)
++ [mori: Shared memory for R objects](https://opensource.posit.co/blog/2026-04-23_mori-0-1-0/)
 
 <img src="https://raw.githubusercontent.com/shikokuchuo/mori/refs/heads/main/man/figures/mori-diagram.svg" alt="Diagram: one share(obj) call writes an R object into OS-backed shared memory; four processes each mmap the same region and access it through ALTREP wrappers for zero-copy reads" width="600"/>
 
--   [New York City Hexmaps](https://kieranhealy.org/blog/archives/2026/04/19/new-york-city-hexmaps/)
++ [New York City Hexmaps](https://kieranhealy.org/blog/archives/2026/04/19/new-york-city-hexmaps/)
 
 ### R in the Real World
 
--   [A Data-Driven Survey of MLB Franchise Management](https://redwallanalytics.com/posts/2026-04-19-a-data-driven-survey-of-mlb-franchise-management/)
++ [A Data-Driven Survey of MLB Franchise Management](https://redwallanalytics.com/posts/2026-04-19-a-data-driven-survey-of-mlb-franchise-management/)
 
 ![](https://redwallanalytics.com/posts/2026-04-19-a-data-driven-survey-of-mlb-franchise-management/images/payroll_vs_achievement.png){width="600"}
 
--   [Stage II OSCC — Health Economics Model](https://rworks.dev/posts/oscc-patient-model/)
++ [Stage II OSCC — Health Economics Model](https://rworks.dev/posts/oscc-patient-model/)
 
 ### R in Organizations
 
--   [Investing in the R Community: Our Support for Global R Events in 2026](https://r-consortium.org/posts/investing-in-the-r-community-our-support-for-global-r-events-in-2026/index.html)
--   [Expanding the Editorial Team: Alec Robitaille and Lucy D'Agostino McGowan Join as Editors](https://ropensci.org/blog/2026/04/16/editors2026/)
++ [Investing in the R Community: Our Support for Global R Events in 2026](https://r-consortium.org/posts/investing-in-the-r-community-our-support-for-global-r-events-in-2026/index.html)
+
++ [Expanding the Editorial Team: Alec Robitaille and Lucy D'Agostino McGowan Join as Editors](https://ropensci.org/blog/2026/04/16/editors2026/)
 
 ### R in Academia
 
--   [New Preprint: Climate Change Coverage in The Guardian, 2010–2025](http://jmbh.github.io//GuardianClimateReporting/)
--   [Introducing Axon.R: Appsilon's Framework for R Package Validation in Pharma](https://www.appsilon.com/post/introducing-axon-r-appsilons-framework-for-r-package-validation-in-pharma)
++ [New Preprint: Climate Change Coverage in The Guardian, 2010–2025](http://jmbh.github.io//GuardianClimateReporting/)
+
++ [Introducing Axon.R: Appsilon's Framework for R Package Validation in Pharma](https://www.appsilon.com/post/introducing-axon-r-appsilons-framework-for-r-package-validation-in-pharma)
 
 ### Tutorials
 
--   [Schotter Plots in R](https://jcarroll.com.au/2026/04/17/schotter-plots-in-r/)
++ [Schotter Plots in R](https://jcarroll.com.au/2026/04/17/schotter-plots-in-r/)
 
--   [Why Most Time Series Models Fail Before They Start](https://www.r-bloggers.com/2026/04/why-most-time-series-models-fail-before-they-start/)
++ [Why Most Time Series Models Fail Before They Start](https://www.r-bloggers.com/2026/04/why-most-time-series-models-fail-before-they-start/)
 
--   [Post-hoc Fairness Audit of a Deployed Risk Score (COMPAS Case)](https://cuiweig.github.io/portfolio/02-fair-clinical-prediction/)
++ [Post-hoc Fairness Audit of a Deployed Risk Score (COMPAS Case)](https://cuiweig.github.io/portfolio/02-fair-clinical-prediction/)
 
--   [Forecasting SARS-CoV-2 Variant Dominance: A Multi-Engine Approach](https://cuiweig.github.io/portfolio/01-variant-forecasting/)
++ [Forecasting SARS-CoV-2 Variant Dominance: A Multi-Engine Approach](https://cuiweig.github.io/portfolio/01-variant-forecasting/)
 
--   [logrittr: A Verbose Pipe Operator for Logging dplyr Pipelines](https://guillaumepressiat.github.io/blog/2026/04/logrittr)
++ [logrittr: A Verbose Pipe Operator for Logging dplyr Pipelines](https://guillaumepressiat.github.io/blog/2026/04/logrittr)
 
 ![](https://guillaumepressiat.github.io/images/nycflights13_example.png)
 
--   [reviser: Analyzing Real-Time Data Revisions in R](https://ropensci.org/blog/2026/04/13/reviser/)
++ [reviser: Analyzing Real-Time Data Revisions in R](https://ropensci.org/blog/2026/04/13/reviser/)
 
--   [Fair and Private Clinical Modeling in R: A Two-Package Workflow](https://cuiweig.github.io/posts/2026-04-19-fair-private-clinical-modeling/)
++ [Fair and Private Clinical Modeling in R: A Two-Package Workflow](https://cuiweig.github.io/posts/2026-04-19-fair-private-clinical-modeling/)
 
--   [Introducing lineagefreq: Tracking Pathogen Variant Dynamics in R](https://cuiweig.github.io/posts/2026-04-17-introducing-lineagefreq/)
++ [Introducing lineagefreq: Tracking Pathogen Variant Dynamics in R](https://cuiweig.github.io/posts/2026-04-17-introducing-lineagefreq/)
 
--   [Generating universes within universes with a single seed](https://www.andrewheiss.com/blog/2026/04/13/seeds-predetermined-universes/): See how one call to `set.seed()` in R creates an entire predetermined universe of pseudorandom numbers
++ [Generating universes within universes with a single seed](https://www.andrewheiss.com/blog/2026/04/13/seeds-predetermined-universes/): See how one call to `set.seed()` in R creates an entire predetermined universe of pseudorandom numbers
 
--   [Interfacing with the FFIEC API to analyze U.S. bank Call Report data](https://ketchbrookanalytics.github.io/ffiec/articles/general-workflow.html): A vignette providing a general workflow for retrieving Call Report data for multiple banking institutions across multiple time periods with a single function call.
++ [Interfacing with the FFIEC API to analyze U.S. bank Call Report data](https://ketchbrookanalytics.github.io/ffiec/articles/general-workflow.html): A vignette providing a general workflow for retrieving Call Report data for multiple banking institutions across multiple time periods with a single function call.
 
 ### Resources
 
--   [Working Smarter in R: Tips, Tricks & Real-World Lessons](https://nrennie.rbind.io/talks/rladies-remote-r-tips/)
++ [Working Smarter in R: Tips, Tricks & Real-World Lessons](https://nrennie.rbind.io/talks/rladies-remote-r-tips/)
 
 ### New Packages
 
-<!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> -->
-
-<p class="added-hostname">
-
-<a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a>
-
-</p>
+<!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> --> 
+<p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
 
 **CRAN**
 
--   [{mori} 0.1.0](https://cran.r-project.org/package=mori): Shared Memory for R Objects
++ [{mori} 0.1.0](https://cran.r-project.org/package=mori): Shared Memory for R Objects
 
--   [{notionapi} 0.2.0](https://cran.r-project.org/package=notionapi): A comprehensive Notion API client for R with sync and async support
++ [{notionapi} 0.2.0](https://cran.r-project.org/package=notionapi): A comprehensive Notion API client for R with sync and async support
 
--   [{lineagefreq} 0.2.0](https://cran.r-project.org/package=lineagefreq): Lineage Frequency Dynamics from Genomic Surveillance Counts
++ [{lineagefreq} 0.2.0](https://cran.r-project.org/package=lineagefreq): Lineage Frequency Dynamics from Genomic Surveillance Counts
 
--   [{survinger} 0.1.1](https://cran.r-project.org/package=survinger): Design-Adjusted Inference for Pathogen Lineage Surveillance
++ [{survinger} 0.1.1](https://cran.r-project.org/package=survinger): Design-Adjusted Inference for Pathogen Lineage Surveillance
 
--   [{clinicalfair} 0.1.0](https://cran.r-project.org/package=clinicalfair): Algorithmic Fairness Assessment for Clinical Prediction Models
++ [{clinicalfair} 0.1.0](https://cran.r-project.org/package=clinicalfair): Algorithmic Fairness Assessment for Clinical Prediction Models
 
--   [{syntheticdata} 0.1.0](https://cran.r-project.org/package=syntheticdata): Synthetic Clinical Data Generation and Privacy-Preserving Validation
++ [{syntheticdata} 0.1.0](https://cran.r-project.org/package=syntheticdata): Synthetic Clinical Data Generation and Privacy-Preserving Validation
 
--   [{printify} 1.0.0](https://cran.r-project.org/package=printify): Custom Formatted Console Messages With Timing Support
-
++ [{printify} 1.0.0](https://cran.r-project.org/package=printify): Custom Formatted Console Messages With Timing Support
 
 **GitHub**
 
--   [{mypaintr}](https://hughjonesd.github.io/mypaintr/): Plot R graphics like a human
++ [{mypaintr}](https://hughjonesd.github.io/mypaintr/): Plot R graphics like a human
 
 ### Updated Packages
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
 
--   [{qol} 1.3.0](https://cran.r-project.org/package=qol): Powerful 'SAS' Inspired Concepts for more Efficient Bigger Outputs - [diffify](https://diffify.com/R/qol)
--   [{ggstatsplot} 1.0.0](https://cran.r-project.org/package=ggstatsplot): 'ggplot2' Based Plots with Statistical Details - [diffify](https://diffify.com/R/ggstatsplot)
--   [{statsExpressions} 2.0.0](https://cran.r-project.org/package=statsExpressions): Tidy Dataframes and Expressions with Statistical Details - [diffify](https://diffify.com/R/statsExpressions)
--   [{ggguides} 1.1.6](https://cran.r-project.org/package=ggguides): Simplified Legend and Guide Alignment for 'ggplot2' - [diffify](https://diffify.com/R/ggguides)
--   [{GitStats} 2.5.1](https://cran.r-project.org/package=GitStats): Standardized Git Repository Data - [diffify](https://diffify.com/R/GitStats)
--   [{vip} 0.4.6](https://cran.r-project.org/package=vip): Variable Importance Plots - [diffify](https://diffify.com/R/vip)
--   [{ggforestplotR} 0.1.1](https://cran.r-project.org/package=ggforestplotR): Publication-Ready Forest Plots with 'ggplot2' - [diffify](https://diffify.com/R/ggforestplotR)
--   [{SCIproj} 1.0.1](https://cran.r-project.org/package=SCIproj): Creates a Scientific Project Skeleton as an R Package - [diffify](https://diffify.com/R/SCIproj)
--   [{ggplot2} 4.0.3](https://cran.r-project.org/package=ggplot2): Create Elegant Data Visualisations Using the Grammar of Graphics - [diffify](https://diffify.com/R/ggplot2)
--   [{germinationmetrics} 0.1.10](https://cran.r-project.org/package=germinationmetrics): Seed Germination Indices and Curve Fitting - [diffify](https://diffify.com/R/germinationmetrics)
--   [{geneticae} 1.0.1](https://cran.r-project.org/package=geneticae): Statistical Tools for the Analysis of Multi Environment Agronomic Trials - [diffify](https://diffify.com/R/geneticae)
--   [{tidyprompt} 0.4.0](https://cran.r-project.org/package=tidyprompt): Prompt Large Language Models and Enhance Their Functionality - [diffify](https://diffify.com/R/tidyprompt)
--   [{eulerr} 7.1.0](https://cran.r-project.org/package=eulerr): Area-Proportional Euler and Venn Diagrams with Ellipses - [diffify](https://diffify.com/R/eulerr)
--   [{robustlmm} 3.4-3](https://cran.r-project.org/package=robustlmm): Robust Linear Mixed Effects Models - [diffify](https://diffify.com/R/robustlmm)
--   [{nanoparquet} 0.5.1](https://cran.r-project.org/package=nanoparquet): Read and Write 'Parquet' Files - [diffify](https://diffify.com/R/nanoparquet)
++ [{qol} 1.3.0](https://cran.r-project.org/package=qol): Powerful 'SAS' Inspired Concepts for more Efficient Bigger Outputs - [diffify](https://diffify.com/R/qol)
+
++ [{ggstatsplot} 1.0.0](https://cran.r-project.org/package=ggstatsplot): 'ggplot2' Based Plots with Statistical Details - [diffify](https://diffify.com/R/ggstatsplot)
+
++ [{statsExpressions} 2.0.0](https://cran.r-project.org/package=statsExpressions): Tidy Dataframes and Expressions with Statistical Details - [diffify](https://diffify.com/R/statsExpressions)
+
++ [{ggguides} 1.1.6](https://cran.r-project.org/package=ggguides): Simplified Legend and Guide Alignment for 'ggplot2' - [diffify](https://diffify.com/R/ggguides)
+
++ [{GitStats} 2.5.1](https://cran.r-project.org/package=GitStats): Standardized Git Repository Data - [diffify](https://diffify.com/R/GitStats)
+
++ [{vip} 0.4.6](https://cran.r-project.org/package=vip): Variable Importance Plots - [diffify](https://diffify.com/R/vip)
+
++ [{ggforestplotR} 0.1.1](https://cran.r-project.org/package=ggforestplotR): Publication-Ready Forest Plots with 'ggplot2' - [diffify](https://diffify.com/R/ggforestplotR)
+
++ [{SCIproj} 1.0.1](https://cran.r-project.org/package=SCIproj): Creates a Scientific Project Skeleton as an R Package - [diffify](https://diffify.com/R/SCIproj)
+
++ [{ggplot2} 4.0.3](https://cran.r-project.org/package=ggplot2): Create Elegant Data Visualisations Using the Grammar of Graphics - [diffify](https://diffify.com/R/ggplot2)
+
++ [{germinationmetrics} 0.1.10](https://cran.r-project.org/package=germinationmetrics): Seed Germination Indices and Curve Fitting - [diffify](https://diffify.com/R/germinationmetrics)
+
++ [{geneticae} 1.0.1](https://cran.r-project.org/package=geneticae): Statistical Tools for the Analysis of Multi Environment Agronomic Trials - [diffify](https://diffify.com/R/geneticae)
+
++ [{tidyprompt} 0.4.0](https://cran.r-project.org/package=tidyprompt): Prompt Large Language Models and Enhance Their Functionality - [diffify](https://diffify.com/R/tidyprompt)
+
++ [{eulerr} 7.1.0](https://cran.r-project.org/package=eulerr): Area-Proportional Euler and Venn Diagrams with Ellipses - [diffify](https://diffify.com/R/eulerr)
+
++ [{robustlmm} 3.4-3](https://cran.r-project.org/package=robustlmm): Robust Linear Mixed Effects Models - [diffify](https://diffify.com/R/robustlmm)
+
++ [{nanoparquet} 0.5.1](https://cran.r-project.org/package=nanoparquet): Read and Write 'Parquet' Files - [diffify](https://diffify.com/R/nanoparquet)
 
 ### Videos and Podcasts
 
--   [Listen to the R-Weekly Highlights Podcast](https://serve.podhome.fm/r-weekly-highlights)
++ [Listen to the R-Weekly Highlights Podcast](https://serve.podhome.fm/r-weekly-highlights)
 
 ### R Project Updates
 
@@ -130,15 +140,15 @@ Updates from [R Core](http://developer.r-project.org/blosxom.cgi/R-devel/NEWS):
 
 Events in 3 Months:
 
--   [A list of R conferences and meetings](https://jumpingrivers.github.io/meetingsR/events.html)
++ [A list of R conferences and meetings](https://jumpingrivers.github.io/meetingsR/events.html)
 
--   [This week's local R-User and applied stats events](https://community.rstudio.com/c/irl)
++ [This week's local R-User and applied stats events](https://community.rstudio.com/c/irl)
 
--   [Weekly R Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine)
++ [Weekly R Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine)
 
 ### Grants & Funding
 
--   [New Value: increasing cost of UKRI research grants](https://quantixed.org/2026/04/22/new-value-increasing-cost-of-ukri-research-grants/)
++ [New Value: increasing cost of UKRI research grants](https://quantixed.org/2026/04/22/new-value-increasing-cost-of-ukri-research-grants/)
 
 
 ### Connect
