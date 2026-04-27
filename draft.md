@@ -65,6 +65,8 @@ This week’s release was curated by [Jonathan Kitt](https://bsky.app/profile/jo
 
 + [Interfacing with the FFIEC API to analyze U.S. bank Call Report data](https://ketchbrookanalytics.github.io/ffiec/articles/general-workflow.html)
 
++ [deckroadmap: Give your Reveal.js slides a sense of direction](https://tigertang.org/deckroadmap/)
+
 ### Resources
 
 + [Working Smarter in R: Tips, Tricks & Real-World Lessons](https://nrennie.rbind.io/talks/rladies-remote-r-tips/)
@@ -89,6 +91,8 @@ This week’s release was curated by [Jonathan Kitt](https://bsky.app/profile/jo
 + [{syntheticdata} 0.1.0](https://cran.r-project.org/package=syntheticdata): Synthetic Clinical Data Generation and Privacy-Preserving Validation
 
 + [{printify} 1.0.0](https://cran.r-project.org/package=printify): Custom Formatted Console Messages With Timing Support
+
++ [{deckroadmap} 0.1.4](https://cran.r-project.org/package=deckroadmap): Automated Roadmap Footers for Quarto and R Markdown Reveal.js Slides
 
 **GitHub**
 
