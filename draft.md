@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [Named Entity Recognition in R with reticulate and transformers](https://firsa.eu/posts/ner_reticulate/ner_tutorial_r.html) - A practical tutorial showing how to run named entity recognition in R by connecting to Python models through reticulate.
 
 ### Resources
 
