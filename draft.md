@@ -39,6 +39,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 ### Tutorials
 
 
++ [deckroadmap: Give your Reveal.js slides a sense of direction](https://tigertang.org/deckroadmap/)
+
 ### Resources
 
 
@@ -58,6 +60,9 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **GitHub or Bitbucket**
 
++ [{deckroadmap} 0.1.4](https://cran.r-project.org/package=deckroadmap): Automated Roadmap Footers for Quarto and R Markdown Reveal.js Slides
+
+**GitHub**
 
 
 ### Updated Packages
