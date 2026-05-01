@@ -20,6 +20,10 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 
 
++ [Mounting tar archives as a filesystem in WebAssembly](https://jeroen.github.io/notes/webassembly-tar/)
+
+<img src="https://jeroen.github.io/notes/webassembly-tar/preview.svg" alt="Diagram illustrating the steps outlined in the blog post of mounting a tar.gz file in VFS" width="600"/>
+
 ### R in the Real World
 
 
