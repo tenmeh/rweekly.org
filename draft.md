@@ -44,7 +44,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Resources
 
-
+[Announcing shiny.webawesome: a web UI package for R/Shiny](https://mbanand.github.io/ghpages/announcement/)
 
 ### New Packages
 
@@ -53,6 +53,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 
 **CRAN**
+
+[{shiny.webawesome} 1.0.0](https://cran.r-project.org/package=shiny.webawesome): A complete and ergonomic interface to the Web Awesome component library for R/Shiny users
 
 
 **Bioconductor**
