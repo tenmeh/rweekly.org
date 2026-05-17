@@ -104,6 +104,8 @@ This week's release was curated by [](), with help from the R Weekly team member
 * [{rstudiothemes} 1.1.1](https://cran.r-project.org/package=rstudiothemes) + [diffify](https://diffify.com/R/rstudiothemes)
 * [{piecepackr} 1.16.1](https://cran.r-project.org/package=piecepackr) + [diffify](https://diffify.com/R/piecepackr)
 * [{ggRandomForests} 2.7.3](https://cran.r-project.org/package=ggRandomForests) + [diffify](https://diffify.com/R/ggRandomForests)
++ [{qol} 1.3.1](https://cran.r-project.org/package=qol): Powerful 'SAS' Inspired Concepts for more Efficient Bigger Outputs + [diffify](https://diffify.com/R/qol)
++ [{printify} 1.0.1](https://cran.r-project.org/package=printify): Custom Formatted Console Messages With Timing Support + [diffify](https://diffify.com/R/printify)
 
 ### Videos and Podcasts
 
