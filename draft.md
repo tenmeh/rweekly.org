@@ -18,7 +18,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Insights
 
-
++ [ctrlvee: Extract external R code and insert inline](https://blog.stephenturner.us/p/ctrlvee-extract-external-r-code-insert-inline-positron-rstudio-addin): Fetch R code from an external source and insert it directly in an editor. Built as an add-in for integrating with Positron and RStudio.
 
 ### R in the Real World
 
@@ -47,6 +47,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 **CRAN**
 
++ [{ctrlvee} 0.1.0](https://cran.r-project.org/package=ctrlvee): Extract External R Code and Insert Inline
 
 **Bioconductor**
 
@@ -54,7 +55,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 **GitHub or Bitbucket**
 
-
++ [ctrlvee: Extract External R Code and Insert Inline](https://github.com/vpnagraj/ctrlvee)
 
 ### Updated Packages
 
