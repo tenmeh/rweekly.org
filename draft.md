@@ -30,7 +30,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### R in Academia
 
-
+[Free summer introductory data science class](https://bootcamp.davidkane.info/) for high school students, now in its 6th year! Makes extensive use of AI.
 
 ### Tutorials
 
