@@ -18,7 +18,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Insights
 
-
+* [Making RmlxStats fast and accurate](https://hughjonesd.github.io/making-RmlxStats-fast-and-accurate.html)
 
 ### R in the Real World
 
