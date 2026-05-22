@@ -37,7 +37,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Resources
 
-
+- [Welcome to the New Home for Posit Open Source](https://opensource.posit.co/blog/2026-05-19_welcome-to-the-new-home-for-posit-open-source/)
 
 ### New Packages
 
