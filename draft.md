@@ -18,7 +18,8 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Insights
 
-
+- [Positron May Release Highlights](https://opensource.posit.co/blog/2026-05-11_positron-2026-05-release/)
+- [Quarto 2: Parsing and Source Maps](https://opensource.posit.co/blog/2026-05-07_quarto-2-parsing/)
 
 ### R in the Real World
 
