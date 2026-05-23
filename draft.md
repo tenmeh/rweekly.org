@@ -18,7 +18,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Insights
 
-
++ [ctrlvee: Extract external R code and insert inline](https://blog.stephenturner.us/p/ctrlvee-extract-external-r-code-insert-inline-positron-rstudio-addin): Fetch R code from an external source and insert it directly in an editor. Built as an add-in for integrating with Positron and RStudio.
 
 ### R in the Real World
 
@@ -30,7 +30,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### R in Academia
 
-
+[Free summer introductory data science class](https://bootcamp.davidkane.info/) for high school students, now in its 6th year! Makes extensive use of AI.
 
 ### Tutorials
 
@@ -43,10 +43,11 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 <!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> --> 
 <p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
-
+[curriculr: the case for a data-driven CV](https://erwinlares.github.io/curriculr/articles/curriculr-why.html)
 
 **CRAN**
 
++ [{ctrlvee} 0.1.0](https://cran.r-project.org/package=ctrlvee): Extract External R Code and Insert Inline
 
 **Bioconductor**
 
@@ -56,12 +57,14 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 * [ggchord2](https://gitlab.com/nrennie/ggchord2): Chord diagrams for 'ggplot2'
 
++ [ctrlvee: Extract External R Code and Insert Inline](https://github.com/vpnagraj/ctrlvee)
 
 ### Updated Packages
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
 
-+ [A memory model for production async R: mirai 2.7.0 and mori 0.2.0](https://opensource.posit.co/blog/2026-05-12_production-async-r/)
++ [{qol} 1.3.1](https://cran.r-project.org/package=qol): Powerful 'SAS' Inspired Concepts for more Efficient Bigger Outputs + [diffify](https://diffify.com/R/qol)
++ [{printify} 1.0.1](https://cran.r-project.org/package=printify): Custom Formatted Console Messages With Timing Support + [diffify](https://diffify.com/R/printify)
 
 ### Videos and Podcasts
 
@@ -78,7 +81,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### R Internationally
 
-
++ [Rtomic LLM: Train a JEPA LLM with Chain-of-Thought for ~$0.5](https://github.com/sunbjt/Rtomic)
 
 <!--<div class="post-more-begin></div><div class="post-more-end"></div>-->
 
