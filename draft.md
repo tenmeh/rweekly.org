@@ -53,7 +53,9 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 
 
-**GitHub or Bitbucket**
+**GitHub or Bitbucket or GitLab**
+
+* [ggchord2](https://gitlab.com/nrennie/ggchord2): Chord diagrams for 'ggplot2'
 
 + [ctrlvee: Extract External R Code and Insert Inline](https://github.com/vpnagraj/ctrlvee)
 
