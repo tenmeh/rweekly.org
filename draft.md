@@ -60,7 +60,8 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
 
-+ [A memory model for production async R: mirai 2.7.0 and mori 0.2.0](https://opensource.posit.co/blog/2026-05-12_production-async-r/)
++ [{qol} 1.3.1](https://cran.r-project.org/package=qol): Powerful 'SAS' Inspired Concepts for more Efficient Bigger Outputs + [diffify](https://diffify.com/R/qol)
++ [{printify} 1.0.1](https://cran.r-project.org/package=printify): Custom Formatted Console Messages With Timing Support + [diffify](https://diffify.com/R/printify)
 
 ### Videos and Podcasts
 
