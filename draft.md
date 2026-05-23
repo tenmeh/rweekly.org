@@ -18,6 +18,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### Insights
 
+* [Making RmlxStats fast and accurate](https://hughjonesd.github.io/making-RmlxStats-fast-and-accurate.html)
 + [ctrlvee: Extract external R code and insert inline](https://blog.stephenturner.us/p/ctrlvee-extract-external-r-code-insert-inline-positron-rstudio-addin): Fetch R code from an external source and insert it directly in an editor. Built as an add-in for integrating with Positron and RStudio.
 
 ### R in the Real World
