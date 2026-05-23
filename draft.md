@@ -78,7 +78,7 @@ This week's release was curated by [](), with help from the R Weekly team member
 
 ### R Internationally
 
-
++ [Rtomic LLM: Train a JEPA LLM with Chain-of-Thought for ~$0.5](https://github.com/sunbjt/Rtomic)
 
 <!--<div class="post-more-begin></div><div class="post-more-end"></div>-->
 
