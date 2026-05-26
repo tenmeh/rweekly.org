@@ -18,7 +18,9 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Insights
 
++ [A memory model for production async R: mirai 2.7.0 and mori 0.2.0](https://opensource.posit.co/blog/2026-05-12_production-async-r/)
 
+<img alt="Diagram showing how mirai::try_mirai() composes with mori::share()" src="https://opensource.posit.co/blog/2026-05-12_production-async-r/composition-diagram.svg" width=600>
 
 ### R in the Real World
 
