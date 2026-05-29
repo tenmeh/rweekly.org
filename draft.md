@@ -24,6 +24,8 @@ This week’s release was curated by [Jonathan Kitt](https://www.linkedin.com/in
 
 + [Survival Analysis with nlmixr2](https://blog.nlmixr2.org/blog/2026-05-28-survival-nlmixr2/)
 
++ [Reflections on AI and Security](https://blog.ketchbrookanalytics.com/posts/2026-05-28-ai-security/ai-security.html)
+
 
 ### R in the Real World
 
