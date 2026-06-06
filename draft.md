@@ -19,6 +19,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 ### Insights
 
 
++ [Reflections on AI and Security](https://blog.ketchbrookanalytics.com/posts/2026-05-28-ai-security/ai-security.html)
+
 
 ### R in the Real World
 
