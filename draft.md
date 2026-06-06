@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [One tidy workflow for WHO GHO and UN SDG data in R: introducing DSIR](https://shanlong-who.github.io/DSIR-blog/posts/dsir-intro/)
 
 ### Resources
 
