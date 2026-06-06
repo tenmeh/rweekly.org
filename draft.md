@@ -28,6 +28,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 + [Sovereign Tech Fund Project: Milestone 1](https://blog.r-project.org/2026/06/02/sovereign-tech-fund-project-milestone-1/)
 
++ [The Lurking Dangers of the R Version Update](https://ulrichatz.org/blog/2026-06-04-r-blas-macos/)
+
 ### R in the Real World
 
 
@@ -51,6 +53,12 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 + [11 Test Smells That Make Your Tests Lie to You](https://jakubsobolewski.com/blog/test-smells-in-r)
 
++ [Querying data from large cloud databases with R and DuckDB](https://frodriguezsanchez.net/post/querying-data-from-large-cloud-databases-with-r-and-duckdb/)
+
++ [Spatial Data: The Structure of Geospatial Information](https://www.ggplot2-uncharted.com/module5/spatial-data)
+
++ [What is data.gov.scot and why are we doing it?](https://blogs.gov.scot/digital/2026/06/03/what-is-data-gov-scot-and-why-are-we-doing-it/)
+
 ### Resources
 
 + [Modernizing Clinical Trial Design and Analysis to Improve Efficiency & Flexibility](https://fharrell.com/talk/rcteff/)
@@ -71,7 +79,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **GitHub or Bitbucket or GitLab**
 
-
++ [ggshroom: Tiny companion to ggimage for plotting fungal and fungus-like icons](https://github.com/gzahn/ggshroom)
 
 ### Updated Packages
 
