@@ -11,7 +11,6 @@ image: https://rweekly.org/public/facebook.png
 This week’s release was curated by [](), with help from the R Weekly team members and contributors.
 
 
-
 ### Highlight
 
 
@@ -21,6 +20,13 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 + [Reflections on AI and Security](https://blog.ketchbrookanalytics.com/posts/2026-05-28-ai-security/ai-security.html)
 
++ [Techtonique dot net, the Machine Learning web API, is back online (but more like a passion project for now)](https://thierrymoudiki.github.io/blog/2026/05/31/r/python/techtonique/techtonique-dot-net-is-back)
+
++ [Refactoring with Jarl: a coffee chat](https://blog.r-hub.io/2026/06/02/jarl/)
+
++ [Football meets machine learning: Forecasting the 2026 FIFA World Cup](https://www.zeileis.org/news/fifa2026/)
+
++ [Sovereign Tech Fund Project: Milestone 1](https://blog.r-project.org/2026/06/02/sovereign-tech-fund-project-milestone-1/)
 
 ### R in the Real World
 
@@ -28,6 +34,9 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### R in Organizations
 
++ [A New Guide: Organizing Events for First-time Contributors](https://ropensci.org/blog/2026/06/02/ftc-guide/)
+
++ [Our goodpractice Package Has New Superpowers](https://ropensci.org/blog/2026/06/01/goodpractice/)
 
 
 ### R in Academia
@@ -38,8 +47,13 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 + [One tidy workflow for WHO GHO and UN SDG data in R: introducing DSIR](https://shanlong-who.github.io/DSIR-blog/posts/dsir-intro/)
 
++ [A Multi-Agent DDQN Strategic Audit Engine for Silver Markets using Keras/TensorFlow](https://datageeek.com/2026/06/02/a-multi-agent-ddqn-strategic-audit-engine-for-silver-markets-using-keras-tensorflow/)
+
++ [11 Test Smells That Make Your Tests Lie to You](https://jakubsobolewski.com/blog/test-smells-in-r)
+
 ### Resources
 
++ [Modernizing Clinical Trial Design and Analysis to Improve Efficiency & Flexibility](https://fharrell.com/talk/rcteff/)
 
 
 ### New Packages
