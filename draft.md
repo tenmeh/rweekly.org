@@ -19,13 +19,17 @@ This week’s release was curated by [Batool Almarzouq](https://batool-almarzouq
 
 ### Insights
 
++ [Refactoring with Jarl: a coffee chat](https://blog.r-hub.io/2026/06/02/jarl/)
+  
+<img width="484" height="250" alt="Screenshot 2026-06-08 at 20 12 19" src="https://github.com/user-attachments/assets/501437a4-77a8-4a8b-83b3-a2be2b28fa0d" />
+
 + [Reflections on AI and Security](https://blog.ketchbrookanalytics.com/posts/2026-05-28-ai-security/ai-security.html)
 
 + [Techtonique dot net, the Machine Learning web API, is back online (but more like a passion project for now)](https://thierrymoudiki.github.io/blog/2026/05/31/r/python/techtonique/techtonique-dot-net-is-back)
 
-+ [Refactoring with Jarl: a coffee chat](https://blog.r-hub.io/2026/06/02/jarl/)
-
 + [Football meets machine learning: Forecasting the 2026 FIFA World Cup](https://www.zeileis.org/news/fifa2026/)
+
+<img width="699" height="614" alt="Screenshot 2026-06-08 at 20 13 29" src="https://github.com/user-attachments/assets/c2dc11dd-8c99-409a-97d7-6015e50a1096" />
 
 + [Sovereign Tech Fund Project: Milestone 1](https://blog.r-project.org/2026/06/02/sovereign-tech-fund-project-milestone-1/)
 
@@ -45,11 +49,16 @@ This week’s release was curated by [Batool Almarzouq](https://batool-almarzouq
 
 + [A Multi-Agent DDQN Strategic Audit Engine for Silver Markets using Keras/TensorFlow](https://datageeek.com/2026/06/02/a-multi-agent-ddqn-strategic-audit-engine-for-silver-markets-using-keras-tensorflow/)
 
+<img width="698" height="419" alt="Screenshot 2026-06-08 at 20 21 26" src="https://github.com/user-attachments/assets/736722a4-b42d-4d25-8fe3-290b86ad9fd5" />
+
 + [11 Test Smells That Make Your Tests Lie to You](https://jakubsobolewski.com/blog/test-smells-in-r)
 
 + [Querying data from large cloud databases with R and DuckDB](https://frodriguezsanchez.net/post/querying-data-from-large-cloud-databases-with-r-and-duckdb/)
 
 + [Spatial Data: The Structure of Geospatial Information](https://www.ggplot2-uncharted.com/module5/spatial-data)
+
+<img width="729" height="284" alt="Screenshot 2026-06-08 at 20 19 57" src="https://github.com/user-attachments/assets/2b96af5c-3687-4d3c-bd18-d3a10ca79c32" />
+
 
 + [What is data.gov.scot and why are we doing it?](https://blogs.gov.scot/digital/2026/06/03/what-is-data-gov-scot-and-why-are-we-doing-it/)
 
@@ -175,8 +184,15 @@ Events in 3 Months:
 
 ### rtistry
 
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:jiushxoiyvgcw2tgsjyvd2mc/app.bsky.feed.post/3mnk2sb3bhk2z" data-bluesky-cid="bafyreicbmgxxwwdtnbfa5cntmr7d4xe2kucayw47xr6mhd34ps4syfb6di" data-bluesky-embed-color-mode="system"><p lang="en">Another new generative art system built in #RStats 🎨 
+
+#GenArtClub #GenerativeArt #Rtistry #CreativeCoding<br><br><a href="https://bsky.app/profile/did:plc:jiushxoiyvgcw2tgsjyvd2mc/post/3mnk2sb3bhk2z?ref_src=embed">[image or embed]</a></p>&mdash; Nicola Rennie (<a href="https://bsky.app/profile/did:plc:jiushxoiyvgcw2tgsjyvd2mc?ref_src=embed">@nrennie.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:jiushxoiyvgcw2tgsjyvd2mc/post/3mnk2sb3bhk2z?ref_src=embed">June 5, 2026 at 1:45 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
 
 ### Quotes of the Week
 
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:gjqhbcaniaz2wcihmhrcs7t5/app.bsky.feed.post/3mnbfum6h322z" data-bluesky-cid="bafyreif3vex57b6lquxbhpvhcnaamy5qzvjkmqfkvr76zkmplyja6jfl2q" data-bluesky-embed-color-mode="system"><p lang="en">Oh no, are they vibe coding macOS now?<br><br><a href="https://bsky.app/profile/did:plc:gjqhbcaniaz2wcihmhrcs7t5/post/3mnbfum6h322z?ref_src=embed">[image or embed]</a></p>&mdash; Action Retro (<a href="https://bsky.app/profile/did:plc:gjqhbcaniaz2wcihmhrcs7t5?ref_src=embed">@actionretro.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:gjqhbcaniaz2wcihmhrcs7t5/post/3mnbfum6h322z?ref_src=embed">June 2, 2026 at 3:09 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
+<img width="539" height="452" alt="Screenshot 2026-06-08 at 20 43 15" src="https://github.com/user-attachments/assets/ac3528a6-ee2e-449b-b120-7794f2a412fa" />
 
 
