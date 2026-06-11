@@ -34,6 +34,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [30 Day Chart Challenge 2026 - my 6 charts](https://benchmarkdown.netlify.app/posts/2026-06-11-30dcc)
+
 
 ### Resources
 
