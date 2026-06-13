@@ -78,6 +78,10 @@ To read a webpage as clean text (e.g. to inspect a linked article), use any of t
 - **Jina Reader** — `curl https://r.jina.ai/https://www.example.com` — fallback if WebFetch fails.
 - **Defuddle** — `curl https://defuddle.md/example.com` — second fallback.
 
+## Git Commits
+
+When committing, do not add Claude co-authorship (`Co-Authored-By:` trailers). Commits should appear under the user's name only.
+
 ## Contributing Workflow
 
 1. Add links to `draft.md` under the appropriate section.
