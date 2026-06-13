@@ -65,6 +65,13 @@ Images (optional, editor discretion):
 ![Alt text](https://raw.githubusercontent.com/...)
 ```
 
+### Fetching Page Content
+
+To inspect a URL's content before classifying it, use any of:
+- **WebFetch tool** — built-in; use it directly.
+- `curl https://r.jina.ai/https://www.example.com` — fallback if WebFetch fails.
+- `curl https://defuddle.md/example.com` — second fallback.
+
 ### Steps
 
 1. **Check** if any open Merge Request exists at https://github.com/rweekly/rweekly.org, if any prompt the user to check for then and continue only when the user has told you to.

@@ -70,6 +70,14 @@ bundle exec jekyll serve
 
 CI (Travis) runs `Rscript check_url.R` on `gh-pages` branch commits to validate links. Fails if more than 300 broken links are found.
 
+## Fetching Website Content
+
+To read a webpage as clean text (e.g. to inspect a linked article), use any of these:
+
+- **WebFetch tool** — built-in Claude Code tool; use it directly.
+- **Jina Reader** — `curl https://r.jina.ai/https://www.example.com` — fallback if WebFetch fails.
+- **Defuddle** — `curl https://defuddle.md/example.com` — second fallback.
+
 ## Contributing Workflow
 
 1. Add links to `draft.md` under the appropriate section.
