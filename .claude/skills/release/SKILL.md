@@ -31,11 +31,33 @@ Count lines containing either a Markdown image `![...](...)` or an HTML `<img` t
 
 If **any check fails**, stop and show all failures. Do not create the post file.
 
+### Check 4: Duplicate links (advisory — editor decides)
+
+Run the duplicate checker:
+```bash
+Rscript -e 'source("scripts/find_duplicates.R"); get_dups()'
+```
+
+This compares draft.md links against the last ~20 published posts. **Do not hard-fail on duplicates** — present the results to the editor for a judgment call. Some duplicates are intentional and fine to keep:
+- Recurring events, conferences, and meetup listings
+- Standing resources (workshops, community links)
+- Anything the editor explicitly wants to repeat
+
+Report any duplicates found as a warning:
+```
+⚠ Possible duplicates found (review before releasing):
+  - [Title](URL) — also in 2026-W23
+  - [Title](URL) — also in 2026-W21
+These may be intentional. Remove or keep as appropriate.
+```
+
+If no duplicates are found, say so and continue. Either way, **wait for the editor to confirm before proceeding to release.**
+
 ---
 
 ## Creating the Release
 
-If all checks pass, proceed:
+If all checks pass and the editor has confirmed, proceed:
 
 ### Step 1: Compute date and week
 
