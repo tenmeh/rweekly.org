@@ -8,13 +8,18 @@ image: https://rweekly.org/public/facebook.png
 
 + [How to have (my) content shared by R Weekly?](https://github.com/rweekly/rweekly.org#how-to-have-my-content-shared-by-r-weekly)
 
-This week’s release was curated by [](), with help from the R Weekly team members and contributors.
+This week’s release was curated by [Sam Parmar](https://github.com/parmsam), with help from the R Weekly team members and contributors.
 
 
 
 ### Highlight
 
-
++ [A brief and biased history of Posit data science agents](https://opensource.posit.co/blog/2026-06-11_history-of-posit-data-science-agents/)
+![A brief and biased history of Posit data science agents](https://raw.githubusercontent.com/rweekly/image/master/2026/W25/history-posit-agents_600.webp)
++ [Three small dots for more readable code](https://www.cynkra.com/blog/2026-06-12-dots/)
+![Three small dots for more readable code](https://raw.githubusercontent.com/rweekly/image/master/2026/W25/three-dots-readable-chart_600.png)
++ [Little useless-useful R functions – Ulam Prime Spiral](https://tomaztsql.wordpress.com/2026/06/07/little-useless-useful-r-functions-ulam-prime-spiral/)
+![Little useless-useful R functions – Ulam Prime Spiral](https://raw.githubusercontent.com/rweekly/image/master/2026/W25/ulam-prime-spiral_600.png)
 
 ### Insights
 
