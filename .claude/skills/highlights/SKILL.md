@@ -41,6 +41,15 @@ Extract every link in the draft body using the pattern `+ [Title](URL)`. Exclude
 
 Display the full numbered list to the editor, grouped by section, so they can see where each item comes from.
 
+Before displaying the list, run the duplicate checker against the last 20 published posts:
+```bash
+Rscript -e 'source("scripts/find_duplicates.R"); dups <- get_dups(); if (!is.null(dups)) cat(dups, sep="\n")'
+```
+
+Mark any link that appears in the output with a `[DUP]` label in the numbered list so the editor can see it at a glance. Duplicates are not automatically excluded — some repeats are intentional (events, conferences, recurring resources) — but they should generally be deprioritised when suggesting highlights.
+
+Note: `get_dups()` also warns about within-draft duplicates. Ignore those warnings for links in the `### Highlight` section — those are intentional copies of links from their original sections.
+
 ### Step 2: Pre-select candidates
 
 Review the list and suggest 10 items that would make strong highlights — prioritise:
