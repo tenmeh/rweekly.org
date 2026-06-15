@@ -25,6 +25,8 @@ Links in `draft.md` (and posts) use this format:
 
 Sections in the draft: Highlight, Insights, R in the Real World, R in Organizations, R in Academia, Tutorials, Resources, New Packages, Updated Packages, Videos and Podcasts, Gist & Cookbook, Shiny Apps, Upcoming Events. Editors vote for the Highlight section — contributors should not add content there.
 
+When populating the Highlight section, **copy** links from their original sections — do not remove them. A highlight link should appear in both the `### Highlight` section and its original section.
+
 Images must be HTTPS and hosted at `https://raw.githubusercontent.com/`. Do not add images directly to this repo (keeps repo size small).
 
 ## R Scripts

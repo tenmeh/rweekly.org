@@ -27,7 +27,7 @@ If the title contains the placeholder `W00`, determine the correct week number b
 Use the resolved week number (e.g. `2026-W25`) everywhere `ISSUE` appears in the poll commands.
 
 Extract every link in the draft body using the pattern `+ [Title](URL)`. Exclude:
-- Lines inside the `### Highlight` section (already selected)
+- Lines inside the `### Highlight` section (already selected as highlights; note that highlight links are *copied* — they also remain in their original sections, so the same URL may appear twice in the draft)
 - Boilerplate/recurring links:
   - `https://serve.podhome.fm/r-weekly-highlights`
   - `https://rweekly.org/live`
