@@ -29,6 +29,13 @@ When populating the Highlight section, **copy** links from their original sectio
 
 Images must be HTTPS and hosted at `https://raw.githubusercontent.com/`. Do not add images directly to this repo (keeps repo size small).
 
+### Social embeds (rtistry, Quotes of the Week)
+
+The `### rtistry` and `### Quotes of the Week` sections use raw social embed HTML — not `+ [Title](URL)` links. Paste the full embed blockquote code from Bluesky, Mastodon, or Twitter directly into the section. Each platform uses a different blockquote class:
+
+- **Bluesky**: `<blockquote class="bluesky-embed" ...>` with `<script async src="https://embed.bsky.app/static/embed.js">`
+- **Mastodon**: `<blockquote class="mastodon-embed" ...>` with `<script data-allowed-prefixes="https://fosstodon.org/" async src="https://fosstodon.org/embed.js">`
+
 ## R Scripts
 
 All scripts are run from the repo root directory.

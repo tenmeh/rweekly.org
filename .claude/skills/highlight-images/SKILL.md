@@ -159,16 +159,16 @@ Check for errors. If push fails due to auth, let the editor know they should pus
 
 ### ⏸ GATE 3 — Confirm embed URLs before editing draft.md
 
-Show the editor the three embed lines that will be inserted:
+Show the editor the three embed lines that will be inserted, noting which section each goes into:
 
 ```
-Ready to insert into draft.md:
+Ready to insert into draft.md (in each link's original section, not in ### Highlight):
 
-![A brief and biased history of Posit data science agents](https://raw.githubusercontent.com/rweekly/image/master/2026/{WEEK}/{slug1}_600.{ext})
-![Three small dots for more readable code](https://raw.githubusercontent.com/rweekly/image/master/2026/{WEEK}/{slug2}_600.{ext})
-![Little useless-useful R functions – Ulam Prime Spiral](https://raw.githubusercontent.com/rweekly/image/master/2026/{WEEK}/{slug3}_600.{ext})
+[Insights] ![A brief and biased history of...](https://raw.githubusercontent.com/rweekly/image/master/2026/{WEEK}/{slug1}_600.{ext})
+[Tutorials] ![Three small dots for...](https://raw.githubusercontent.com/rweekly/image/master/2026/{WEEK}/{slug2}_600.{ext})
+[Gist & Cookbook] ![Little useless-useful...](https://raw.githubusercontent.com/rweekly/image/master/2026/{WEEK}/{slug3}_600.{ext})
 
-OK to insert these into the Highlight section?
+OK to insert?
 ```
 
 **Wait for confirmation.**
@@ -177,7 +177,9 @@ OK to insert these into the Highlight section?
 
 ### Step 6: Insert image embeds into draft.md
 
-For each highlight link, insert the image embed immediately after the link line:
+Image embeds go in each link's **original section** (e.g. Insights, Tutorials, Gist & Cookbook) — NOT in the `### Highlight` section. The Highlight section contains only the bare links.
+
+For each highlight link, find its duplicate in the original section and insert the image embed immediately after that line:
 
 ```
 + [Title](article-url)
