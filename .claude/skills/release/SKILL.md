@@ -46,11 +46,17 @@ echo "DATE=$(date +%Y-%m-%d)" && echo "YEARWEEK=$(date +%G-W%V)"
 
 This gives you e.g. `DATE=2026-03-09` and `YEARWEEK=2026-W11`.
 
-### Step 2: Summarize the Highlight section in three words
+### Step 2: Summarize the Highlight section
 
-Read the items listed under `### Highlight`. Pick three short, descriptive words that capture the key themes — typically package names, tools, or topics. No punctuation between them.
+Read the items listed under `### Highlight`. Write a short, natural-language summary of the highlights — typically 2–3 comma-separated phrases drawn from the article titles. Use title case. Capture the actual topic, not just the tool name.
 
-Example: if Highlight links cover tidymodels, a shiny app, and ggplot2 extensions, the summary might be `tidymodels shiny ggplot2`.
+Look at recent post titles for the style:
+- `R Version Update, Refactoring, Your Tests Lie to You`
+- `Building a computer, Toolbars, Memory model`
+- `15 Years of rOpenSci, Durations of wars, and R-squared`
+- `S at 50, targets vs dbt`
+
+Keep each phrase short (1–4 words). Avoid padding words like "and", "the", "a" unless they're part of the title. Do not use all-lowercase bare words.
 
 ### Step 3: Build the filename
 
