@@ -29,7 +29,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 
 ### R in Academia
-
+<p class="added-hostname"><a href="https://doi.org/10.1002/ece3.73779" target="_blank" class="externalLink">📦 <i>Check out <i>P.I. Charter</i>, a novel use of R Shiny as a data submission and aggregation portal. </i> 📦</a></p>
 
 
 ### Tutorials
@@ -43,7 +43,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 <!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> --> 
 <p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
-
+<p class="added-hostname"><a href="https://github.com/MAISRC/ggplotplus" target="_blank" class="externalLink">📦 <i>Make accessible, Universal-Design-oriented ggplots fast with ggplotplus (now on CRAN)!</i> 📦</a></p>
 
 **CRAN**
 
