@@ -31,11 +31,33 @@ Count lines containing either a Markdown image `![...](...)` or an HTML `<img` t
 
 If **any check fails**, stop and show all failures. Do not create the post file.
 
+### Check 4: Duplicate links (advisory — editor decides)
+
+Run the duplicate checker:
+```bash
+Rscript -e 'source("scripts/find_duplicates.R"); get_dups()'
+```
+
+This compares draft.md links against the last ~20 published posts. **Do not hard-fail on duplicates** — present the results to the editor for a judgment call. Some duplicates are intentional and fine to keep:
+- Recurring events, conferences, and meetup listings
+- Standing resources (workshops, community links)
+- Anything the editor explicitly wants to repeat
+
+Report any duplicates found as a warning:
+```
+⚠ Possible duplicates found (review before releasing):
+  - [Title](URL) — also in 2026-W23
+  - [Title](URL) — also in 2026-W21
+These may be intentional. Remove or keep as appropriate.
+```
+
+If no duplicates are found, say so and continue. Either way, **wait for the editor to confirm before proceeding to release.**
+
 ---
 
 ## Creating the Release
 
-If all checks pass, proceed:
+If all checks pass and the editor has confirmed, proceed:
 
 ### Step 1: Compute date and week
 
@@ -46,11 +68,17 @@ echo "DATE=$(date +%Y-%m-%d)" && echo "YEARWEEK=$(date +%G-W%V)"
 
 This gives you e.g. `DATE=2026-03-09` and `YEARWEEK=2026-W11`.
 
-### Step 2: Summarize the Highlight section in three words
+### Step 2: Summarize the Highlight section
 
-Read the items listed under `### Highlight`. Pick three short, descriptive words that capture the key themes — typically package names, tools, or topics. No punctuation between them.
+Read the items listed under `### Highlight`. Write a short, natural-language summary of the highlights — typically 2–3 comma-separated phrases drawn from the article titles. Use title case. Capture the actual topic, not just the tool name.
 
-Example: if Highlight links cover tidymodels, a shiny app, and ggplot2 extensions, the summary might be `tidymodels shiny ggplot2`.
+Look at recent post titles for the style:
+- `R Version Update, Refactoring, Your Tests Lie to You`
+- `Building a computer, Toolbars, Memory model`
+- `15 Years of rOpenSci, Durations of wars, and R-squared`
+- `S at 50, targets vs dbt`
+
+Keep each phrase short (1–4 words). Avoid padding words like "and", "the", "a" unless they're part of the title. Do not use all-lowercase bare words.
 
 ### Step 3: Build the filename
 

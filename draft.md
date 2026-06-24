@@ -1,6 +1,6 @@
 ---
 layout: draft
-title: R Weekly 2026-W00
+title: R Weekly 2026-W27
 description: Draft of the R Weekly
 image: https://rweekly.org/public/facebook.png
 ---
@@ -53,7 +53,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 
 
-**GitHub or Bitbucket**
+**GitHub or Bitbucket or GitLab**
 
 
 

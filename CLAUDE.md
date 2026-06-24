@@ -25,7 +25,16 @@ Links in `draft.md` (and posts) use this format:
 
 Sections in the draft: Highlight, Insights, R in the Real World, R in Organizations, R in Academia, Tutorials, Resources, New Packages, Updated Packages, Videos and Podcasts, Gist & Cookbook, Shiny Apps, Upcoming Events. Editors vote for the Highlight section — contributors should not add content there.
 
+When populating the Highlight section, **copy** links from their original sections — do not remove them. A highlight link should appear in both the `### Highlight` section and its original section.
+
 Images must be HTTPS and hosted at `https://raw.githubusercontent.com/`. Do not add images directly to this repo (keeps repo size small).
+
+### Social embeds (rtistry, Quotes of the Week)
+
+The `### rtistry` and `### Quotes of the Week` sections use raw social embed HTML — not `+ [Title](URL)` links. Paste the full embed blockquote code from Bluesky, Mastodon, or Twitter directly into the section. Each platform uses a different blockquote class:
+
+- **Bluesky**: `<blockquote class="bluesky-embed" ...>` with `<script async src="https://embed.bsky.app/static/embed.js">`
+- **Mastodon**: `<blockquote class="mastodon-embed" ...>` with `<script data-allowed-prefixes="https://fosstodon.org/" async src="https://fosstodon.org/embed.js">`
 
 ## R Scripts
 
@@ -69,6 +78,18 @@ bundle exec jekyll serve
 ```
 
 CI (Travis) runs `Rscript check_url.R` on `gh-pages` branch commits to validate links. Fails if more than 300 broken links are found.
+
+## Fetching Website Content
+
+To read a webpage as clean text (e.g. to inspect a linked article), use any of these:
+
+- **WebFetch tool** — built-in Claude Code tool; use it directly.
+- **Jina Reader** — `curl https://r.jina.ai/https://www.example.com` — fallback if WebFetch fails.
+- **Defuddle** — `curl https://defuddle.md/example.com` — second fallback.
+
+## Git Commits
+
+When committing, do not add Claude co-authorship (`Co-Authored-By:` trailers). Commits should appear under the user's name only.
 
 ## Contributing Workflow
 
