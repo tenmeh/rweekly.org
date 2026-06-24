@@ -8,7 +8,7 @@ image: https://rweekly.org/public/facebook.png
 
 + [How to have (my) content shared by R Weekly?](https://github.com/rweekly/rweekly.org#how-to-have-my-content-shared-by-r-weekly)
 
-This week’s release was curated by [](), with help from the R Weekly team members and contributors.
+This week’s release was curated by [Eric Nantz](https://bsky.app/profile/rpodcast.bsky.social), with help from the R Weekly team members and contributors.
 
 
 
@@ -23,7 +23,6 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 + [RStudio AI That Doesn’t Cost a Penny: llmcoder vs. Posit AI Assistant](https://r-posts.com/rstudio-ai-that-doesnt-cost-a-penny-llmcoder-vs-posit-ai-assistant/)
 
 + [What R users struggle with](https://3mw.albert-rapp.de/p/what-r-users-struggle-with)
-
 
 
 ### R in the Real Worlds
@@ -58,9 +57,11 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 <p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date with CRANberries</i> 📦</a></p>
 
+**CRAN**
+
 + [Make accessible, Universal-Design-oriented ggplots fast with {ggplotplus} (now on CRAN)!](https://github.com/MAISRC/ggplotplus)
 
-**CRAN**
+![ggplotplus image](https://raw.githubusercontent.com/rweekly/image/master/2026/W26/ggplotplus.png)
 
 + [rspdlite 0.1.0-1 on CRAN: New Package!](http://dirk.eddelbuettel.com/blog/2026/06/16#rspdlite_0.1.0-1)
 
@@ -112,6 +113,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 + [{ggmemo} 0.1.0](https://cran.r-project.org/package=ggmemo): Add Arrows, Labels, and Change Annotations to 'ggplot2' Charts
 
+![ggmemo image](https://raw.githubusercontent.com/rweekly/image/master/2026/W26/ggmemo_resized.png)
+
 + [{metainsight} 7.1.0](https://cran.r-project.org/package=metainsight): A 'shiny' Application for Network Meta-Analysis
 
 + [{llmjoin} 0.3.0](https://cran.r-project.org/package=llmjoin): LLM-Powered Fuzzy Join
@@ -126,6 +129,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 + [{dtsmartr} 0.1.0](https://cran.r-project.org/package=dtsmartr): Interactive Virtualized Data Explorer Grid Widget
 
+![ggmemo image](https://raw.githubusercontent.com/rweekly/image/master/2026/W26/ss_insights_categorical-resized.png)
+
 + [{bptips} 0.1.0](https://cran.r-project.org/package=bptips): Server Earnings Calculations
 
 + [{aRxiv} 0.20](https://cran.r-project.org/package=aRxiv): Interface to the arXiv API - [diffify](https://diffify.com/R/aRxiv)
@@ -138,7 +143,11 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **GitHub or Bitbucket or GitLab**
 
-+ [dsprrr](https://jameshwade.github.io/dsprrr/): Programming - not promptint - LLMs in R
++ [{dsprrr}](https://jameshwade.github.io/dsprrr/): Programming - not promptint - LLMs in R
+
++ [{tooey}](https://github.com/devOpifex/tooey): TUI framework for R
+
+![ggmemo image](https://raw.githubusercontent.com/rweekly/image/master/2026/W26/demo.gif)
 
 ### Updated Packages
 
@@ -186,11 +195,15 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 + [{rayrender} 0.41.3](https://cran.r-project.org/package=rayrender): Build and Raytrace 3D Scenes - [diffify](https://diffify.com/R/rayrender)
 
+![ggmemo image](https://raw.githubusercontent.com/rweekly/image/master/2026/W26/ground_r-1-resized.png)
+
 + [{gazepath} 1.4](https://cran.r-project.org/package=gazepath): Parse Eye-Tracking Data into Fixations - [diffify](https://diffify.com/R/gazepath)
 
 ### Videos and Podcasts
 
 + [Listen to the R-Weekly Highlights Podcast](https://serve.podhome.fm/r-weekly-highlights)
+
++ [Reproducible R & Python with Nix: The T Orchestration Engine](https://www.youtube.com/watch?v=LIatS0k0JEI)
 
 ### Shiny Apps
 
@@ -206,13 +219,12 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 + [Recodificando variables ordinales cuando vienen sucias y/o desde respuestas abiertas](https://bastianolea.rbind.io/blog/stringr_limpieza_ordinal/)
 
 + [Tipografías lindas para programar en R: Fira Code](https://bastianolea.rbind.io/blog/2026-06-16/)
+
 <!--<div class="post-more-begin></div><div class="post-more-end"></div>-->
 
 ### R Project Updates
 
 Updates from [R Core](http://developer.r-project.org/blosxom.cgi/R-devel/NEWS):
-
-### Call for Participation
 
 
 ### Upcoming Events in 3 Months
@@ -225,17 +237,12 @@ Events in 3 Months:
 
 + [Weekly R Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine)
 
-### Grants & Funding
-
-
-### Datasets
-
 
 ### Connect
 
 <i>[Join the Data Science Learning Community](https://DSLC.io/)</i>
 
-### rtistry
-
-
 ### Quotes of the Week
+
+<blockquote class="mastodon-embed" data-embed-url="https://mastodon.social/@rmflight/116794283488299481/embed" style="background: #FCF8FF; border-radius: 8px; border: 1px solid #C9C4DA; margin: 0; max-width: 540px; min-width: 270px; overflow: hidden; padding: 0;"> <a href="https://mastodon.social/@rmflight/116794283488299481" target="_blank" style="align-items: center; color: #1C1A25; display: flex; flex-direction: column; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Roboto, sans-serif; font-size: 14px; justify-content: center; letter-spacing: 0.25px; line-height: 20px; padding: 24px; text-decoration: none;"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 79 75"><path d="M63 45.3v-20c0-4.1-1-7.3-3.2-9.7-2.1-2.4-5-3.7-8.5-3.7-4.1 0-7.2 1.6-9.3 4.7l-2 3.3-2-3.3c-2-3.1-5.1-4.7-9.2-4.7-3.5 0-6.4 1.3-8.6 3.7-2.1 2.4-3.1 5.6-3.1 9.7v20h8V25.9c0-4.1 1.7-6.2 5.2-6.2 3.8 0 5.8 2.5 5.8 7.4V37.7H44V27.1c0-4.9 1.9-7.4 5.8-7.4 3.5 0 5.2 2.1 5.2 6.2V45.3h8ZM74.7 16.6c.6 6 .1 15.7.1 17.3 0 .5-.1 4.8-.1 5.3-.7 11.5-8 16-15.6 17.5-.1 0-.2 0-.3 0-4.9 1-10 1.2-14.9 1.4-1.2 0-2.4 0-3.6 0-4.8 0-9.7-.6-14.4-1.7-.1 0-.1 0-.1 0s-.1 0-.1 0 0 .1 0 .1 0 0 0 0c.1 1.6.4 3.1 1 4.5.6 1.7 2.9 5.7 11.4 5.7 5 0 9.9-.6 14.8-1.7 0 0 0 0 0 0 .1 0 .1 0 .1 0 0 .1 0 .1 0 .1.1 0 .1 0 .1.1v5.6s0 .1-.1.1c0 0 0 0 0 .1-1.6 1.1-3.7 1.7-5.6 2.3-.8.3-1.6.5-2.4.7-7.5 1.7-15.4 1.3-22.7-1.2-6.8-2.4-13.8-8.2-15.5-15.2-.9-3.8-1.6-7.6-1.9-11.5-.6-5.8-.6-11.7-.8-17.5C3.9 24.5 4 20 4.9 16 6.7 7.9 14.1 2.2 22.3 1c1.4-.2 4.1-1 16.5-1h.1C51.4 0 56.7.8 58.1 1c8.4 1.2 15.5 7.5 16.6 15.6Z" fill="currentColor"/></svg> <div style="color: #787588; margin-top: 16px;">Post by @rmflight@mastodon.social</div> <div style="font-weight: 500;">View on Mastodon</div> </a> </blockquote> <script data-allowed-prefixes="https://mastodon.social/" async src="https://mastodon.social/embed.js"></script>
+
