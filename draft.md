@@ -1,6 +1,6 @@
 ---
 layout: draft
-title: R Weekly 2026-W26
+title: R Weekly 2026-W27
 description: Draft of the R Weekly
 image: https://rweekly.org/public/facebook.png
 ---
@@ -47,6 +47,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **CRAN**
 
++ [{golem} 1.0.0](https://cran.r-project.org/web/packages/golem/index.html)
 
 **Bioconductor**
 
