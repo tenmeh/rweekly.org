@@ -34,6 +34,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Tutorials
 
++ [Deploying an R Shiny App with Google Cloud Run](https://firsa.eu/posts/cloud_run/) - A short tutorial for R users who want to deploy a Shiny app with Docker and Google Cloud Run. It covers the basic deployment logic, a minimal Dockerfile, connecting a GitHub repository to Cloud Run, and using the Google Cloud Console workflow.
 
 ### Resources
 
