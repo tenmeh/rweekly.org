@@ -18,7 +18,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Insights
 
-
++ [Why Data Scientists Are Well Positioned for the AI Revolution](https://matanhakim.com/posts/2026-06-24-data-scientists-ai-revolution/)
 
 ### R in the Real World
 
