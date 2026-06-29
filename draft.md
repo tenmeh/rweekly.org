@@ -11,26 +11,32 @@ image: https://rweekly.org/public/facebook.png
 This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@jonocarroll), with help from the R Weekly team members and contributors.
 
 
-
 ### Highlight
 
++ [United Kingdom prime ministers by @ellis2013nz](https://freerangestats.info/blog/2026/06/23/uk-prime-ministers)
 
++ [A reinsurance pricing tool, built without code](https://www.cynkra.com/blog/2026-06-22-treaty-pricer/)
+
++ [From Data Analysis to Publication: Reproducible Research with R and Quarto](https://rladiesrome.org/talks/2026/meetup/06232026_rladiesba.html)
 
 ### Insights
 
 + [SIM2 climate data](https://r.iresmi.net/posts/2026/sim2/)
-+ [United Kingdom prime ministers by @ellis2013nz](https://freerangestats.info/blog/2026/06/23/uk-prime-ministers)
 + [Can we actually bring AI automations into production?](https://3mw.albert-rapp.de/p/can-we-actually-bring-ai-automations-into-production)
 + [Flowcharts that belong in the analysis pipeline](https://gforge.se/2026/06/flowcharts-that-belong-in-the-analysis-pipeline/)
+
+![](https://raw.githubusercontent.com/rweekly/image/master/2026/W27/02-registry-cohort_600.png)
+
+
 + [CatBoost support in tidymodels](https://opensource.posit.co/blog/2026-06-25_catboost-tidymodels/)
 + [The 4 Layers of Testing Every R Package Needs](https://www.appsilon.com/post/4-layers-of-testing-every-r-package-needs)
 + [A reinsurance pricing tool, built without code](https://www.cynkra.com/blog/2026-06-22-treaty-pricer/)
 + [Air 0.10.0](https://opensource.posit.co/blog/2026-06-26_air-0-10-0/)
 + [Introducing debrief: profiling summaries for AI agents](https://opensource.posit.co/blog/2026-06-22_debrief-0-1-0/)
 
-
 ### R in the Real World
 
++ [United Kingdom prime ministers by @ellis2013nz](https://freerangestats.info/blog/2026/06/23/uk-prime-ministers)
 
 
 ### R in Organizations
@@ -44,10 +50,6 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 + [Supply Chain Planning with R: An Interview with Nicolas Nguyen, Developer of the planr R Package](https://r-consortium.org/posts/supply-chain-planning-with-r-an-interview-with-nicolas-nguyen-developer-of-the-planr-r-package/)
 
 
-### R in Academia
-
-
-
 ### R Adjacent
 
 + [Why Data Scientists Are Well Positioned for the AI Revolution](https://matanhakim.com/posts/2026-06-24-data-scientists-ai-revolution/)
@@ -57,6 +59,7 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 
 + [Deploying an R Shiny App with Google Cloud Run](https://firsa.eu/posts/cloud_run/) 
 + [PCA in R: Principal Component Analysis Step-by-Step (prcomp + ggplot2)](https://www.rstudiodatalab.com/2023/09/principal-component-analysis-in-r-i-pca.html)
+
 
 ### Resources
 
@@ -97,14 +100,6 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 + [{pdfsigner} 0.2.4](https://cran.r-project.org/package=pdfsigner): Digitally Sign and Verify PDF Documents
 
 
-**Bioconductor**
-
-
-
-**GitHub or Bitbucket or GitLab**
-
-
-
 ### Updated Packages
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
@@ -116,7 +111,6 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 + [{printify} 1.0.2](https://cran.r-project.org/package=printify): Custom Formatted Console Messages With Timing Support + [diffify](https://diffify.com/R/printify)
 + [RcppArmadillo 15.4.0-1 on CRAN: New Upstream Minor](http://dirk.eddelbuettel.com/blog/2026/06/21#rcpparmadillo_15.4.0-1)
 + [brulee 1.0.0](https://opensource.posit.co/blog/2026-06-24_brulee-1-0-0/)
-
 
 + [{corteza} 0.7.0](https://cran.r-project.org/package=corteza): AI Agent Runtime - [diffify](https://diffify.com/R/corteza)
 + [{slendr} 1.5.0](https://cran.r-project.org/package=slendr): A Simulation Framework for Spatiotemporal Population Genetics - [diffify](https://diffify.com/R/slendr)
@@ -154,14 +148,6 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 + [Listen to the R-Weekly Highlights Podcast](https://serve.podhome.fm/r-weekly-highlights)
 
 
-### Gist & Cookbook
-
-
-
-### Shiny Apps
-
-
-
 ### R Internationally
 
 + 🇪🇸 [`{territorial}`: un paquete de R para trabajar con datos de comunas y regiones de Chile](https://bastianolea.rbind.io/blog/territorial/)
@@ -177,8 +163,6 @@ This week’s release was curated by [Jonathan Carroll](https://fosstodon.org/@j
 
 Updates from [R Core](http://developer.r-project.org/blosxom.cgi/R-devel/NEWS):
 
-### Call for Participation
-
 
 ### Upcoming Events in 3 Months
 
@@ -193,11 +177,6 @@ Events in 3 Months:
 + [This week's local R-User and applied stats events](https://community.rstudio.com/c/irl)
 
 + [Weekly R Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine)
-
-### Grants & Funding
-
-
-### Datasets
 
 
 ### Connect
