@@ -1,16 +1,13 @@
 ---
 layout: draft
-title: R Weekly 2026-W00
+title: R Weekly 2026-W29
 description: Draft of the R Weekly
 image: https://rweekly.org/public/facebook.png
 ---
 
-
 + [How to have (my) content shared by R Weekly?](https://github.com/rweekly/rweekly.org#how-to-have-my-content-shared-by-r-weekly)
-
+                                                   
 This week’s release was curated by [](), with help from the R Weekly team members and contributors.
-
-
 
 ### Highlight
 
@@ -78,8 +75,6 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 * *Why it's interesting:* A specialized literature utility that acts as an automated audit tool, checking your data or citations against known academic retraction databases.
 * **[{Unitary} 0.3.11](https://cran.r-project.org/package=Unitary):** Quantum Simulator - [diffify](https://diffify.com/R/Unitary)
 * *Why it's interesting:* A completely unique niche package that provides a basic sandbox for quantum state simulation right inside an R script.
-
-
 
 
 **GitHub or Bitbucket**
