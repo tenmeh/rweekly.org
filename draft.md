@@ -22,7 +22,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### R in the Real World
 
-[{rdoom} is a playable version of Doom for R.](https://github.com/coolbutuseless/rdoom)
+- [{rdoom} is a playable version of Doom for R.](https://github.com/coolbutuseless/rdoom)
 
 ![]()
 
@@ -52,18 +52,18 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **CRAN**
 
-* **[{deckglgeoarrow} 0.0.2](https://cran.r-project.org/package=deckglgeoarrow):** Use 'GeoArrow' to Add 'Deck.gl' Layers to a 'maplibregl'/'mapboxgl' Map - [diffify](https://diffify.com/R/deckglgeoarrow)
-* **[{osmnxr} 0.1.1](https://cran.r-project.org/package=osmnxr):** Download, Model and Analyze 'OpenStreetMap' Street Networks - [diffify](https://diffify.com/R/osmnxr)
-* **[{data.sketches} 0.1.0](https://cran.r-project.org/package=data.sketches):** Probabilistic Streaming Data Sketches - [diffify](https://diffify.com/R/data.sketches)
-* **[{inferencer} 0.1.4.5](https://cran.r-project.org/package=inferencer):** Simple Unified Wrappers for Hosted Foundation Model Inference APIs - [diffify](https://diffify.com/R/inferencer)
-* **[{agentr} 0.2.8.4](https://cran.r-project.org/package=agentr):** Specification and Review Scaffolding for AI Agent Workflows - [diffify](https://diffify.com/R/agentr)
-* **[{doclingr} 0.1.0](https://cran.r-project.org/package=doclingr):** Document Intelligence via 'Docling' - [diffify](https://diffify.com/R/doclingr)
-* **[{ggpaintr} 0.11.1](https://cran.r-project.org/package=ggpaintr):** Build Formula-Driven 'shiny' Apps for 'ggplot2' - [diffify](https://diffify.com/R/ggpaintr)
-* **[{datasetviewer} 0.1.1](https://cran.r-project.org/package=datasetviewer):** 'SAS Studio'-Style Interactive Dataset Viewer - [diffify](https://diffify.com/R/datasetviewer)
-* **[{glyph} 0.1.1](https://cran.r-project.org/package=glyph):** A Next-Generation Grammar of Interactive Graphics - [diffify](https://diffify.com/R/glyph)
-* **[{didintrjl} 0.2.6](https://cran.r-project.org/package=didintrjl):** Intersection Difference-in-Differences - [diffify](https://diffify.com/R/didintrjl)
-* **[{retraction} 0.1.0](https://cran.r-project.org/package=retraction):** Detect Retracted References in Documents and Bibliographies - [diffify](https://diffify.com/R/retraction)
-* **[{Unitary} 0.3.11](https://cran.r-project.org/package=Unitary):** Quantum Simulator - [diffify](https://diffify.com/R/Unitary)
+- [{deckglgeoarrow} 0.0.2](https://cran.r-project.org/package=deckglgeoarrow): Use 'GeoArrow' to Add 'Deck.gl' Layers to a 'maplibregl'/'mapboxgl' Map - [diffify](https://diffify.com/R/deckglgeoarrow)
+- [{osmnxr} 0.1.1](https://cran.r-project.org/package=osmnxr): Download, Model and Analyze 'OpenStreetMap' Street Networks - [diffify](https://diffify.com/R/osmnxr)
+- [{data.sketches} 0.1.0](https://cran.r-project.org/package=data.sketches): Probabilistic Streaming Data Sketches - [diffify](https://diffify.com/R/data.sketches)
+- [{inferencer} 0.1.4.5](https://cran.r-project.org/package=inferencer): Simple Unified Wrappers for Hosted Foundation Model Inference APIs - [diffify](https://diffify.com/R/inferencer)
+- [{agentr} 0.2.8.4](https://cran.r-project.org/package=agentr): Specification and Review Scaffolding for AI Agent Workflows - [diffify](https://diffify.com/R/agentr)
+- [{doclingr} 0.1.0](https://cran.r-project.org/package=doclingr): Document Intelligence via 'Docling' - [diffify](https://diffify.com/R/doclingr)
+- [{ggpaintr} 0.11.1](https://cran.r-project.org/package=ggpaintr): Build Formula-Driven 'shiny' Apps for 'ggplot2' - [diffify](https://diffify.com/R/ggpaintr)
+- [{datasetviewer} 0.1.1](https://cran.r-project.org/package=datasetviewer): 'SAS Studio'-Style Interactive Dataset Viewer - [diffify](https://diffify.com/R/datasetviewer)
+- [{glyph} 0.1.1](https://cran.r-project.org/package=glyph): A Next-Generation Grammar of Interactive Graphics - [diffify](https://diffify.com/R/glyph)
+- [{didintrjl} 0.2.6](https://cran.r-project.org/package=didintrjl): Intersection Difference-in-Differences - [diffify](https://diffify.com/R/didintrjl)
+- [{retraction} 0.1.0](https://cran.r-project.org/package=retraction): Detect Retracted References in Documents and Bibliographies - [diffify](https://diffify.com/R/retraction)
+- [{Unitary} 0.3.11](https://cran.r-project.org/package=Unitary): Quantum Simulator - [diffify](https://diffify.com/R/Unitary)
 
 **GitHub or Bitbucket**
 
@@ -75,18 +75,18 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 <i>🔍 [Search on R-universe](https://r-universe.dev/search/) 🔍</i>
 
-* **[{duckdb} 1.5.4.3](https://cran.r-project.org/package=duckdb):** DBI Package for the DuckDB Database Management System - [diffify](https://diffify.com/R/duckdb)
-* **[{survival} 3.8-9](https://cran.r-project.org/package=survival):** Survival Analysis - [diffify](https://diffify.com/R/survival)
-* **[{rsconnect} 1.10.1](https://cran.r-project.org/package=rsconnect):** Deploy Docs, Apps, and APIs to 'Posit Connect', 'shinyapps.io', and 'RPubs' - [diffify](https://diffify.com/R/rsconnect)
-* **[{LLMR} 0.8.10](https://cran.r-project.org/package=LLMR):** Interface for Large Language Model APIs in R - [diffify](https://diffify.com/R/LLMR)
-* **[{AIGRA} 0.2.0](https://cran.r-project.org/package=AIGRA):** Agentic Item Generation, Review, and Analysis - [diffify](https://diffify.com/R/AIGRA)
-* **[{litedown} 0.10](https://cran.r-project.org/package=litedown):** A Lightweight Version of R Markdown - [diffify](https://diffify.com/R/litedown)
-* **[{PROJ} 0.7.0](https://cran.r-project.org/package=PROJ):** Generic Coordinate System Transformations Using 'PROJ' - [diffify](https://diffify.com/R/PROJ)
-* **[{deeptime} 2.4.0](https://cran.r-project.org/package=deeptime):** Plotting Tools for Anyone Working in Deep Time - [diffify](https://diffify.com/R/deeptime)
-* **[{soilDB} 2.9.2](https://cran.r-project.org/package=soilDB):** Soil Database Interface - [diffify](https://diffify.com/R/soilDB)
-* **[{kableExtra} 1.4.1](https://cran.r-project.org/package=kableExtra):** Construct Complex Table with 'kable' and Pipe Syntax - [diffify](https://diffify.com/R/kableExtra)
-* **[{ggcorrplot} 0.2.0](https://cran.r-project.org/package=ggcorrplot):** Visualization of a Correlation Matrix using 'ggplot2' - [diffify](https://diffify.com/R/ggcorrplot)
-* **[{rphylopic} 1.7.0](https://cran.r-project.org/package=rphylopic):** Get Silhouettes of Organisms from PhyloPic - [diffify](https://diffify.com/R/rphylopic)
+- [{duckdb} 1.5.4.3](https://cran.r-project.org/package=duckdb): DBI Package for the DuckDB Database Management System - [diffify](https://diffify.com/R/duckdb)
+- [{survival} 3.8-9](https://cran.r-project.org/package=survival): Survival Analysis - [diffify](https://diffify.com/R/survival)
+- [{rsconnect} 1.10.1](https://cran.r-project.org/package=rsconnect): Deploy Docs, Apps, and APIs to 'Posit Connect', 'shinyapps.io', and 'RPubs' - [diffify](https://diffify.com/R/rsconnect)
+- [{LLMR} 0.8.10](https://cran.r-project.org/package=LLMR): Interface for Large Language Model APIs in R - [diffify](https://diffify.com/R/LLMR)
+- [{AIGRA} 0.2.0](https://cran.r-project.org/package=AIGRA): Agentic Item Generation, Review, and Analysis - [diffify](https://diffify.com/R/AIGRA)
+- [{litedown} 0.10](https://cran.r-project.org/package=litedown): A Lightweight Version of R Markdown - [diffify](https://diffify.com/R/litedown)
+- [{PROJ} 0.7.0](https://cran.r-project.org/package=PROJ): Generic Coordinate System Transformations Using 'PROJ' - [diffify](https://diffify.com/R/PROJ)
+- [{deeptime} 2.4.0](https://cran.r-project.org/package=deeptime): Plotting Tools for Anyone Working in Deep Time - [diffify](https://diffify.com/R/deeptime)
+- [{soilDB} 2.9.2](https://cran.r-project.org/package=soilDB): Soil Database Interface - [diffify](https://diffify.com/R/soilDB)
+- [{kableExtra} 1.4.1](https://cran.r-project.org/package=kableExtra): Construct Complex Table with 'kable' and Pipe Syntax - [diffify](https://diffify.com/R/kableExtra)
+- [{ggcorrplot} 0.2.0](https://cran.r-project.org/package=ggcorrplot): Visualization of a Correlation Matrix using 'ggplot2' - [diffify](https://diffify.com/R/ggcorrplot)
+- [{rphylopic} 1.7.0](https://cran.r-project.org/package=rphylopic): Get Silhouettes of Organisms from PhyloPic - [diffify](https://diffify.com/R/rphylopic)
 + [RQuantLib 0.4.28 on CRAN: Small Update](http://dirk.eddelbuettel.com/blog/2026/07/10#rquantlib_0.4.28)
 + [Rcpp 1.1.2 on CRAN: Usual Improvements in Semi-Annual Update](http://dirk.eddelbuettel.com/blog/2026/07/05#rcpp_1.1.2)
 
