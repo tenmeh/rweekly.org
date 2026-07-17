@@ -33,7 +33,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 
 ### Tutorials
-
+Four common PERMANOVA mistakes in ecology (https://tidyecology.com/posts/common-permanova-mistakes/)
 
 ### Resources
 
