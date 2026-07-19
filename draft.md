@@ -182,11 +182,9 @@ Example
 
 **GitHub or Bitbucket or GitLab**
 
-<<<<<<< Updated upstream
 + [{californiaalw}](https://github.com/asafichaki/californiaalw): California Assisted Living Waiver facility records and county aggregates prepared from California DHCS data
-=======
+
 + [Eruption: announcing new R package VolcanoPlotR](https://quantixed.org/2026/07/15/eruption-announcing-new-r-package-volcanoplotr/)
->>>>>>> Stashed changes
 
 
 
