@@ -58,8 +58,6 @@ This week’s release was curated by Eric Nantz, with help from the R Weekly tea
 
 ### Resources
 
-+ [Google Cloud + Shiny Cheatsheet](https://firsa.eu/posts/cheatsheet_shiny/) - A command-line workflow for deploying Shiny apps to Google Cloud.
-
 + [A new perspective on graphic design](https://s3rdia.github.io/qol_blog/posts/12.%20Graphics/)
 
 
@@ -245,6 +243,8 @@ Example
 + [Five pre-flight checks for your dashboard](https://www.jumpingrivers.com/blog/five-preflight-checks-dashboard/)
 
 + [Shiny application demos from Rverse Analytics](https://rverseanalytics.com/demos)
+
++ [Google Cloud + Shiny Cheatsheet](https://firsa.eu/posts/cheatsheet_shiny/) - A command-line workflow for deploying Shiny apps to Google Cloud.
 
 ### R Internationally
 
