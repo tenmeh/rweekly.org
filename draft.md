@@ -8,7 +8,7 @@ image: https://rweekly.org/public/facebook.png
 
 + [How to have (my) content shared by R Weekly?](https://github.com/rweekly/rweekly.org#how-to-have-my-content-shared-by-r-weekly)
 
-This week’s release was curated by [](), with help from the R Weekly team members and contributors.
+This week’s release was curated by Eric Nantz, with help from the R Weekly team members and contributors.
 
 
 
@@ -204,32 +204,21 @@ Example
 
 + [{gerefer} 0.1.4](https://cran.r-project.org/package=gerefer): Preparer of Main Scientific References for Automatic Insertion in Academic Papers - [diffify](https://diffify.com/R/gerefer)
 
-+ [{vectra} 0.11.3](https://cran.r-project.org/package=vectra): Columnar Query Engine for Larger-than-RAM Data - [diffify](https://diffify.com/R/vectra)
-
 + [{wcc} 0.4.1](https://cran.r-project.org/package=wcc): Windowed Cross Correlation - [diffify](https://diffify.com/R/wcc)
 
 + [{imdR} 0.4.0](https://cran.r-project.org/package=imdR): Download, Process and Visualize IMD Gridded Meteorological Data - [diffify](https://diffify.com/R/imdR)
 
 + [{bnlearn} 5.2.1](https://cran.r-project.org/package=bnlearn): Bayesian Network Structure Learning, Parameter Learning and Inference - [diffify](https://diffify.com/R/bnlearn)
 
-+ [{testflow} 0.9.0](https://cran.r-project.org/package=testflow): A Workflow for Statistical Testing, Interpretation, and 'ggplot2'-Based Visualization - [diffify](https://diffify.com/R/testflow)
-
 + [{eyetools} 0.10.0](https://cran.r-project.org/package=eyetools): Analyse Eye Data - [diffify](https://diffify.com/R/eyetools)
 
 + [{chevron} 0.2.13](https://cran.r-project.org/package=chevron): Standard TLGs for Clinical Trials Reporting - [diffify](https://diffify.com/R/chevron)
-
-+ [{g6R} 0.6.5](https://cran.r-project.org/package=g6R): Graph Visualisation Engine Widget for R and 'shiny' Apps - [diffify](https://diffify.com/R/g6R)
 
 + [{tern} 0.9.11](https://cran.r-project.org/package=tern): Create Common TLGs Used in Clinical Trials - [diffify](https://diffify.com/R/tern)
 
 + [{messydates} 1.0.0](https://cran.r-project.org/package=messydates): A Flexible Class for Messy Dates - [diffify](https://diffify.com/R/messydates)
 
 + [{foghorn} 1.6.2](https://cran.r-project.org/package=foghorn): Summarize CRAN Check Results in the Terminal - [diffify](https://diffify.com/R/foghorn)
-
-+ [{risk.assessr} 4.1.2](https://cran.r-project.org/package=risk.assessr): Assessing Package Risk Metrics - [diffify](https://diffify.com/R/risk.assessr)
-
-+ [{qol} 1.3.3](https://cran.r-project.org/package=qol): Powerful 'SAS' Inspired Concepts for more Efficient Bigger
-Outputs - [diffify](https://diffify.com/R/qol)
 
 + [{future.tests} 1.0.0](https://cran.r-project.org/package=future.tests): Test Suite for 'Future API' Backends - [diffify](https://diffify.com/R/future.tests)
 
@@ -238,8 +227,6 @@ Outputs - [diffify](https://diffify.com/R/qol)
 + [{NetWeaver} 1.0.0](https://cran.r-project.org/package=NetWeaver): Graphic Presentation of Complex Genomic and Network Data Analysis - [diffify](https://diffify.com/R/NetWeaver)
 
 + [{ggChinaFlag} 0.3.0](https://cran.r-project.org/package=ggChinaFlag): Drawing Chinese National and Historical Flags with 'ggplot2' - [diffify](https://diffify.com/R/ggChinaFlag)
-
-+ [{printify} 1.0.3](https://cran.r-project.org/package=printify): Custom Formatted Console Messages with Timing Support - [diffify](https://diffify.com/R/printify)
 
 + [{GGIRread} 1.0.9](https://cran.r-project.org/package=GGIRread): Wearable Accelerometer Data File Readers - [diffify](https://diffify.com/R/GGIRread)
 
