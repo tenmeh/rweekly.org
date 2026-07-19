@@ -57,6 +57,8 @@ Four common PERMANOVA mistakes in ecology (https://tidyecology.com/posts/common-
 
 **GitHub or Bitbucket or GitLab**
 
++ [{californiaalw}](https://github.com/asafichaki/californiaalw): California Assisted Living Waiver facility records and county aggregates prepared from California DHCS data
+
 
 
 ### Updated Packages
