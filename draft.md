@@ -39,6 +39,9 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 + [Google Cloud + Shiny Cheatsheet](https://firsa.eu/posts/cheatsheet_shiny/) - A command-line workflow for deploying Shiny apps to Google Cloud.
 
++ [A new perspective on graphic design](https://s3rdia.github.io/qol_blog/posts/12.%20Graphics/)
+
+
 ### New Packages
 
 <!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> --> 
