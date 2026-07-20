@@ -39,12 +39,13 @@ This week’s release was curated by Eric Nantz, with help from the R Weekly tea
 
 + [A Small Quarto Skill for Better Research Talks](https://alfredohs.com/blog/quarto_talks/)
 
-
 ### Tutorials
 
 + [Four common PERMANOVA mistakes in ecology](https://tidyecology.com/posts/common-permanova-mistakes/)
 
 + [Chord diagrams in R with ggchord2](https://nrennie.rbind.io/blog/chord-diagrams-ggchord2/)
+
+![](https://github.com/rweekly/image/blob/master/2026/W30/unnamed-chunk-13-1-resized.png)
 
 + [R Blackmagic for LLM Prompting](https://3mw.albert-rapp.de/p/r-blackmagic-for-llm-prompting)
 
@@ -60,6 +61,7 @@ This week’s release was curated by Eric Nantz, with help from the R Weekly tea
 
 + [A new perspective on graphic design](https://s3rdia.github.io/qol_blog/posts/12.%20Graphics/)
 
+![](https://github.com/rweekly/image/blob/master/2026/W30/multi_axes-resized.png)
 
 ### New Packages
 
@@ -78,15 +80,20 @@ This week’s release was curated by Eric Nantz, with help from the R Weekly tea
 + [{UniCensor} 0.1.0](https://cran.r-project.org/package=UniCensor): Reproducible Random Samples Under Univariate Censoring Schemes
 
 + [{riemannianStats} 0.1.1](https://cran.r-project.org/package=riemannianStats): Riemannian Statistics for Dimensionality Reduction and Visualization
+
 + [{nhanesR} 0.1.5](https://cran.r-project.org/package=nhanesR): Download, Parse, and Analyze NHANES Data with Mortality Linkage
 
 + [{lingamr} 0.1.2](https://cran.r-project.org/package=lingamr): 'LiNGAM' Algorithms for Causal Discovery
 
 + [{ggsketch} 2.0.0](https://cran.r-project.org/package=ggsketch): Grammar-Native Hand-Drawn Geoms for 'ggplot2'
 
+![](https://github.com/rweekly/image/blob/master/2026/W30/README-mapped-fill-resized.png)
+
 + [{sybilion} 0.1.0](https://cran.r-project.org/package=sybilion): Official R Client for the 'Sybilion' API
 
 + [{ggadjustedforest} 0.1.0](https://cran.r-project.org/package=ggadjustedforest): Publication Ready Forest Plots for Estimand of Interest
+
+![](https://github.com/rweekly/image/blob/master/2026/W30/cox-1-resized.png)
 
 + [{dsn} 0.1.0](https://cran.r-project.org/package=dsn): Data Source Name and Description Helpers for Use with 'GDAL'
 
@@ -100,8 +107,7 @@ This week’s release was curated by Eric Nantz, with help from the R Weekly tea
 
 + [{rdtools} 0.1.0](https://cran.r-project.org/package=rdtools): Efficient Manipulation of 'Rd' Files and Help Topics
 
-+ [{modelimportance} 0.1.0](https://cran.r-project.org/package=modelimportance): Measuring Contributions of Component Models to Ensemble Forecast
-Accuracy
++ [{modelimportance} 0.1.0](https://cran.r-project.org/package=modelimportance): Measuring Contributions of Component Models to Ensemble Forecast Accuracy
 
 + [{mixqrgate} 0.1.2](https://cran.r-project.org/package=mixqrgate): Location-Varying Gating for Mixtures of Quantile Regressions
 
@@ -167,6 +173,8 @@ Example
 + [{lazymatrix} 0.1.0](https://cran.r-project.org/package=lazymatrix): Perform Complex Matrix Operations Symbolically on Sparse Matrices
 
 + [{glydraw} 0.6.3](https://cran.r-project.org/package=glydraw): Draw Beautiful Symbol Nomenclature for Glycans
+
+![](https://github.com/rweekly/image/blob/master/2026/W30/README-unnamed-chunk-7-1-resized.png)
 
 + [{DynCount} 0.1.0](https://cran.r-project.org/package=DynCount): Bayesian Dynamic Models for Poisson and Binomial Time Series
 
