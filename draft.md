@@ -8,7 +8,7 @@ image: https://rweekly.org/public/facebook.png
 
 + [How to have (my) content shared by R Weekly?](https://github.com/rweekly/rweekly.org#how-to-have-my-content-shared-by-r-weekly)
 
-This week’s release was curated by Eric Nantz, with help from the R Weekly team members and contributors.
+This week’s release was curated by [Eric Nantz](https://bsky.app/profile/rpodcast.bsky.social), with help from the R Weekly team members and contributors.
 
 
 
@@ -181,11 +181,6 @@ Example
 + [{circularNet} 0.1.0](https://cran.r-project.org/package=circularNet): Circular Graphical Model Estimation
 
 
-
-**Bioconductor**
-
-
-
 **GitHub or Bitbucket or GitLab**
 
 + [{californiaalw}](https://github.com/asafichaki/californiaalw): California Assisted Living Waiver facility records and county aggregates prepared from California DHCS data
@@ -242,10 +237,6 @@ Example
 + [Listen to the R-Weekly Highlights Podcast](https://serve.podhome.fm/r-weekly-highlights)
 
 
-### Gist & Cookbook
-
-
-
 ### Shiny Apps
 
 + [Five pre-flight checks for your dashboard](https://www.jumpingrivers.com/blog/five-preflight-checks-dashboard/)
@@ -264,9 +255,6 @@ Example
 
 Updates from [R Core](http://developer.r-project.org/blosxom.cgi/R-devel/NEWS):
 
-### Call for Participation
-
-
 ### Upcoming Events in 3 Months
 
 Events in 3 Months:
@@ -276,11 +264,6 @@ Events in 3 Months:
 + [This week's local R-User and applied stats events](https://community.rstudio.com/c/irl)
 
 + [Weekly R Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine)
-
-### Grants & Funding
-
-
-### Datasets
 
 
 ### Connect
