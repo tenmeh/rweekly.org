@@ -2,7 +2,7 @@
 name: curate
 description: Guide the R Weekly curation team through preparing a new weekly issue. Reads curatinator_latest.md, classifies posts by section, checks for duplicates, and populates draft.md. Use when an editor wants to process the weekly content pipeline.
 disable-model-invocation: true
-allowed-tools: Read, Edit, Bash, Grep
+allowed-tools: Read, Edit, Bash, Grep, WebFetch
 ---
 
 # R Weekly Release Curation
@@ -35,6 +35,7 @@ For each **RSS POST**, decide:
 | `### Gist & Cookbook`             | Short code snippets, gists, recipes                                     |
 | `### Shiny Apps`                  | Shiny applications                                                      |
 | `### R Internationally`           | Non-English R content                                                   |
+| `### R Project Updates`           | Updates from R Core / R-devel (base R, NEWS)                            |
 | `### Call for Participation`      | R groups, competitions, community calls                                 |
 | `### Upcoming Events in 3 Months` | Upcoming R events (max 3 links)                                         |
 | `### Grants & Funding`            | Grants, funding opportunities related to R                              |
@@ -46,6 +47,7 @@ For **CRANberries NEW** entries: add under `### New Packages` -> `**CRAN**`.
 For **CRANberries UPDATED** entries: add under `### Updated Packages`.
 
 > Do NOT add anything to `### Highlight` — editors vote for that section separately.
+> Do NOT touch `### Quotes of the Week` — it uses raw social-embed HTML, added by hand.
 
 ### Link Format
 
@@ -74,10 +76,10 @@ To inspect a URL's content before classifying it, use any of:
 
 ### Steps
 
-1. **Check** if any open Merge Request exists at https://github.com/rweekly/rweekly.org, if any prompt the user to check for then and continue only when the user has told you to.
-1. **Run** the script at scripts/curatinator.R.
-1. **Read** the current `draft.md` and `curatinator_latest.md`.
-1. **Check** for duplicate with scripts/find_duplicates.R; skip any flagged URLs.
+1. **Check open PRs** with `gh pr list --repo rweekly/rweekly.org`. If any are open, tell the user and **wait** for their go-ahead before continuing.
+1. **Collect content** — only if `curatinator_latest.md` is missing or stale (the Saturday GitHub Action normally refreshes it): `Rscript -e 'source("scripts/curatinator.R")'`. This scrapes the network and overwrites the file, so skip it when the file is already current.
+1. **Read** `curatinator_latest.md` (the current `draft.md` is already loaded in Live Context above). Optionally parse it with `Rscript -e 'source("scripts/parse_curinator.R")'` for a tidy view.
+1. **Check duplicates**: `Rscript -e 'source("scripts/find_duplicates.R"); get_dups()'`; skip any flagged URLs.
 1. **Process RSS POSTS**: for each link, classify and add to the correct section in `draft.md`. Skip non-R content.
 1. **Process CRANberries NEW**: add new CRAN packages under `### New Packages` -> `**CRAN**`.
 1. **Process CRANberries UPDATED**: add updated packages under `### Updated Packages`.
