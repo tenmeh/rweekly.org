@@ -44,9 +44,13 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 ### New Packages
 
 <!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> -->
-<p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
+<p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date with CRANberries</i> 📦</a></p>
 
 **CRAN**
+
+- [New ggtintshade package finally adds a tinting/shading aesthetic to ggplot2!](https://github.com/wkumler/ggtintshade)
+
+![Thumbnail demo of the ggtintshade package showing colors shaded by an additional aesthetic](https://raw.githubusercontent.com/ggplot2-exts/gallery/gh-pages/images/ggtintshade.png)
 
 **Bioconductor**
 
