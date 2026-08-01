@@ -59,7 +59,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **GitHub or Bitbucket or GitLab**
 
-
++ [{rsonar}](https://github.com/ddotta/rsonar): R interface to SonarQube for analyzing code quality and automating fixes. Supports automated code fixes and automates GitLab Merge Requests or GitHub Pull Requests.
 
 ### Updated Packages
 
