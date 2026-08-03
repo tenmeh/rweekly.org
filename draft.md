@@ -18,6 +18,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Insights
 
++ [R on ARM64 Windows](https://contributor.r-project.org/windows-arm64/): Resources and infrastructure for using R natively on ARM64 Windows hardware.
+
 + [Cognitive Courage: The Real Bottleneck to Learning AI Tools](https://matanhakim.com/posts/2026-07-27-cognitive-courage/) - Learning a new AI workflow no longer means studying it first. The platform you work in is the platform you learn in, and the only thing between you and your first skill is the nerve to say ‘I don’t know – show me.’
 
 ### R in the Real World
