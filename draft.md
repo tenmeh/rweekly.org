@@ -8,19 +8,24 @@ image: https://rweekly.org/public/facebook.png
 
 + [How to have (my) content shared by R Weekly?](https://github.com/rweekly/rweekly.org#how-to-have-my-content-shared-by-r-weekly)
 
-This week’s release was curated by [](), with help from the R Weekly team members and contributors.
-
+This week’s release was curated by [Batool Almarzouq](https://batool-almarzouq.netlify.app/), with help from the R Weekly team members and contributors.
 
 
 ### Highlight
 
+- rsonar is the R equivalent of SonarQube: centralizes code quality analysis into a single interactive report [https://github.com/ddotta/rsonar]
 
+- [Cognitive Courage: The Real Bottleneck to Learning AI Tools](https://matanhakim.com/posts/2026-07-27-cognitive-courage/) - Learning a new AI workflow no longer means studying it first. The platform you work in is the platform you learn in, and the only thing between you and your first skill is the nerve to say ‘I don’t know – show me.’
 
 ### Insights
 
 + [R on ARM64 Windows](https://contributor.r-project.org/windows-arm64/): Resources and infrastructure for using R natively on ARM64 Windows hardware.
 
 + [Cognitive Courage: The Real Bottleneck to Learning AI Tools](https://matanhakim.com/posts/2026-07-27-cognitive-courage/) - Learning a new AI workflow no longer means studying it first. The platform you work in is the platform you learn in, and the only thing between you and your first skill is the nerve to say ‘I don’t know – show me.’
+
++ [RcppDate 0.0.7: New Upstream](http://dirk.eddelbuettel.com/blog/2026/07/28#rcppdate_0.0.7)
+
++ [June 2026 Top 40 New CRAN Packages](https://rworks.dev/posts/june-2026-top-40-new-cran-packages/)
 
 ### R in the Real World
 
@@ -32,13 +37,26 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### R in Academia
 
++ [Navigating Challenges in Spatial Machine Learning](https://jakubnowosad.com/posts/2026-09-08-erdkunde/)
 
 
 ### Tutorials
 
++ [GPopt for R: Bayesian and conformal optimization of black-box functions and hyperparameter tuning (https://thierrymoudiki.github.io/blog/2026/07/26/r/GPopt)
+
++ [Conditionally Quieten Compilers](http://dirk.eddelbuettel.com/blog/2026/07/27#057_conditionally_quieten_compilers)
+
++ [Async Programming by Mirai Magic Mastery](https://3mw.albert-rapp.de/p/async-programming-by-mirai-magic-mastery)
+
++ [Running RStudio, JupyterLab, and VS Code side by side without losing validated status](https://www.appsilon.com/post/rstudio-jupyterlab-vs-code-validated-environment)
+
++ [Introducing lorax: Speaking for the Tree-Based Models](https://opensource.posit.co/blog/2026-07-28_lorax/)
 
 ### Resources
 
++ [Statistical Models Answer the Fundamental Clinical Question and Provide Clinical Trial Estimands](https://fharrell.com/post/rctmod/)
+
++ [The Unifying Capabilities of Cumulative Probability Semiparametric Models](https://fharrell.com/post/cpm/)
 
 
 ### New Packages
@@ -82,9 +100,10 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### R Internationally
 
-
-
 <!--<div class="post-more-begin></div><div class="post-more-end"></div>-->
+
++ [Probando visores de mapas interactivos en R con `{mapgl}`](https://bastianolea.rbind.io/blog/2026-07-29/)
++ [Taller: Crea tu propia página web con Quarto y R](https://bastianolea.rbind.io/blog/taller_santiagorusers_sitios/)
 
 ### R Project Updates
 
