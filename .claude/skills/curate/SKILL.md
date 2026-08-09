@@ -19,7 +19,7 @@ You are helping the R Weekly curation team prepare the weekly issue. Work throug
 
 For each **RSS POST**, decide:
 
-1. **Is it R-related?** If not, skip it entirely.
+1. **Is it R-related?** Fetch and read the actual page content for every item before deciding — do not infer relatedness from the title, author, or domain alone. A post on a known R blogger's site or a stats-adjacent title can still be off-topic (e.g. a general statistics/data-ethics essay with no R content). If not R-related, skip it entirely.
 2. **Is it already in the draft or flagged as a duplicate?** If so, skip it.
 3. **Which section does it belong to?**
 
