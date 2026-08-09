@@ -25,7 +25,6 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 + [Shiny updates: R 1.14, Python 1.7, bslib 0.12](https://opensource.posit.co/blog/2026-08-04_shiny-r-1-14-python-1-7/)
 + [Quarto 1.10](https://opensource.posit.co/blog/2026-08-03_quarto-1-10/)
 + [Is R Accepted by the FDA? The State of R-Based Submissions](https://rverseanalytics.com/posts/fda-r-submissions-2026.html)
-+ [Separating sex and gender is statistical malpractice](https://blog.djnavarro.net/posts/2026-08-06_separating-sex-and-gender-is-statistical-malpractice/)
 
 ### R in the Real World
 
