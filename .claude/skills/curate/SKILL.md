@@ -73,6 +73,7 @@ To inspect a URL's content before classifying it, use any of:
 - **WebFetch tool** — built-in; use it directly.
 - `curl https://r.jina.ai/https://www.example.com` — fallback if WebFetch fails.
 - `curl https://defuddle.md/example.com` — second fallback.
+o- `npx defuddle parse https://www.example.com --markdown` — third fallback if defuddle.md itself is down or rate-limited; runs the same extraction locally with no dependency on the hosted proxy.
 
 ### Steps
 
