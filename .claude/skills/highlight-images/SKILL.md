@@ -1,6 +1,7 @@
 ---
 name: highlight-images
 description: Find, download, resize, and embed images for the three Highlight links in draft.md. Fetches each article, picks a representative image, runs upload_image() to push to the rweekly/image repo, then inserts the image embed below each highlight link in draft.md. Has human-in-the-loop review gates before downloading, before pushing to GitHub, and before editing draft.md.
+disable-model-invocation: true
 allowed-tools: Read, Edit, Bash, WebFetch
 ---
 
