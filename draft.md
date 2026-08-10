@@ -452,6 +452,7 @@ Updates from [R Core](http://developer.r-project.org/blosxom.cgi/R-devel/NEWS):
 
 ### Call for Participation
 
++ [R Consortium R+AI Conference 2026](https://rconsortium.github.io/RplusAI_website/)
 
 ### Upcoming Events in 3 Months
 
@@ -462,6 +463,8 @@ Events in 3 Months:
 + [This week's local R-User and applied stats events](https://community.rstudio.com/c/irl)
 
 + [Weekly R Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine)
+
++ [R/Pharma 2026 Conference](https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw) - Workshops run September 28 - October 1; Conference runs October 20 - 21.
 
 ### Grants & Funding
 
@@ -476,5 +479,8 @@ Events in 3 Months:
 
 ### rtistry
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today&#39;s artwork generated with <a href="https://x.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> and <a href="https://x.com/hashtag/ggplot2?src=hash&amp;ref_src=twsrc%5Etfw">#ggplot2</a>: <a href="https://t.co/qSuDYlFIVi">pic.twitter.com/qSuDYlFIVi</a></p>&mdash; aRtsy package (@aRtsy_package) <a href="https://x.com/aRtsy_package/status/2086714774226911357?ref_src=twsrc%5Etfw">August 10, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 ### Quotes of the Week
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Every R course has the whiteboard moment where you draw a vector as a row of boxes.<br><br>{paintr} draws it and writes the accessor in each cell, so the diagram and the code are one object.<br><br>Now on CRAN. <a href="https://x.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a><a href="https://t.co/LnrNk8wagt">https://t.co/LnrNk8wagt</a> <a href="https://t.co/UHZ47R8pKn">pic.twitter.com/UHZ47R8pKn</a></p>&mdash; James Balamuta, Ph.D. (@axiomsofxyz) <a href="https://x.com/axiomsofxyz/status/2086123920835375353?ref_src=twsrc%5Etfw">August 8, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
