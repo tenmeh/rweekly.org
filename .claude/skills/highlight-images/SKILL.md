@@ -195,7 +195,7 @@ Read back the `### Highlight` section of `draft.md` to confirm all three embeds 
 
 ## Notes
 
-- Highlight links are **copies** — they stay in both `### Highlight` and their original section. Only add image embeds under the `### Highlight` copies.
+- Highlight links are **copies** — they stay in both `### Highlight` and their original section. Image embeds go **only** under the original-section copy — never under the `### Highlight` copy, which stays bare links only.
 - Image filenames: short, lowercase, kebab-case slugs — no dates or issue numbers.
 - `upload_image()` always appends `_600` to the resized output filename.
 - `scripts/img_raw/` is gitignored — safe to use as temporary staging.
