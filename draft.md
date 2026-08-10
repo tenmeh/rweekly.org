@@ -14,7 +14,10 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Highlight
 
-
++ [Making R Submissions Reviewable for FDA](https://r-consortium.org/posts/making-r-submissions-reviewable-for-fda/)
+![Making R Submissions Reviewable for FDA](https://raw.githubusercontent.com/rweekly/image/master/2026/W33/reviewable-r-submissions_600.png)
++ [Windows ARM64 comes to R-universe](https://ropensci.org/blog/2026/08/06/r-universe-winarm/)
++ [The Journey of {nycOpenData}: From Classroom to Community](https://ropensci.org/blog/2026/08/06/the-journey-of-nycopendata-from-classroom-to-community/)
 
 ### Insights
 
@@ -23,6 +26,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 + [Windows ARM64 comes to R-universe](https://ropensci.org/blog/2026/08/06/r-universe-winarm/)
 + [posit::glimpse() Newsletter – August 2026](https://opensource.posit.co/blog/2026-08-05_glimpse-aug-2026/)
 + [Shiny updates: R 1.14, Python 1.7, bslib 0.12](https://opensource.posit.co/blog/2026-08-04_shiny-r-1-14-python-1-7/)
+![Shiny updates: R 1.14, Python 1.7, bslib 0.12](https://raw.githubusercontent.com/rweekly/image/master/2026/W33/shiny-offcanvas-feature_600.gif)
 + [Quarto 1.10](https://opensource.posit.co/blog/2026-08-03_quarto-1-10/)
 + [Is R Accepted by the FDA? The State of R-Based Submissions](https://rverseanalytics.com/posts/fda-r-submissions-2026.html)
 
