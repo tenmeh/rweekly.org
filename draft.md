@@ -37,6 +37,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Resources
 
++ [uvr](https://github.com/nbafrank/uvr): A uv-style package and project manager for R, written in Rust. One tool for the R version, a manifest and lockfile, and a per-project isolated library, installing from pre-built P3M binaries. Scripts can also declare dependencies in an inline header and run standalone with no project — the R analogue of PEP 723. Usable from R via a companion package.
 
 
 ### New Packages
@@ -54,6 +55,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **GitHub or Bitbucket or GitLab**
 
++ [{uvr}](https://github.com/nbafrank/uvr-r): R interface to [uvr](https://github.com/nbafrank/uvr) — manage R versions, lockfiles and isolated project libraries from the R console, RStudio or Positron without dropping to a terminal.
 
 
 ### Updated Packages
