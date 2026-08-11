@@ -37,7 +37,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Resources
 
-
++ [BIOSZEN: Reproducible biological data analysis and visualization in R](https://bioszen.github.io/BIOSZEN/) - Open-source R package and Shiny application for reproducible analysis, visualization, statistical testing, and microbial growth-curve characterization.
 
 ### New Packages
 
