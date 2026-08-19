@@ -18,7 +18,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Insights
 
-
+- [Deprecation messages for package data](https://hugogruson.fr/posts/deprecation-pkg-data/)
 
 ### R in the Real World
 
