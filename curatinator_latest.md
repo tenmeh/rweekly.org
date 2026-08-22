@@ -1,6 +1,5 @@
 # RSS POSTS: ##
 
-+ [socviz 2.0.0 on CRAN](https://kieranhealy.org/blog/archives/2026/08/21/socviz-2.0.0-on-cran/)
 + [Using GitHub Actions to deploy to Posit Connect Cloud](https://www.jumpingrivers.com/blog/github-actions-deployment-to-posit-connect-cloud/)
 + [A Summer, Explained with R](https://www.jumpingrivers.com/blog/a-summer-explained-with-r/)
 + [useR! 2026: Futurize - Tearing Down Parallelization Barriers in R with Transpilers](https://www.jottr.org/2026/08/20/futurize-user2026-slides/)
@@ -20,6 +19,25 @@
 + [ TidyTuesday 2026/34 ](https://karaman.is/blog/2026/08/tidytuesday-2026-34)
 + [ TidyTuesday 2026/33 ](https://karaman.is/blog/2026/08/tidytuesday-2026-33)
 # CRANberries UPDATED: ##
++ [{Ropj} 0.3-7](https://cran.r-project.org/package=Ropj): Import Origin(R) Project Files - [diffify](https://diffify.com/R/Ropj)
++ [{semFromKeys} 0.5.2](https://cran.r-project.org/package=semFromKeys): Run 'lavaan' Models from Keys Lists - [diffify](https://diffify.com/R/semFromKeys)
++ [{mipfp} 3.2.3](https://cran.r-project.org/package=mipfp): Multidimensional Iterative Proportional Fitting and Alternative
+Models - [diffify](https://diffify.com/R/mipfp)
++ [{ggstatsplot} 1.1.0](https://cran.r-project.org/package=ggstatsplot): 'ggplot2' Based Plots with Statistical Details - [diffify](https://diffify.com/R/ggstatsplot)
++ [{colorrepel} 0.5.2](https://cran.r-project.org/package=colorrepel): Repel Visually Similar Colors for Colorblind Users in Various
+Plots - [diffify](https://diffify.com/R/colorrepel)
++ [{polarzonoid} 0.4-0](https://cran.r-project.org/package=polarzonoid): Compute Maps and Properties of Polar Zonoids - [diffify](https://diffify.com/R/polarzonoid)
++ [{nimble} 1.4.3](https://cran.r-project.org/package=nimble): MCMC, Particle Filtering, and Programmable Hierarchical Modeling - [diffify](https://diffify.com/R/nimble)
++ [{tvGarchKF} 1.0.0](https://cran.r-project.org/package=tvGarchKF): Time-Varying Garch Models Through a State-Space Representation - [diffify](https://diffify.com/R/tvGarchKF)
++ [{ravepipeline} 0.2.0](https://cran.r-project.org/package=ravepipeline): Reproducible Pipeline Infrastructure for Neuroscience - [diffify](https://diffify.com/R/ravepipeline)
++ [{declared} 0.27](https://cran.r-project.org/package=declared): Functions for Declared Missing Values - [diffify](https://diffify.com/R/declared)
++ [{DDIwR} 0.20](https://cran.r-project.org/package=DDIwR): DDI with R - [diffify](https://diffify.com/R/DDIwR)
++ [{assessor} 1.3.2](https://cran.r-project.org/package=assessor): Assessment Tools for Regression Models with Discrete and
+Semicontinuous Outcomes - [diffify](https://diffify.com/R/assessor)
++ [{admisc} 0.41](https://cran.r-project.org/package=admisc): Adrian Dusa's Miscellaneous - [diffify](https://diffify.com/R/admisc)
++ [{terralink} 1.8.2](https://cran.r-project.org/package=terralink): Connectivity Corridor Optimization for Raster and Vector Data - [diffify](https://diffify.com/R/terralink)
++ [{MSCsimtester} 1.2](https://cran.r-project.org/package=MSCsimtester): Tests of Multispecies Coalescent Gene Tree Simulator Output - [diffify](https://diffify.com/R/MSCsimtester)
++ [{functionals} 0.5.1](https://cran.r-project.org/package=functionals): Functional Programming with Parallelism and Progress Tracking - [diffify](https://diffify.com/R/functionals)
 + [{testflow} 1.0.0](https://cran.r-project.org/package=testflow): A Workflow for Statistical Testing and Interpretation - [diffify](https://diffify.com/R/testflow)
 + [{missknn} 1.1.2](https://cran.r-project.org/package=missknn): Fast Masked K-Nearest Neighbor Imputation - [diffify](https://diffify.com/R/missknn)
 + [{mimar} 1.0.0](https://cran.r-project.org/package=mimar): Compact Multiple Imputation, Assessment, and Reporting - [diffify](https://diffify.com/R/mimar)
@@ -241,25 +259,6 @@ Pharmacokinetics - [diffify](https://diffify.com/R/nmw)
 + [{modsem} 1.0.22](https://cran.r-project.org/package=modsem): Latent Interaction (and Moderation) Analysis in Structural
 Equation Models (SEM) - [diffify](https://diffify.com/R/modsem)
 + [{mlr3misc} 0.23.0](https://cran.r-project.org/package=mlr3misc): Helper Functions for 'mlr3' - [diffify](https://diffify.com/R/mlr3misc)
-+ [{mlr3inferr} 0.2.2](https://cran.r-project.org/package=mlr3inferr): Inference on the Generalization Error - [diffify](https://diffify.com/R/mlr3inferr)
-+ [{mfrmr} 0.2.3](https://cran.r-project.org/package=mfrmr): Estimation and Diagnostics for Many-Facet Measurement Models - [diffify](https://diffify.com/R/mfrmr)
-+ [{locaR} 0.3.0](https://cran.r-project.org/package=locaR): A Set of Tools for Sound Localization - [diffify](https://diffify.com/R/locaR)
-+ [{localIV} 0.3.2](https://cran.r-project.org/package=localIV): Estimation of Marginal Treatment Effects using Local
-Instrumental Variables - [diffify](https://diffify.com/R/localIV)
-+ [{linf} 0.2.0](https://cran.r-project.org/package=linf): L-Infinity Normalization and Dominant Community State Types - [diffify](https://diffify.com/R/linf)
-+ [{lavinteract} 0.5.3](https://cran.r-project.org/package=lavinteract): Post-Estimation Utilities for 'lavaan' Fitted Models - [diffify](https://diffify.com/R/lavinteract)
-+ [{IssueTrackeR} 1.5.0](https://cran.r-project.org/package=IssueTrackeR): List Things to Do - [diffify](https://diffify.com/R/IssueTrackeR)
-+ [{IsoplotR} 7.0](https://cran.r-project.org/package=IsoplotR): Statistical Toolbox for Radiometric Geochronology - [diffify](https://diffify.com/R/IsoplotR)
-+ [{isocountry} 0.7.0](https://cran.r-project.org/package=isocountry): ISO 3166-1 Country Codes - [diffify](https://diffify.com/R/isocountry)
-+ [{icarm} 0.3.0](https://cran.r-project.org/package=icarm): Interpretable Contextual-Accountable and Responsible Machine
-Learning - [diffify](https://diffify.com/R/icarm)
-+ [{huito} 0.2.7](https://cran.r-project.org/package=huito): Reproducible and Flexible Label Design - [diffify](https://diffify.com/R/huito)
-+ [{hmetad} 0.2.0](https://cran.r-project.org/package=hmetad): Fit the Meta-D' Model of Confidence Ratings Using 'brms' - [diffify](https://diffify.com/R/hmetad)
-+ [{healthyAddress} 0.5.2](https://cran.r-project.org/package=healthyAddress): Convert Addresses to Standard Inputs - [diffify](https://diffify.com/R/healthyAddress)
-+ [{healthatlas} 0.2.3](https://cran.r-project.org/package=healthatlas): Explore and Import 'Metopio' Health Atlas Data and Spatial
-Layers - [diffify](https://diffify.com/R/healthatlas)
-+ [{grip} 0.1.3](https://cran.r-project.org/package=grip): Graph Drawing with Intelligent Placement (GRIP) - [diffify](https://diffify.com/R/grip)
-+ [{gp3tools} 2.3.0](https://cran.r-project.org/package=gp3tools): Import, Inspect, Analyse, and Report Gazepoint GP3 Exports - [diffify](https://diffify.com/R/gp3tools)
 # CRANberries NEW: ##
 + [{MuTATE} 0.1.0](https://cran.r-project.org/package=MuTATE): Multi-Target Automated Tree Engine (MuTATE)
 + [{grayleafspotdata} 0.1.0](https://cran.r-project.org/package=grayleafspotdata): File Manifest for the S-BSST3199 Magnaporthe Colony Image
