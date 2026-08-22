@@ -39,6 +39,9 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 + [BIOSZEN: Reproducible biological data analysis and visualization in R](https://bioszen.github.io/BIOSZEN/) - Open-source R package and Shiny application for reproducible analysis, visualization, statistical testing, and microbial growth-curve characterization.
 
++ [uvr](https://github.com/nbafrank/uvr): A uv-style package and project manager for R, written in Rust. One tool for the R version, a manifest and lockfile, and a per-project isolated library, installing from pre-built P3M binaries. Scripts can also declare dependencies in an inline header and run standalone with no project — the R analogue of PEP 723. Usable from R via a companion package.
+
+
 ### New Packages
 
 <!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> --> 
@@ -54,6 +57,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **GitHub or Bitbucket or GitLab**
 
++ [{uvr}](https://github.com/nbafrank/uvr-r): R interface to [uvr](https://github.com/nbafrank/uvr) — manage R versions, lockfiles and isolated project libraries from the R console, RStudio or Positron without dropping to a terminal.
 
 
 ### Updated Packages
