@@ -26,6 +26,8 @@ This week’s release was curated by Eric Nantz, with help from the R Weekly tea
 
 + [Why creativity matters in data visualisation](https://nrennie.rbind.io/blog/creativity-data-visualisation/)
 
+![](https://raw.githubusercontent.com/rweekly/image/master/2026/W35/baking.png)
+
 + [Breaking the Python Barrier: Building a Pure R-Native DeepAR Engine with LibTorch](https://datageeek.com/2026/08/18/breaking-the-python-barrier-building-a-pure-r-native-deepar-engine-with-libtorch/)
 
 
@@ -35,13 +37,11 @@ This week’s release was curated by Eric Nantz, with help from the R Weekly tea
 
 + [A Summer, Explained with R](https://www.jumpingrivers.com/blog/a-summer-explained-with-r/)
 
-
+![](https://raw.githubusercontent.com/rweekly/image/master/2026/W35/weather.png)
 
 ### R in Organizations
 
 + [Decorator Pattern in R for Clinical Statistics](https://al-garik.github.io/ks-blog/posts/2026-08-17-decorators/)
-
-
 
 ### R in Academia
 
@@ -63,8 +63,6 @@ This week’s release was curated by Eric Nantz, with help from the R Weekly tea
 
 
 ### Resources
-
-+ [BIOSZEN: Reproducible biological data analysis and visualization in R](https://bioszen.github.io/BIOSZEN/) - Open-source R package and Shiny application for reproducible analysis, visualization, statistical testing, and microbial growth-curve characterization.
 
 + [uvr](https://github.com/nbafrank/uvr): A uv-style package and project manager for R, written in Rust. One tool for the R version, a manifest and lockfile, and a per-project isolated library, installing from pre-built P3M binaries. Scripts can also declare dependencies in an inline header and run standalone with no project — the R analogue of PEP 723. Usable from R via a companion package.
 
@@ -132,19 +130,18 @@ This week’s release was curated by Eric Nantz, with help from the R Weekly tea
 
 + [{gghotelling} 0.2.1](https://cran.r-project.org/package=gghotelling): Hotelling's T² Ellipses and Outlier Detection for 'ggplot2'
 
+![](https://raw.githubusercontent.com/rweekly/image/master/2026/W35/gghotelling.png)
+
 + [{FusionForests} 1.0.1](https://cran.r-project.org/package=FusionForests): Bayesian Tree Ensembles for Data Fusion and Causal Inference
 
 + [{bscm} 1.0.1](https://cran.r-project.org/package=bscm): Bayesian Synthetic Control Models
-
-Review here
 
 + [{MuTATE} 0.1.0](https://cran.r-project.org/package=MuTATE): Multi-Target Automated Tree Engine (MuTATE)
 
 + [{CoxAalenCR} 0.1.0](https://cran.r-project.org/package=CoxAalenCR): Additive-Multiplicative Cox-Aalen Subdistribution Hazard Model
 for Competing Risks
 
-+ [{TieFreeCensor} 0.1.0](https://cran.r-project.org/package=TieFreeCensor): Algorithm for Generating Tie-Free Progressive Type-II Censored
-Samples
++ [{TieFreeCensor} 0.1.0](https://cran.r-project.org/package=TieFreeCensor): Algorithm for Generating Tie-Free Progressive Type-II Censored Samples
 
 + [{tabulergm} 0.1.0](https://cran.r-project.org/package=tabulergm): Publication-Ready Tables and Summaries for Exponential-Family
 Random Graph Models
@@ -211,12 +208,9 @@ Random Graph Models
 
 + [{grout} 0.1.0](https://cran.r-project.org/package=grout): Abstract Raster Tiling Schemes
 
+![](https://raw.githubusercontent.com/rweekly/image/master/2026/W35/grout.png)
+
 + [{alepe} 0.1.0](https://cran.r-project.org/package=alepe): Access the Open Data API of the Legislative Assembly of Pernambuco
-
-
-**Bioconductor**
-
-
 
 **GitHub or Bitbucket or GitLab**
 
@@ -312,6 +306,8 @@ Random Graph Models
 + [{RivRetrieve} 0.2.0](https://cran.r-project.org/package=RivRetrieve): Retrieve Global River Gauge Data - [diffify](https://diffify.com/R/RivRetrieve)
 
 + [{vayr} 1.1.0](https://cran.r-project.org/package=vayr): Extensions for 'ggplot2' to Visualize as You Randomize - [diffify](https://diffify.com/R/vayr)
+
+![](https://raw.githubusercontent.com/rweekly/image/master/2026/W35/vayr.png)
 
 + [{rtiktoken} 0.11.0.2](https://cran.r-project.org/package=rtiktoken): A Byte-Pair-Encoding (BPE) Tokenizer for OpenAI's Large Language Models - [diffify](https://diffify.com/R/rtiktoken)
 
@@ -446,18 +442,13 @@ Random Graph Models
 
 + [Listen to the R-Weekly Highlights Podcast](https://serve.podhome.fm/r-weekly-highlights)
 
-
-### Gist & Cookbook
-
-
++ [R/Pharma Hangout - Analysis Results Data with {gtsummary} and {cards}](https://rinpharma.com/docs/hangout/recordings/ards/)
 
 ### Shiny Apps
 
++ [BIOSZEN: Reproducible biological data analysis and visualization in R](https://bioszen.github.io/BIOSZEN/) - Open-source R package and Shiny application for reproducible analysis, visualization, statistical testing, and microbial growth-curve characterization.
+
 + [{rewind} 0.2.0](https://cran.r-project.org/package=rewind): Undo and Redo for 'Shiny' Applications
-
-### R Internationally
-
-
 
 <!--<div class="post-more-begin></div><div class="post-more-end"></div>-->
 
@@ -481,17 +472,13 @@ Events in 3 Months:
 
 + [Weekly R Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine)
 
-### Grants & Funding
-
-
-### Datasets
-
 
 ### Connect
 
 <i>[Join the Data Science Learning Community](https://DSLC.io/)</i>
 
-### rtistry
-
 
 ### Quotes of the Week
+
+<blockquote class="mastodon-embed" data-embed-url="https://fosstodon.org/@coolbutuseless/117127107049531730/embed" style="background: #FCF8FF; border-radius: 8px; border: 1px solid #C9C4DA; margin: 0; max-width: 540px; min-width: 270px; overflow: hidden; padding: 0;"> <a href="https://fosstodon.org/@coolbutuseless/117127107049531730" target="_blank" style="align-items: center; color: #1C1A25; display: flex; flex-direction: column; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Roboto, sans-serif; font-size: 14px; justify-content: center; letter-spacing: 0.25px; line-height: 20px; padding: 24px; text-decoration: none;"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 79 75"><path d="M63 45.3v-20c0-4.1-1-7.3-3.2-9.7-2.1-2.4-5-3.7-8.5-3.7-4.1 0-7.2 1.6-9.3 4.7l-2 3.3-2-3.3c-2-3.1-5.1-4.7-9.2-4.7-3.5 0-6.4 1.3-8.6 3.7-2.1 2.4-3.1 5.6-3.1 9.7v20h8V25.9c0-4.1 1.7-6.2 5.2-6.2 3.8 0 5.8 2.5 5.8 7.4V37.7H44V27.1c0-4.9 1.9-7.4 5.8-7.4 3.5 0 5.2 2.1 5.2 6.2V45.3h8ZM74.7 16.6c.6 6 .1 15.7.1 17.3 0 .5-.1 4.8-.1 5.3-.7 11.5-8 16-15.6 17.5-.1 0-.2 0-.3 0-4.9 1-10 1.2-14.9 1.4-1.2 0-2.4 0-3.6 0-4.8 0-9.7-.6-14.4-1.7-.1 0-.1 0-.1 0s-.1 0-.1 0 0 .1 0 .1 0 0 0 0c.1 1.6.4 3.1 1 4.5.6 1.7 2.9 5.7 11.4 5.7 5 0 9.9-.6 14.8-1.7 0 0 0 0 0 0 .1 0 .1 0 .1 0 0 .1 0 .1 0 .1.1 0 .1 0 .1.1v5.6s0 .1-.1.1c0 0 0 0 0 .1-1.6 1.1-3.7 1.7-5.6 2.3-.8.3-1.6.5-2.4.7-7.5 1.7-15.4 1.3-22.7-1.2-6.8-2.4-13.8-8.2-15.5-15.2-.9-3.8-1.6-7.6-1.9-11.5-.6-5.8-.6-11.7-.8-17.5C3.9 24.5 4 20 4.9 16 6.7 7.9 14.1 2.2 22.3 1c1.4-.2 4.1-1 16.5-1h.1C51.4 0 56.7.8 58.1 1c8.4 1.2 15.5 7.5 16.6 15.6Z" fill="currentColor"/></svg> <div style="color: #787588; margin-top: 16px;">Post by @coolbutuseless@fosstodon.org</div> <div style="font-weight: 500;">View on Mastodon</div> </a> </blockquote> <script data-allowed-prefixes="https://fosstodon.org/" async src="https://fosstodon.org/embed.js"></script>
+
