@@ -26,7 +26,7 @@ This week’s release was curated by Eric Nantz, with help from the R Weekly tea
 
 + [Why creativity matters in data visualisation](https://nrennie.rbind.io/blog/creativity-data-visualisation/)
 
-![](https://raw.githubusercontent.com/rweekly/image/master/2026/W35/baking.png)
+![](https://raw.githubusercontent.com/rweekly/image/master/2026/W35/bakeoff.png)
 
 + [Breaking the Python Barrier: Building a Pure R-Native DeepAR Engine with LibTorch](https://datageeek.com/2026/08/18/breaking-the-python-barrier-building-a-pure-r-native-deepar-engine-with-libtorch/)
 
