@@ -18,6 +18,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Insights
 
++ [Undo for Shiny, and the three problems that make it interesting](https://tenmeh.github.io/posts/2026-08-27-undo-for-shiny/)
 
 
 ### R in the Real World
@@ -47,6 +48,7 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 **CRAN**
 
++ [{rewind} 0.2.0](https://cran.r-project.org/package=rewind): Undo and Redo for 'Shiny' Applications
 
 **Bioconductor**
 
