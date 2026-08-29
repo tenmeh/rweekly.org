@@ -18,6 +18,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Insights
 
++ [jsslintr: check JSS manuscript style from R (and everywhere else)](https://kollerma.github.io/jss-style-checker/blog/)
+
 + [Jarl 0.6.0: A fast R linter](https://www.etiennebacher.com/posts/2026-08-24-jarl-0.6.0/)
 
 
